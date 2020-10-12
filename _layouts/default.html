@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
 
     {% include meta.html %}
 
@@ -13,6 +13,9 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+    <link rel="icon"
+          type="image/ico"
+          href="{{ site.baseurl }}/favicon.ico">
   </head>
 
   <body>
@@ -23,7 +26,6 @@
 
           <div class="site-info">
             <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
           </div>
 
           <nav>
