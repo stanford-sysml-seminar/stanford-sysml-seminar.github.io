@@ -9,7 +9,7 @@ name: Stanford SysML Seminar Series
 description:
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: images/stanford_logo.png
+avatar: /sysml-seminar/images/stanford_logo.png
 
 #
 # Flags below are optional
