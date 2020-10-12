@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Stanford SysML Seminar Series
+# Stanford MLSys Seminar Series
 
 Machine learning is driving exciting changes and progress in computing.
 What does the ubiquity of machine learning mean for how people build and deploy
