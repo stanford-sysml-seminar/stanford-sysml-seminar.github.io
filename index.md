@@ -23,6 +23,8 @@ and taking questions from the live chat, and videos of the talks will be
 available on YouTube afterwards as well.
 Give our channel a follow, and tune in every week for an exciting discussion!
 
+Read about our [motivation for starting this seminar](https://hazyresearch.stanford.edu/mlsys-seminar).
+
 Check out our introductory video:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OEiNnfdxBRE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
