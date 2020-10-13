@@ -22,6 +22,9 @@ and taking questions from the live chat, and videos of the talks will be
 available on YouTube afterwards as well.
 Give our channel a follow, and tune in every week for an exciting discussion!
 
+Check out our introductory video:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OEiNnfdxBRE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <!-- Read our blog post on our [why we're running this seminar]({{ site.baseurl }}/about). -->
 
 {% for category in site.data.talks %}
