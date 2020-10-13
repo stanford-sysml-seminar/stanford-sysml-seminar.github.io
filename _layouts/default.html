@@ -16,6 +16,9 @@
     <link rel="icon"
           type="image/ico"
           href="{{ site.baseurl }}/favicon.ico">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
   </head>
 
   <body>
@@ -28,9 +31,9 @@
             <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
           </div>
 
-          <nav>
+          <!-- <nav>
             <a href="{{ site.baseurl }}/about">About</a>
-          </nav>
+          </nav> -->
         </header>
       </div>
     </div>
@@ -38,7 +41,8 @@
     <div id="main" role="main" class="container">
       {{ content }}
     </div>
-
+    
+    <!--
     <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
@@ -46,6 +50,7 @@
         </footer>
       </div>
     </div>
+    -->
 
     {% include analytics.html %}
   </body>

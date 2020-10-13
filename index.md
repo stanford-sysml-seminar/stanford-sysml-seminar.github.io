@@ -22,6 +22,8 @@ and taking questions from the live chat, and videos of the talks will be
 available on YouTube afterwards as well.
 Give our channel a follow, and tune in every week for an exciting discussion!
 
+<!-- Read our blog post on our [why we're running this seminar]({{ site.baseurl }}/about). -->
+
 {% for category in site.data.talks %}
 # {{ category.type }}
 <div class="talk-list">
@@ -45,6 +47,12 @@ Give our channel a follow, and tune in every week for an exciting discussion!
   {% endfor %}
 </div>
 {% endfor %}
+
+# About The Seminar
+
+This seminar is being run by Piero Molino, Karan Goel, Dan Fu, Fiodar Kazhamakia,
+Matei Zaharia, and Chris Ré.
+You can reach us at sysmlstanfordseminar [at] gmail.
 
 <!--
 <div class="posts">

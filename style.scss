@@ -18,8 +18,8 @@ html {
 }
 
 body {
-	background: $white;
-  font: 18px/1.4 $helvetica;
+  background: $ivory;
+  font: 18px/1.4 $sourceSansPro;
   color: $darkGray;
 }
 
@@ -31,7 +31,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
+  font-family: $openSans;
   color: $darkerGray;
   font-weight: bold;
 
@@ -69,11 +69,11 @@ p {
 }
 
 a {
-  color: $blue;
+  color: $stanfordred;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: $stanfordred;
   }
 }
 
@@ -156,7 +156,7 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid $darkGray;
 
   @include mobile {
     text-align: center;
@@ -194,7 +194,7 @@ img {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $helveticaNeue;
+  font-family: $sourceSansPro;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -213,7 +213,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
+  font-family: $sourceSansPro;
   font-size: 18px;
 
   @include mobile {
@@ -299,7 +299,7 @@ footer {
     display: block;
     padding: 10px 15px;
     margin-bottom: -1px;
-    border: 1px solid #e8e8e8;
+    border: 1px solid $darkGray;
 }
 
 .list-group-item:first-child {
@@ -308,12 +308,12 @@ footer {
 }
 
 details summary::-webkit-details-marker {
-  display:none;
+  display: none;
 }
 
 details summary {
-  cursor:pointer;
-  color:#4183C4;
+  cursor: pointer;
+  color: $stanfordred;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
