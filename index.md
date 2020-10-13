@@ -53,7 +53,7 @@ Check out our introductory video:
 
 # About The Seminar
 
-This seminar is being run by Piero Molino, Karan Goel, Dan Fu, Fiodar Kazhamakia,
+This seminar is being run by Piero Molino, Dan Fu, Karan Goel, Fiodar Kazhamakia,
 Matei Zaharia, and Chris Ré.
 You can reach us at sysmlstanfordseminar [at] gmail.
 
