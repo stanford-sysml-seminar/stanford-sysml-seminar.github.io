@@ -307,6 +307,11 @@ footer {
     border-top-left-radius: 4px;
 }
 
+.list-group-item:last-child {
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
 details summary::-webkit-details-marker {
   display: none;
 }
