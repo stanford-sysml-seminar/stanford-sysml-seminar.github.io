@@ -49,6 +49,9 @@ Check out our introductory video:
   {% if talk.recording %}
     <a href="{{ talk.recording }}">Recording</a>
   {% endif %}
+  {% if talk.livestream %}
+    <a href="{{ talk.livestream }}">Livestream Link</a>
+  {% endif %}
   </div>
   {% endfor %}
 </div>

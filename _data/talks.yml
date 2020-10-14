@@ -9,6 +9,8 @@ We will show a lot of fun bugs we discovered with CheckList, both in commercial 
       bio: "Marco Tulio Ribeiro is a Senior Researcher at Microsoft Research. His work is on facilitating the communication between humans and machine learning models, which includes interpretability, trust, debugging, feedback, robustness, testing, etc. He received his PhD from the University of Washington." 
     - speaker: Matei Zaharia
       date: 10/22/20
+    - speaker: Virginia Smith
+      date: 10/29/20
     - speaker: Alex Ratner
       date: 11/05/20
     - speaker: Chip Huyen
