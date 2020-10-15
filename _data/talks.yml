@@ -7,6 +7,7 @@
 \n
 We will show a lot of fun bugs we discovered with CheckList, both in commercial models (Microsoft, Amazon, Google) and research models (BERT, RoBERTA for sentiment analysis, QQP, SQuAD). We'll also present comparisons between CheckList and the status quo, in a case study at Microsoft and a user study with researchers and engineers. We show that CheckList is a really helpful process and tool for testing and finding bugs in NLP models, both for practitioners and researchers."
       bio: "Marco Tulio Ribeiro is a Senior Researcher at Microsoft Research. His work is on facilitating the communication between humans and machine learning models, which includes interpretability, trust, debugging, feedback, robustness, testing, etc. He received his PhD from the University of Washington." 
+      livestream: https://www.youtube.com/watch?v=VqiTtdY58Ts
     - speaker: Matei Zaharia
       date: 10/22/20
     - speaker: Virginia Smith
