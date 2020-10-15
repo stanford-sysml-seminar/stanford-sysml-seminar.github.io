@@ -6,8 +6,7 @@ meta-description: "Seminar series on the frontier of machine learning and system
 # Stanford MLSys Seminar Series
 
 **News**:
-* Join our [email list](https://groups.google.com/forum/#!forum/stanford-mlsys-seminars/join) to get notified of the speaker and livestream link every week 
-* Join us **today**, Thursday October 15 at 3 PM PT for Marco Tulio Ribeiro's talk, livestreamed [on YouTube](https://www.youtube.com/watch?v=VqiTtdY58Ts)
+* Join our [email list](https://groups.google.com/forum/#!forum/stanford-mlsys-seminars/join) to get notified of the speaker and livestream link every week! 
 
 Machine learning is driving exciting changes and progress in computing.
 What does the ubiquity of machine learning mean for how people build and deploy
