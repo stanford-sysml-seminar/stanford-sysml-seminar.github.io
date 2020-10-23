@@ -6,7 +6,6 @@ meta-description: "Seminar series on the frontier of machine learning and system
 # Stanford MLSys Seminar Series
 
 **News**:
-* Join us this Thursday, October 22 at 3 PM PT on [YouTube](https://www.youtube.com/watch?v=nCQ9WqXPIS4) for a talk by Matei Zaharia on ML at industrial scale!
 * Join our [email list](https://groups.google.com/forum/#!forum/stanford-mlsys-seminars/join) to get notified of the speaker and livestream link every week! 
 
 Machine learning is driving exciting changes and progress in computing.

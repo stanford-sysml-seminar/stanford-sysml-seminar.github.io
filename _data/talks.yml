@@ -1,11 +1,5 @@
 - type: Upcoming Talks
   members:
-    - speaker: Matei Zaharia
-      date: 10/22/20
-      title: "Machine Learning at Industrial Scale: Lessons from the MLflow Project"
-      abstract: "Although enterprise adoption of machine learning is still early on, many enterprises in all industries already have hundreds of internal ML applications. ML powers business processes with an impact of hundreds of millions of dollars in industrial IoT, finance, healthcare and retail. Building and operating these applications reliably requires infrastructure that is different from traditional software development, which has led to significant investment in the construction of “ML platforms” specifically designed to run ML applications. In this talk, I’ll discuss some of the common challenges in productionizing ML applications based on experience building MLflow, an open source ML platform started at Databricks. MLflow is now the most widely used open source project in this area, with over 2 million downloads a month and integrations with dozens of other products. I’ll also highlight some interesting problems users face that are not covered deeply in current ML systems research, such as the need for “hands-free” ML that can train thousands of independent models without direct tuning from the ML developer for regulatory reasons, and the impact of privacy and interpretability regulations on ML. All my examples will be based on experience at large Databricks / MLflow customers."
-      bio: "Matei Zaharia is an Assistant Professor of Computer Science at Stanford University and Chief Technologist at Databricks. He started the Apache Spark project during his PhD at UC Berkeley in 2009, and has worked broadly on other cluster computing and analytics software, including MLflow and Delta Lake. At Stanford, Matei is a co-PI of the DAWN Lab doing research on infrastructure for machine learning. Matei’s work was recognized through the 2014 ACM Doctoral Dissertation Award, an NSF CAREER Award, and the US Presidential Early Career Award for Scientists and Engineers (PECASE)."
-      livestream: https://www.youtube.com/watch?v=nCQ9WqXPIS4
     - speaker: Virginia Smith
       date: 10/29/20
       title: "On Heterogeneity in Federated Settings"
@@ -18,6 +12,13 @@
       bio: "Alex Ratner is the co-founder and CEO of Snorkel AI, Inc., which supports the open source Snorkel library and develops Snorkel Flow, an end-to-end system for building machine learning applications, and an Assistant Professor of Computer Science at the University of Washington.  Prior to Snorkel AI and UW, he completed his PhD in CS advised by Christopher Ré at Stanford, where his research focused on applying data management and statistical learning techniques to emerging machine learning workflows, such as creating and managing training data, and applying this to real-world problems in medicine, knowledge base construction, and more."
     - speaker: Chip Huyen
       date: 11/12/20
+      title: "Principles of Good Machine Learning Systems Design"
+      abstract: "This talk covers what it means to operationalize ML models. It starts by analyzing the difference between ML in research vs. in production, ML systems vs. traditional software, as well as myths about ML production.
+
+It then goes over the principles of good ML systems design and introduces an iterative framework for ML systems design, from scoping the project, data management, model development, deployment, maintenance, to business analysis. It covers the differences between DataOps, ML Engineering, MLOps, and data science, and where each fits into the framework. It also discusses the main skills each stage requires, which can help companies in structuring their teams.
+
+The talk ends with a survey of the ML production ecosystem, the economics of open source, and open-core businesses."
+      bio: "Chip Huyen is an engineer who develops tools and best practices for machine learning production. She’s currently with Snorkel AI and she’ll be teaching Machine Learning Systems Design at Stanford from January 2021. Previously, she was with Netflix, NVIDIA, Primer. She’s also the author of four bestselling Vietnamese books."
     - speaker: Roy Frostig
       date: 11/19/20
     - speaker: Matthias Poloczek
@@ -27,6 +28,12 @@
 
 - type: Previous Talks
   members:
+    - speaker: Matei Zaharia
+      date: 10/22/20
+      title: "Machine Learning at Industrial Scale: Lessons from the MLflow Project"
+      abstract: "Although enterprise adoption of machine learning is still early on, many enterprises in all industries already have hundreds of internal ML applications. ML powers business processes with an impact of hundreds of millions of dollars in industrial IoT, finance, healthcare and retail. Building and operating these applications reliably requires infrastructure that is different from traditional software development, which has led to significant investment in the construction of “ML platforms” specifically designed to run ML applications. In this talk, I’ll discuss some of the common challenges in productionizing ML applications based on experience building MLflow, an open source ML platform started at Databricks. MLflow is now the most widely used open source project in this area, with over 2 million downloads a month and integrations with dozens of other products. I’ll also highlight some interesting problems users face that are not covered deeply in current ML systems research, such as the need for “hands-free” ML that can train thousands of independent models without direct tuning from the ML developer for regulatory reasons, and the impact of privacy and interpretability regulations on ML. All my examples will be based on experience at large Databricks / MLflow customers."
+      bio: "Matei Zaharia is an Assistant Professor of Computer Science at Stanford University and Chief Technologist at Databricks. He started the Apache Spark project during his PhD at UC Berkeley in 2009, and has worked broadly on other cluster computing and analytics software, including MLflow and Delta Lake. At Stanford, Matei is a co-PI of the DAWN Lab doing research on infrastructure for machine learning. Matei’s work was recognized through the 2014 ACM Doctoral Dissertation Award, an NSF CAREER Award, and the US Presidential Early Career Award for Scientists and Engineers (PECASE)."
+      recording: https://www.youtube.com/watch?v=nCQ9WqXPIS4
     - speaker: Marco Tulio Ribeiro
       date: 10/15/20
       title: "Beyond Accuracy: Behavioral Testing of NLP Models with CheckList"
