@@ -5,6 +5,7 @@
       title: "On Heterogeneity in Federated Settings"
       abstract: "A defining characteristic of federated learning is the presence of heterogeneity, i.e., that data and compute may differ significantly across the network. In this talk I show that the challenge of heterogeneity pervades the machine learning process in federated settings, affecting issues such as optimization, modeling, and fairness. In terms of optimization, I discuss FedProx, a distributed optimization method that offers robustness to systems and statistical heterogeneity. I then explore the role that heterogeneity plays in delivering models that are accurate and fair to all users/devices in the network. Our work here extends classical ideas in multi-task learning and alpha-fairness to large-scale heterogeneous networks, enabling flexible, accurate, and fair federated learning."
       bio: "Virginia Smith is an assistant professor in the Machine Learning Department at Carnegie Mellon University. Her research interests span machine learning, optimization, and distributed systems. Prior to CMU, Virginia was a postdoc at Stanford University, received a Ph.D. in Computer Science from UC Berkeley, and obtained undergraduate degrees in Mathematics and Computer Science from the University of Virginia."
+      livestream: https://www.youtube.com/watch?v=laCyJICLyWg
     - speaker: Alex Ratner
       date: 11/05/20
       title: "Programmatically Building & Managing Training Data with Snorkel"
