@@ -9,6 +9,7 @@ It then goes over the principles of good ML systems design and introduces an ite
 
 The talk ends with a survey of the ML production ecosystem, the economics of open source, and open-core businesses."
       bio: "Chip Huyen is an engineer who develops tools and best practices for machine learning production. She’s currently with Snorkel AI and she’ll be teaching Machine Learning Systems Design at Stanford from January 2021. Previously, she was with Netflix, NVIDIA, Primer. She’s also the author of four bestselling Vietnamese books."
+      livestream: https://www.youtube.com/watch?v=c_AUuTuPA5k
     - speaker: Roy Frostig
       date: 11/19/20
       title: "JAX: accelerating machine learning research by composing function transformations in Python"
@@ -18,6 +19,12 @@ JAX had its open-source release in December 2018 (https://github.com/google/jax)
       bio: "Roy Frostig is a research scientist at Google. He's interested in forming reliable foundations for machine learning, by making software systems for ML research and by studying the statistical elements of its practice. He received his BS, MS, and PhD from Stanford, advised by Percy Liang."
     - speaker: Matthias Poloczek
       date: 12/03/20
+      title: "Scalable Bayesian Optimization for Industrial Applications"
+      abstract: "Bayesian optimization has become a powerful method for the sample-efficient optimization of expensive black-box functions. These functions do not have a closed-form and are evaluated for example by running a complex economic simulation, by an experiment in the lab or in a market, or by a CFD simulation.  Use cases arise in machine learning, e.g., when tuning the configuration of an ML model or when optimizing a reinforcement learning policy.  Examples in engineering include the design of aerodynamic structures or materials discovery.
+In this talk I will introduce the key ideas of Bayesian optimization and discuss how they can be applied to tuning ML models.  Moreover, I will share some experiences with developing a Bayesian optimization service in industry.
+"
+      bio: "Matthias’ research interests lie at the intersection of machine learning and optimization, with a focus on Bayesian methods for 'exotic' optimization problems arising in business applications and in the natural sciences.  He is a Principled Scientist at Amazon.  Previously, Matthias was a Senior Manager at Uber AI, where he founded Uber’s Bayesian optimization team and led the cross-org effort that built a company-wide service to tune ML models at scale. 
+Matthias received his PhD in CS from Goethe University in Frankfurt in 2013 and then worked as a postdoc at Cornell with David Williamson and Peter Frazier from 2014 until 2017. He was an Assistant Professor in the Department of Systems and Industrial Engineering at the University of Arizona from 2017 until 2019."
     - speaker: Kayvon Fatahalian
       date: 12/10/20
 
