@@ -1,15 +1,5 @@
 - type: Upcoming Talks
   members:
-    - speaker: Chip Huyen
-      date: 11/12/20
-      title: "Principles of Good Machine Learning Systems Design"
-      abstract: "This talk covers what it means to operationalize ML models. It starts by analyzing the difference between ML in research vs. in production, ML systems vs. traditional software, as well as myths about ML production.
-
-It then goes over the principles of good ML systems design and introduces an iterative framework for ML systems design, from scoping the project, data management, model development, deployment, maintenance, to business analysis. It covers the differences between DataOps, ML Engineering, MLOps, and data science, and where each fits into the framework. It also discusses the main skills each stage requires, which can help companies in structuring their teams.
-
-The talk ends with a survey of the ML production ecosystem, the economics of open source, and open-core businesses."
-      bio: "Chip Huyen is an engineer who develops tools and best practices for machine learning production. She’s currently with Snorkel AI and she’ll be teaching Machine Learning Systems Design at Stanford from January 2021. Previously, she was with Netflix, NVIDIA, Primer. She’s also the author of four bestselling Vietnamese books."
-      livestream: https://www.youtube.com/watch?v=c_AUuTuPA5k
     - speaker: Roy Frostig
       date: 11/19/20
       title: "JAX: accelerating machine learning research by composing function transformations in Python"
@@ -17,6 +7,7 @@ The talk ends with a survey of the ML production ecosystem, the economics of ope
 
 JAX had its open-source release in December 2018 (https://github.com/google/jax). It's used by researchers for a wide range of applications, from studying training dynamics of neural networks, to probabilistic programming, to scientific applications in physics and biology."
       bio: "Roy Frostig is a research scientist at Google. He's interested in forming reliable foundations for machine learning, by making software systems for ML research and by studying the statistical elements of its practice. He received his BS, MS, and PhD from Stanford, advised by Percy Liang."
+      livestream: https://www.youtube.com/watch?v=mbUwCPiqZBM
     - speaker: Matthias Poloczek
       date: 12/03/20
       title: "Scalable Bayesian Optimization for Industrial Applications"
@@ -30,6 +21,16 @@ Matthias received his PhD in CS from Goethe University in Frankfurt in 2013 and 
 
 - type: Previous Talks
   members:
+    - speaker: Chip Huyen
+      date: 11/12/20
+      title: "Principles of Good Machine Learning Systems Design"
+      abstract: "This talk covers what it means to operationalize ML models. It starts by analyzing the difference between ML in research vs. in production, ML systems vs. traditional software, as well as myths about ML production.
+
+It then goes over the principles of good ML systems design and introduces an iterative framework for ML systems design, from scoping the project, data management, model development, deployment, maintenance, to business analysis. It covers the differences between DataOps, ML Engineering, MLOps, and data science, and where each fits into the framework. It also discusses the main skills each stage requires, which can help companies in structuring their teams.
+
+The talk ends with a survey of the ML production ecosystem, the economics of open source, and open-core businesses."
+      bio: "Chip Huyen is an engineer who develops tools and best practices for machine learning production. She’s currently with Snorkel AI and she’ll be teaching Machine Learning Systems Design at Stanford from January 2021. Previously, she was with Netflix, NVIDIA, Primer. She’s also the author of four bestselling Vietnamese books."
+      recording: https://www.youtube.com/watch?v=c_AUuTuPA5k
     - speaker: Alex Ratner
       date: 11/05/20
       title: "Programmatically Building & Managing Training Data with Snorkel"
