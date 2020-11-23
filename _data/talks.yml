@@ -1,13 +1,5 @@
 - type: Upcoming Talks
   members:
-    - speaker: Roy Frostig
-      date: 11/19/20
-      title: "JAX: accelerating machine learning research by composing function transformations in Python"
-      abstract: "JAX is a system for high-performance machine learning research and numerical computing. It offers the familiarity of Python+NumPy together with hardware acceleration, plus a set of composable function transformations: automatic differentiation, automatic batching, end-to-end compilation (via XLA), parallelizing over multiple accelerators, and more. JAX's core strength is its guarantee that these user-wielded transformations can be composed arbitrarily, so that programmers can write math (e.g. a loss function) and transform it into pieces of an ML program (e.g. a vectorized, compiled, batch gradient function for that loss).
-
-JAX had its open-source release in December 2018 (https://github.com/google/jax). It's used by researchers for a wide range of applications, from studying training dynamics of neural networks, to probabilistic programming, to scientific applications in physics and biology."
-      bio: "Roy Frostig is a research scientist at Google. He's interested in forming reliable foundations for machine learning, by making software systems for ML research and by studying the statistical elements of its practice. He received his BS, MS, and PhD from Stanford, advised by Percy Liang."
-      livestream: https://www.youtube.com/watch?v=mbUwCPiqZBM
     - speaker: Matthias Poloczek
       date: 12/03/20
       title: "Scalable Bayesian Optimization for Industrial Applications"
@@ -21,6 +13,14 @@ Matthias received his PhD in CS from Goethe University in Frankfurt in 2013 and 
 
 - type: Previous Talks
   members:
+    - speaker: Roy Frostig
+      date: 11/19/20
+      title: "JAX: accelerating machine learning research by composing function transformations in Python"
+      abstract: "JAX is a system for high-performance machine learning research and numerical computing. It offers the familiarity of Python+NumPy together with hardware acceleration, plus a set of composable function transformations: automatic differentiation, automatic batching, end-to-end compilation (via XLA), parallelizing over multiple accelerators, and more. JAX's core strength is its guarantee that these user-wielded transformations can be composed arbitrarily, so that programmers can write math (e.g. a loss function) and transform it into pieces of an ML program (e.g. a vectorized, compiled, batch gradient function for that loss).
+
+JAX had its open-source release in December 2018 (https://github.com/google/jax). It's used by researchers for a wide range of applications, from studying training dynamics of neural networks, to probabilistic programming, to scientific applications in physics and biology."
+      bio: "Roy Frostig is a research scientist at Google. He's interested in forming reliable foundations for machine learning, by making software systems for ML research and by studying the statistical elements of its practice. He received his BS, MS, and PhD from Stanford, advised by Percy Liang."
+      recording: https://www.youtube.com/watch?v=mbUwCPiqZBM
     - speaker: Chip Huyen
       date: 11/12/20
       title: "Principles of Good Machine Learning Systems Design"
