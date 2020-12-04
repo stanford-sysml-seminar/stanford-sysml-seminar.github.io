@@ -1,5 +1,13 @@
 - type: Upcoming Talks
   members:
+    - speaker: Kayvon Fatahalian
+      date: 12/10/20
+      title: "From Ideas to Video Analysis Models in Hours, Not Weeks"
+      abstract: "My students and I often find ourselves as \"subject matter experts\" needing to create video understanding models that serve computer graphics and video analysis applications.  Unfortunately, like many, we are frustrated by how a smart grad student, armed with a large *unlabeled* video collection, an palette of pre-trained models, and an idea of what novel object or activity they want to detect/segment/classify, requires days-to-weeks to create and validate a model for their task.  In this talk I will discuss challenges we've faced in the iterative process of curating data, training models, and validating models for the specific case of rare events and categories in image and video collections.  In this regime we've found that conventional wisdom about training on imbalance data sets, and data acquisition via active learning does not lead to the most efficient solutions.  I'll discuss these challenges in the context of image and video analysis applications, and elaborate on our ongoing vision of how a grad student, armed with massive amounts of unlabeled video data, pretrained models, and available-in-seconds-supercomputing-scale elastic compute should be able to interactively iterate on cycles of acquiring training data, training models, and validating models."
+      bio: "Kayvon Fatahalian is an Assistant Professor in the Computer Science Department at Stanford University.  His lab works on visual computing systems projects, including large-scale video analytics, programming systems for video data mining, compilation techniques for optimizing image processing pipelines. In all these efforts, the goal is to enable more rapid development of applications that involve video processing at scale."
+
+- type: Previous Talks
+  members:
     - speaker: Matthias Poloczek
       date: 12/03/20
       title: "Scalable Bayesian Optimization for Industrial Applications"
@@ -8,11 +16,7 @@ In this talk I will introduce the key ideas of Bayesian optimization and discuss
 "
       bio: "Matthias’ research interests lie at the intersection of machine learning and optimization, with a focus on Bayesian methods for 'exotic' optimization problems arising in business applications and in the natural sciences.  He is a Principled Scientist at Amazon.  Previously, Matthias was a Senior Manager at Uber AI, where he founded Uber’s Bayesian optimization team and led the cross-org effort that built a company-wide service to tune ML models at scale. 
 Matthias received his PhD in CS from Goethe University in Frankfurt in 2013 and then worked as a postdoc at Cornell with David Williamson and Peter Frazier from 2014 until 2017. He was an Assistant Professor in the Department of Systems and Industrial Engineering at the University of Arizona from 2017 until 2019."
-    - speaker: Kayvon Fatahalian
-      date: 12/10/20
-
-- type: Previous Talks
-  members:
+      recording: https://www.youtube.com/watch?v=gpTxayP4CIU
     - speaker: Roy Frostig
       date: 11/19/20
       title: "JAX: accelerating machine learning research by composing function transformations in Python"
