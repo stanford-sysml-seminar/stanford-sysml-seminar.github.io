@@ -6,6 +6,7 @@ meta-description: "Seminar series on the frontier of machine learning and system
 # Stanford MLSys Seminar Series
 
 **News**:
+* Our talk with Kayvon today (December 10) is at **1 PM PT** -- see you there!
 * Join our [email list](https://groups.google.com/forum/#!forum/stanford-mlsys-seminars/join) to get notified of the speaker and livestream link every week! 
 
 Machine learning is driving exciting changes and progress in computing.
