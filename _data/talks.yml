@@ -1,14 +1,23 @@
 - type: Upcoming Talks
   members:
+    - speaker: Song Han
+      date: 1/21/21
+      title: "TinyML: Reducing the Carbon Footprint of Artificial Intelligence in the Internet of Things (IoT) "
+      abstract: "Deep learning is computation-hungry and data-hungry. We aim to improve the computation efficiency and data efficiency of deep learning. I will first talk about MCUNet that brings deep learning to IoT devices. The technique is tiny neural architecture search (TinyNAS) co-designed with a tiny inference engine (TinyEngine), enabling ImageNet-scale inference on an IoT device with only 1MB of FLASH. Next I will talk about TinyTL that enables on-device training, reducing the memory footprint by 7-13x.  Finally, I will describe Differentiable Augmentation that enables data-efficient GAN training, generating photo-realistic images using only 100 images, which used to require tens of thousand of images. We hope such TinyML techniques can make AI greener, faster, and more sustainable."
+      bio: 'Song Han is an assistant professor in MIT EECS. He received his PhD degree from Stanford University. His research focuses on efficient deep learning computing. He proposed “deep compression” technique that can reduce neural network size by an order of magnitude without losing accuracy, and the hardware implementation “efficient inference engine” that first exploited pruning and weight sparsity in deep learning accelerators. His recent research on hardware-aware neural architecture search and TinyML was highlighted by MIT News, Wired, and Venture Beat, and received many low-power computer vision (LPCV) contest awards. Song received Best Paper awards at ICLR’16 and FPGA’17, Amazon Machine Learning Research Award, SONY Faculty Award, Facebook Faculty Award. Song was named “35 Innovators Under 35” by MIT Technology Review for his contribution on “deep compression” technique that “lets powerful artificial intelligence (AI) programs run more efficiently on low-power mobile devices.” Song received the NSF CAREER Award for “efficient algorithms and hardware for accelerated machine learning.”'
+    - speaker: Travis Addair
+      date: 1/28/21
+    - speaker: Josh Tobin
+      date: 2/4/21
+
+- type: Previous Talks
+  members:
     - speaker: Kayvon Fatahalian
       date: 12/10/20
       title: "From Ideas to Video Analysis Models in Hours, Not Weeks"
       abstract: "My students and I often find ourselves as \"subject matter experts\" needing to create video understanding models that serve computer graphics and video analysis applications.  Unfortunately, like many, we are frustrated by how a smart grad student, armed with a large *unlabeled* video collection, an palette of pre-trained models, and an idea of what novel object or activity they want to detect/segment/classify, requires days-to-weeks to create and validate a model for their task.  In this talk I will discuss challenges we've faced in the iterative process of curating data, training models, and validating models for the specific case of rare events and categories in image and video collections.  In this regime we've found that conventional wisdom about training on imbalance data sets, and data acquisition via active learning does not lead to the most efficient solutions.  I'll discuss these challenges in the context of image and video analysis applications, and elaborate on our ongoing vision of how a grad student, armed with massive amounts of unlabeled video data, pretrained models, and available-in-seconds-supercomputing-scale elastic compute should be able to interactively iterate on cycles of acquiring training data, training models, and validating models."
       bio: "Kayvon Fatahalian is an Assistant Professor in the Computer Science Department at Stanford University.  His lab works on visual computing systems projects, including large-scale video analytics, programming systems for video data mining, compilation techniques for optimizing image processing pipelines. In all these efforts, the goal is to enable more rapid development of applications that involve video processing at scale."
-      livestream: https://www.youtube.com/watch?v=u62aAtBCxEU
-
-- type: Previous Talks
-  members:
+      recording: https://www.youtube.com/watch?v=u62aAtBCxEU
     - speaker: Matthias Poloczek
       date: 12/03/20
       title: "Scalable Bayesian Optimization for Industrial Applications"

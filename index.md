@@ -6,7 +6,7 @@ meta-description: "Seminar series on the frontier of machine learning and system
 # Stanford MLSys Seminar Series
 
 **News**:
-* Our talk with Kayvon today (December 10) is at **1 PM PT** -- see you there!
+* This semester our talks are at **1 PM PT**, starting Thursday, January 21st -- see you there!
 * Join our [email list](https://groups.google.com/forum/#!forum/stanford-mlsys-seminars/join) to get notified of the speaker and livestream link every week! 
 
 Machine learning is driving exciting changes and progress in computing.
@@ -22,7 +22,7 @@ Our goal is to help curate a curriculum of awesome work in ML systems to help
 drive research focus to interesting questions.
 
 Starting in Fall 2020, we'll be livestreaming each talk in this seminar series
-Thursdays 3-4 PT on [YouTube](https://www.youtube.com/channel/UCzz6ructab1U44QPI3HpZEQ),
+Thursdays 1-2 PT on [YouTube](https://www.youtube.com/channel/UCzz6ructab1U44QPI3HpZEQ),
 and taking questions from the live chat, and videos of the talks will be
 available on YouTube afterwards as well.
 Give our channel a follow, and tune in every week for an exciting discussion!
