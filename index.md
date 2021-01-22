@@ -67,17 +67,9 @@ This seminar is being run by Piero Molino, Dan Fu, Karan Goel, Fiodar Kazhamakia
 Matei Zaharia, and Chris Ré.
 You can reach us at sysmlstanfordseminar [at] gmail.
 
+Source code for this website can be found [here](https://github.com/stanford-sysml-seminar/stanford-sysml-seminar.github.io).
+
+<!-- Please uncomment this part if you clone our source code! -->
 <!--
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.content }}
-      </div>
-    </article>
-  {% endfor %}
-</div>
+Website template from the [Stanford MLSys Seminar Series](https://mlsys.stanford.edu).
 -->
