@@ -6,7 +6,7 @@ meta-description: "Seminar series on the frontier of machine learning and system
 # Stanford MLSys Seminar Series
 
 **News**:
-* Our first talk this semester is this Thurday, January 21st at **12 PM PT**. Future talks after that will be at 1 PM PT.
+* Our talks this semester are Thursdays 1 PM PT!
 * Join our [email list](https://groups.google.com/forum/#!forum/stanford-mlsys-seminars/join) to get notified of the speaker and livestream link every week! 
 
 Machine learning is driving exciting changes and progress in computing.
