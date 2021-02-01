@@ -1,15 +1,30 @@
 - type: Upcoming Talks
   members:
+    - speaker: Josh Tobin
+      date: 2/4/21
+      title: "A missing link in the ML infrastructure stack?"
+      abstract: "Machine learning is quickly becoming a product engineering discipline. Although several new categories of infrastructure and tools have emerged to help teams turn their models into production systems, doing so is still extremely challenging for most companies. In this talk, we survey the tooling landscape and point out several parts of the machine learning lifecycle that are still underserved. We propose a new category of tool that could help alleviate these challenges and connect the fragmented production ML tooling ecosystem. We conclude by discussing similarities and differences between our proposed system and those of a few top companies."
+      bio: "Josh Tobin is the founder and CEO of a stealth machine learning startup. Previously, Josh worked as a deep learning & robotics researcher at OpenAI and as a management consultant at McKinsey. He is also the creator of Full Stack Deep Learning (fullstackdeeplearning.com), the first course focused on the emerging engineering discipline of production machine learning. Josh did his PhD in Computer Science at UC Berkeley advised by Pieter Abbeel."
+      livestream: https://www.youtube.com/watch?v=qERW9R3espg
+    - speaker: Shreya Shankar
+      date: 2/11/21
+    - speaker: Anna Goldie
+      date: 2/25/25
+    - speaker: Sara Hooker
+      date: 3/4/21
+    - speaker: Fabio Petroni
+      date: 3/11/21
+    - speaker: Savin Goyal
+      date: 3/18/21
+
+- type: Previous Talks
+  members:
     - speaker: Travis Addair
       date: 1/28/21
       title: "Horovod and the Evolution of Deep Learning at Scale"
       abstract: "Deep neural networks are pushing the state of the art in numerous machine learning research domains; from computer vision, to natural language processing, and even tabular business data.  However, scaling such models to train efficiently on large datasets imposes a unique set of challenges that traditional batch data processing systems were not designed to solve.  Horovod is an open source framework that scales models written in TensorFlow, PyTorch, and MXNet to train seamlessly on hundreds of GPUs in parallel.  In this talk, we'll explain the concepts and unique constraints that led to the development of Horovod at Uber, and discuss how the latest trends in deep learning research are informing the future direction of the project within the Linux Foundation.  We'll explore how Horovod fits into production ML workflows in industry, and how tools like Spark and Ray can combine with Horovod to make productionizing deep learning at scale on remote data centers as simple as running locally on your laptop.  Finally, we'll share some thoughts on what's next for large scale deep learning, including new distributed training architectures and how the larger ecosystem of production ML tooling is evolving."
       bio: "Travis Addair is a software engineer at Uber leading the Deep Learning Training team as part of the Michelangelo machine learning platform. He is the lead maintainer for the Horovod open source project and chairs its Technical Steering Committee within the Linux Foundation.  In the past, he’s worked on scaling machine learning systems at Google and Lawrence Livermore National Lab."
-    - speaker: Josh Tobin
-      date: 2/4/21
-
-- type: Previous Talks
-  members:
+      recording: https://www.youtube.com/watch?v=DB7oOZ5hyrE
     - speaker: Song Han
       date: 1/21/21
       title: "TinyML: Reducing the Carbon Footprint of Artificial Intelligence in the Internet of Things (IoT) "
