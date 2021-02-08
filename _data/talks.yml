@@ -2,6 +2,12 @@
   members:
     - speaker: Shreya Shankar
       date: 2/11/21
+      title: "Debugging Machine Learning in Production"
+      abstract: "Machine learning pipelines can successfully demonstrate high performance on train and evaluation datasets, but what happens after you promote that model to production? What are some of the challenges faced, and how do groups of different stakeholders with different technical abilities collaborate to identify and “fix” bugs? In my talk, I will draw from my experiences to describe a high level overview of modern ML infrastructure, criteria for promoting models, case studies of “bugs” encountered when clients were interacting with the live ML predictions, and the challenges in solving these issues."
+      bio: "Shreya is a computer scientist living in San Francisco interested in making machine learning work in the “real world.” Currently, she is taking a break from work, but previously, she was the first ML engineer at Viaduct, did ML research at Google Brain, and completed her BS and MS in computer science at Stanford."
+      livestream: https://www.youtube.com/watch?v=aGzu7nI8IRE
+    - speaker: Piero Molino
+      date: 2/18/21
     - speaker: Anna Goldie
       date: 2/25/25
     - speaker: Sara Hooker
