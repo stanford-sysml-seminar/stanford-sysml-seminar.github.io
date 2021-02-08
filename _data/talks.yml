@@ -1,11 +1,5 @@
 - type: Upcoming Talks
   members:
-    - speaker: Josh Tobin
-      date: 2/4/21
-      title: "A missing link in the ML infrastructure stack?"
-      abstract: "Machine learning is quickly becoming a product engineering discipline. Although several new categories of infrastructure and tools have emerged to help teams turn their models into production systems, doing so is still extremely challenging for most companies. In this talk, we survey the tooling landscape and point out several parts of the machine learning lifecycle that are still underserved. We propose a new category of tool that could help alleviate these challenges and connect the fragmented production ML tooling ecosystem. We conclude by discussing similarities and differences between our proposed system and those of a few top companies."
-      bio: "Josh Tobin is the founder and CEO of a stealth machine learning startup. Previously, Josh worked as a deep learning & robotics researcher at OpenAI and as a management consultant at McKinsey. He is also the creator of Full Stack Deep Learning (fullstackdeeplearning.com), the first course focused on the emerging engineering discipline of production machine learning. Josh did his PhD in Computer Science at UC Berkeley advised by Pieter Abbeel."
-      livestream: https://www.youtube.com/watch?v=qERW9R3espg
     - speaker: Shreya Shankar
       date: 2/11/21
     - speaker: Anna Goldie
@@ -19,6 +13,12 @@
 
 - type: Previous Talks
   members:
+    - speaker: Josh Tobin
+      date: 2/4/21
+      title: "A missing link in the ML infrastructure stack?"
+      abstract: "Machine learning is quickly becoming a product engineering discipline. Although several new categories of infrastructure and tools have emerged to help teams turn their models into production systems, doing so is still extremely challenging for most companies. In this talk, we survey the tooling landscape and point out several parts of the machine learning lifecycle that are still underserved. We propose a new category of tool that could help alleviate these challenges and connect the fragmented production ML tooling ecosystem. We conclude by discussing similarities and differences between our proposed system and those of a few top companies."
+      bio: "Josh Tobin is the founder and CEO of a stealth machine learning startup. Previously, Josh worked as a deep learning & robotics researcher at OpenAI and as a management consultant at McKinsey. He is also the creator of Full Stack Deep Learning (fullstackdeeplearning.com), the first course focused on the emerging engineering discipline of production machine learning. Josh did his PhD in Computer Science at UC Berkeley advised by Pieter Abbeel."
+      recording: https://www.youtube.com/watch?v=qERW9R3espg
     - speaker: Travis Addair
       date: 1/28/21
       title: "Horovod and the Evolution of Deep Learning at Scale"
