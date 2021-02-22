@@ -1,16 +1,11 @@
 - type: Upcoming Talks
   members:
-    - speaker: Piero Molino
-      date: 2/18/21
-      title: "Ludwig, a Declarative Deep Learning Toolbox"
-      abstract: "The talk will introduce Ludwig, a deep learning toolbox that allows to train models and to use them for prediction without the need to write code. Thanks to its declarative configuration system and the use of data types to guide piepeline building, it helps make deep learning approachable for non-experts and enable faster model improvement iteration cycles for experienced machine learning engineers and researchers. By using Ludwig, experts and researchers can simplify the development process and focus on experiment comparison and model quality. We will also discuss recent improvements to Ludwig, including AutoML and hyperparameter optimization capabilities, its backstory and its future releases."
-      bio: "Piero Molino is a Staff Research Scientist at Stanford University working on Machine Learning systems and algorithms. Piero completed a PhD on Question Answering at the University of Bari, Italy. Founded QuestionCube, a startup that built a framework for semantic search and QA. Worked for Yahoo Labs in Barcelona on learning to rank, IBM Watson in New York on natural language processing with deep learning and then joined Geometric Intelligence, where he worked on grounded language understanding. After Uber acquired Geometric Intelligence, he became one of the founding members of Uber AI Labs. At Uber he worked on research topics including Dialogue Systems, Language Generation, Graph Representation Learning, Computer Vision, Reinforcement Learning and Meta Learning. He also worked on several deployed systems like COTA, an ML and NLP model for Customer Support, Dialogue Systems for driver hands free dispatch, pickup and communications, and on the Uber Eats Recommender System with graph learning. He is the author of Ludwig, a code-free deep learning toolbox."
-      livestream: https://www.youtube.com/watch?v=BTkl_qc0Plc
     - speaker: Anna Goldie
       date: 2/25/25
-      title: "Reinforcement Learning for Hardware Design"
+      title: "Chip Floorplanning with Deep Reinforcement Learning"
       abstract: "In this talk, I will describe a reinforcement learning (RL) method for chip floorplanning, the engineering problem of designing the physical layout of a computer chip. Chip floorplanning ordinarily requires weeks or months of effort by physical design engineers to produce manufacturable layouts. Our method generates floorplans in under six hours that are superior or comparable to humans in all key metrics, including power consumption, performance, and chip area. To achieve this, we pose chip floorplanning as a reinforcement learning problem, and develop a novel edge-based graph convolutional neural network architecture capable of learning rich and transferrable representations of the chip. Our method was used in the design of the next generation of Google’s artificial intelligence (AI) accelerators (TPU)."
       bio: "Anna Goldie is a Staff Researcher at Google Brain and co-founder/tech-lead of the Machine Learning for Systems Team. She is also a PhD student in the Stanford NLP Group, where she is advised by Prof. Chris Manning. At MIT, she earned a Masters of Computer Science, Bachelors of Computer Science, and Bachelors of Linguistics. She speaks fluent Mandarin, Japanese, and French, as well as conversational Spanish, Italian, German, and Korean. Her work has been covered in various media outlets, including MIT Technology Review and IEEE Spectrum."
+      livestream: https://www.youtube.com/watch?v=Y4fcSwsNqoE
     - speaker: Sara Hooker
       date: 3/4/21
       title: "The Hardware Lottery"
@@ -32,6 +27,12 @@
 
 - type: Previous Talks
   members:
+    - speaker: Piero Molino
+      date: 2/18/21
+      title: "Ludwig, a Declarative Deep Learning Toolbox"
+      abstract: "The talk will introduce Ludwig, a deep learning toolbox that allows to train models and to use them for prediction without the need to write code. Thanks to its declarative configuration system and the use of data types to guide piepeline building, it helps make deep learning approachable for non-experts and enable faster model improvement iteration cycles for experienced machine learning engineers and researchers. By using Ludwig, experts and researchers can simplify the development process and focus on experiment comparison and model quality. We will also discuss recent improvements to Ludwig, including AutoML and hyperparameter optimization capabilities, its backstory and its future releases."
+      bio: "Piero Molino is a Staff Research Scientist at Stanford University working on Machine Learning systems and algorithms. Piero completed a PhD on Question Answering at the University of Bari, Italy. Founded QuestionCube, a startup that built a framework for semantic search and QA. Worked for Yahoo Labs in Barcelona on learning to rank, IBM Watson in New York on natural language processing with deep learning and then joined Geometric Intelligence, where he worked on grounded language understanding. After Uber acquired Geometric Intelligence, he became one of the founding members of Uber AI Labs. At Uber he worked on research topics including Dialogue Systems, Language Generation, Graph Representation Learning, Computer Vision, Reinforcement Learning and Meta Learning. He also worked on several deployed systems like COTA, an ML and NLP model for Customer Support, Dialogue Systems for driver hands free dispatch, pickup and communications, and on the Uber Eats Recommender System with graph learning. He is the author of Ludwig, a code-free deep learning toolbox."
+      recording: https://www.youtube.com/watch?v=BTkl_qc0Plc
     - speaker: Shreya Shankar
       date: 2/11/21
       title: "Debugging Machine Learning in Production"
