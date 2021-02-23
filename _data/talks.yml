@@ -1,7 +1,7 @@
 - type: Upcoming Talks
   members:
     - speaker: Anna Goldie
-      date: 2/25/25
+      date: 2/25/21
       title: "Chip Floorplanning with Deep Reinforcement Learning"
       abstract: "In this talk, I will describe a reinforcement learning (RL) method for chip floorplanning, the engineering problem of designing the physical layout of a computer chip. Chip floorplanning ordinarily requires weeks or months of effort by physical design engineers to produce manufacturable layouts. Our method generates floorplans in under six hours that are superior or comparable to humans in all key metrics, including power consumption, performance, and chip area. To achieve this, we pose chip floorplanning as a reinforcement learning problem, and develop a novel edge-based graph convolutional neural network architecture capable of learning rich and transferrable representations of the chip. Our method was used in the design of the next generation of Google’s artificial intelligence (AI) accelerators (TPU)."
       bio: "Anna Goldie is a Staff Researcher at Google Brain and co-founder/tech-lead of the Machine Learning for Systems Team. She is also a PhD student in the Stanford NLP Group, where she is advised by Prof. Chris Manning. At MIT, she earned a Masters of Computer Science, Bachelors of Computer Science, and Bachelors of Linguistics. She speaks fluent Mandarin, Japanese, and French, as well as conversational Spanish, Italian, German, and Korean. Her work has been covered in various media outlets, including MIT Technology Review and IEEE Spectrum."
