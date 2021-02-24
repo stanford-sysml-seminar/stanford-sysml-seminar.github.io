@@ -12,6 +12,9 @@
       abstract: "I will introduce the term Hardware lottery to describe when a research idea wins because it is suited to the available software and hardware and not because the idea is superior to alternative research directions. This talk will motivate attention to hardware lotteries by discussing examples from early computer history which have delayed research progress by casting successful ideas as failures. These lessons are particularly salient given the advent of domain specialized hardware which make it increasingly costly to stray off of the beaten path of research ideas."
     - speaker: Fabio Petroni
       date: 3/11/21
+      title: "Assessing Machine Knowledge"
+      abstract: "In the talk I will review a set of general approaches for representing large scale textual knowledge sources that are useful for multiple downstream tasks. I will present benchmarking tools spanning multiple domains (including Question Answering, Entity Linking and Dialogue) and I will describe the latest knowledge-intensive NLP models with a focus on their efficiency."
+      bio: "Fabio is a Research Engineer in the Facebook Artificial Intelligence Research (FAIR) lab in London. His research focuses on Natural Language Processing, in particular, Information Extraction, Question Answering and Knowledge Representation. Prior to joining Facebook, he was with the R&D department of Thomson Reuters and received a PhD degree from Sapienza University of Rome."
     - speaker: Savin Goyal
       date: 3/18/21
     - speaker: Theodoros Rekatsinas
