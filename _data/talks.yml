@@ -8,6 +8,9 @@
       livestream: https://www.youtube.com/watch?v=0xiqtf0-w3I
     - speaker: Savin Goyal
       date: 3/18/21
+      title: "Taming the Long Tail of Industrial ML Applications"
+      abstract: "Data Science usage at Netflix goes much beyond our eponymous recommendation systems. It touches almost all aspects of our business - from optimizing content delivery and informing buying decisions to fighting fraud. Our unique culture affords our data scientists extraordinary freedom of choice in ML tools and libraries, all of which results in an ever-expanding set of interesting problem statements and a diverse set of ML approaches to tackle them. Our data scientists, at the same time, are expected to build, deploy, and operate complex ML workloads autonomously without the need to be significantly experienced with systems or data engineering. In this talk, I will discuss some of the challenges involved in improving the development and deployment experience for ML workloads. I will focus on Metaflow, our ML framework, which offers useful abstractions for managing the model’s lifecycle end-to-end, and how a focus on human-centric design positively affects our data scientists' velocity."
+      bio: "Savin is a software engineer at Netflix responsible for Metaflow, Netflix's ML platform. He focuses on building generalizable infrastructure to accelerate the impact of data science at Netflix and beyond."
     - speaker: Theodoros Rekatsinas
       date: 3/25/21
     - speaker: Ameet Talkwalker
