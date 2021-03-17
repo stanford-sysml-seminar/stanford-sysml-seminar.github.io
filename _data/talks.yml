@@ -8,6 +8,9 @@
       livestream: https://www.youtube.com/watch?v=wassHqe_Clg
     - speaker: Theodoros Rekatsinas
       date: 3/25/21
+      title: "Structure is all you need: Software 2.0 for Data Quality Management"
+      abstract: "Data quality management is a bottleneck in modern analytics as high-effort tasks such as data validation and cleaning are essential to obtain accurate results. In this talk, I will review how Software 2.0 can automate routine data validation tasks such as missing value imputation and detection of corrupted samples. First, I will discuss how one can leverage structured, statistical dependencies in the data to obtain information theoretically optimal data preparation methods, and then I will demonstrate how the widely-used Attention mechanism is key to automated data validation. This talk builds upon experience with projects such as HoloClean, FDX, and Picket and their application to different scientific and industrial use-cases."
+      bio: "Theodoros (Theo) Rekatsinas is an Assistant Professor in the Department of Computer Sciences at the University of Wisconsin-Madison, currently on leave at Apple. Theo is also a co-founder of Inductiv (now part of Apple), which developed technology that uses artificial intelligence to automate processes that involve identifying and correcting errors in data."
     - speaker: Ameet Talkwalker
       date: 4/1/21
     - speaker: Lin Ma
