@@ -294,6 +294,10 @@ footer {
   font-size: 1.1rem;
 }
 
+.talk-title-link {
+  color: $black;
+}
+
 .list-group-item {
     position: relative;
     display: block;
@@ -312,13 +316,18 @@ footer {
     border-bottom-left-radius: 4px;
 }
 
-details summary::-webkit-details-marker {
+details > summary::-webkit-details-marker {
   display: none;
 }
 
-details summary {
+details > summary::marker {
+  display: none;
+}
+
+details > summary {
   cursor: pointer;
   color: $stanfordred;
+  list-style: none;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

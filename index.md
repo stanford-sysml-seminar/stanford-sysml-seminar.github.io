@@ -42,19 +42,34 @@ Check out our introductory video:
   <div class="talk-date">{{ talk.date }}</div>
   <div class="talk-presenter">{{ talk.speaker }}</div>
   {% if talk.title %}
-  <div><span>{{ talk.title }}</span></div>
+  <div>
+    {% if talk.recording %}
+      <span><a class="talk-title-link" href="{{ talk.recording }}">{{ talk.title }}</a></span>
+    {% elsif talk.livestream %}
+      <span><a class="talk-title-link" href="{{ talk.livestream }}">{{ talk.title }}</a></span>
+    {% else %}
+      <span>{{ talk.title }}</span>
+    {% endif %}
+  </div>
   {% endif %}
   {% if talk.abstract %}
     <details>
     <summary>Abstract</summary>
     {{ talk.abstract }}
+    
+    {% if talk.bio %}
+    <br><br>
+    <strong>Bio: </strong> {{ talk.bio }}
+    {% endif %}
+
+    {% if talk.recording %}
+      <br><br>
+      <strong><a href="{{ talk.recording }}">Video Link</a></strong>
+    {% elsif talk.livestream %}
+      <br><br>
+      <strong><a href="{{ talk.livestream }}">Livestream Link</a></strong>
+    {% endif %}
     </details>
-  {% endif %}
-  {% if talk.recording %}
-    <a href="{{ talk.recording }}">Recording</a>
-  {% endif %}
-  {% if talk.livestream %}
-    <a href="{{ talk.livestream }}">Livestream Link</a>
   {% endif %}
   </div>
   {% endfor %}
