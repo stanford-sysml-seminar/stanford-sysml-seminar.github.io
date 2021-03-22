@@ -1,16 +1,11 @@
 - type: Upcoming Talks
   members:
-    - speaker: Savin Goyal
-      date: 3/18/21
-      title: "Taming the Long Tail of Industrial ML Applications"
-      abstract: "Data Science usage at Netflix goes much beyond our eponymous recommendation systems. It touches almost all aspects of our business - from optimizing content delivery and informing buying decisions to fighting fraud. Our unique culture affords our data scientists extraordinary freedom of choice in ML tools and libraries, all of which results in an ever-expanding set of interesting problem statements and a diverse set of ML approaches to tackle them. Our data scientists, at the same time, are expected to build, deploy, and operate complex ML workloads autonomously without the need to be significantly experienced with systems or data engineering. In this talk, I will discuss some of the challenges involved in improving the development and deployment experience for ML workloads. I will focus on Metaflow, our ML framework, which offers useful abstractions for managing the model’s lifecycle end-to-end, and how a focus on human-centric design positively affects our data scientists' velocity."
-      bio: "Savin is a software engineer at Netflix responsible for Metaflow, Netflix's ML platform. He focuses on building generalizable infrastructure to accelerate the impact of data science at Netflix and beyond."
-      livestream: https://www.youtube.com/watch?v=wassHqe_Clg
     - speaker: Theodoros Rekatsinas
       date: 3/25/21
       title: "Structure is all you need: Software 2.0 for Data Quality Management"
       abstract: "Data quality management is a bottleneck in modern analytics as high-effort tasks such as data validation and cleaning are essential to obtain accurate results. In this talk, I will review how Software 2.0 can automate routine data validation tasks such as missing value imputation and detection of corrupted samples. First, I will discuss how one can leverage structured, statistical dependencies in the data to obtain information theoretically optimal data preparation methods, and then I will demonstrate how the widely-used Attention mechanism is key to automated data validation. This talk builds upon experience with projects such as HoloClean, FDX, and Picket and their application to different scientific and industrial use-cases."
       bio: "Theodoros (Theo) Rekatsinas is an Assistant Professor in the Department of Computer Sciences at the University of Wisconsin-Madison, currently on leave at Apple. Theo is also a co-founder of Inductiv (now part of Apple), which developed technology that uses artificial intelligence to automate processes that involve identifying and correcting errors in data."
+      livestream: https://www.youtube.com/watch?v=_2upFBZsMN4
     - speaker: Ameet Talkwalker
       date: 4/1/21
     - speaker: Lin Ma
@@ -36,6 +31,12 @@
 
 - type: Previous Talks
   members:
+    - speaker: Savin Goyal
+      date: 3/18/21
+      title: "Taming the Long Tail of Industrial ML Applications"
+      abstract: "Data Science usage at Netflix goes much beyond our eponymous recommendation systems. It touches almost all aspects of our business - from optimizing content delivery and informing buying decisions to fighting fraud. Our unique culture affords our data scientists extraordinary freedom of choice in ML tools and libraries, all of which results in an ever-expanding set of interesting problem statements and a diverse set of ML approaches to tackle them. Our data scientists, at the same time, are expected to build, deploy, and operate complex ML workloads autonomously without the need to be significantly experienced with systems or data engineering. In this talk, I will discuss some of the challenges involved in improving the development and deployment experience for ML workloads. I will focus on Metaflow, our ML framework, which offers useful abstractions for managing the model’s lifecycle end-to-end, and how a focus on human-centric design positively affects our data scientists' velocity."
+      bio: "Savin is a software engineer at Netflix responsible for Metaflow, Netflix's ML platform. He focuses on building generalizable infrastructure to accelerate the impact of data science at Netflix and beyond."
+      recording: https://www.youtube.com/watch?v=wassHqe_Clg
     - speaker: Fabio Petroni
       date: 3/11/21
       title: "Assessing Machine Knowledge"
