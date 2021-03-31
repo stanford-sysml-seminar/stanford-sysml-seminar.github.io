@@ -13,6 +13,11 @@
       bio: "Lin Ma (https://www.cs.cmu.edu/~malin199/) is a PhD candidate from Carnegie Mellon University Computer Science Department advised by Andy Pavlo. He is interested in database systems and machine learning. His research focus has been on designing the architecture for self-driving databases. Lin was voted the 'most congenial PhD student' in the CMU Database Group in 2017, 2018, and 2020."
     - speaker: Rutuja Surve
       date: 4/15/21
+      title: "Building Decentralized Neural Search Systems in Production"
+      abstract: "With the rapid growth of media and meta data in both the enterprise and consumer markets, there is an evolving need for search systems to go beyond simple symbolic retrieval and towards more cognitive-driven understanding. Today,  with the ever more long documents and  multimedia data, finding the right information is more important and challenging than ever. The rise of deep learning has ushered in a new era of neural search. However, building a neural search system is non-trivial for researchers and engineers. While neural search has long held a significant promise, the advantages of open source combined with recent advances in deep learning now provides us a framework to make the next generation of search technology a reality.
+
+In this talk, I will describe how Jina solves these challenges by providing an open source neural search ecosystem for businesses and developers, allowing anyone to search any kind of data with high availability and scalability - driving the shift from a traditional search system to a state-of-the-art AI-centric search system."
+      bio: "Rutuja is an Artificial Intelligence Engineer at Jina AI, with an interest in open source software and research. Her industry experience includes working with Google and Nutanix as a software engineer. She has been a former core contributor at MariaDB Foundation and has development experience contributing to various open source organisations like Mozilla, Linux Foundation and OWASP."
     - speaker: Jason Knight
       date: 4/22/21
     - speaker: Erin LeDell
