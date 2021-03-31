@@ -20,6 +20,9 @@ In this talk, I will describe how Jina solves these challenges by providing an o
       bio: "Rutuja is an Artificial Intelligence Engineer at Jina AI, with an interest in open source software and research. Her industry experience includes working with Google and Nutanix as a software engineer. She has been a former core contributor at MariaDB Foundation and has development experience contributing to various open source organisations like Mozilla, Linux Foundation and OWASP."
     - speaker: Jason Knight
       date: 4/22/21
+      title: "Reshaping the ML software bedrock with compilers"
+      abstract: "The rate of change for ML software, hardware, and algorithms improves our lives daily, but how sturdy are the foundations we rely on? From my experience at one of the first ML accelerator startups (Nervana), applying ML to biology and medicine, leading the ML SW product team at Intel, and then co-founding OctoML I'll describe: 1) The pains of developing ML SW stacks for CPUs, GPUs and accelerators, and how these pains radiate outwards to both practitioners and hardware vendors, 2) How that led me to find the Apache TVM project, what it is, and why it matters, 3) Challenges and opportunities ahead ML compilation and TVM specifically, and what it can enable for ML end users everywhere"
+      bio: "Jason Knight is co-founder and CPO at OctoML building the machine learning acceleration platform for deploying ML anywhere. From the founders of the Apache TVM project, OctoML uses machine learning to generate efficient binaries for ML model deployment on any hardware. Before starting OctoML, Jason previously drove Intel’s AI software strategy, built large scale human sequencing data pipelines in the biotech industry, and earned a PhD in machine learning and computational biology."
     - speaker: Erin LeDell
       date: 4/29/21
     - speaker: Carole-Jean Wu
