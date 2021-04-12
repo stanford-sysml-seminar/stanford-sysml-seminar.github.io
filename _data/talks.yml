@@ -1,11 +1,5 @@
 - type: Upcoming Talks
   members:
-    - speaker: Lin Ma
-      date: 4/8/21
-      title: "NoisePage: The Self-Driving Database Management System"
-      abstract: "Database management systems (DBMSs) are an important part of modern data-driven applications. However, they are notoriously difficult to deploy and administer. There are existing methods that recommend physical design or knob configurations for DBMSs. But most of them require humans to make final decisions and decide when to apply changes. The goal of a self-driving DBMS is to remove the DBMS administration impediments by managing itself autonomously. In this talk, I present the design of a new self-driving DBMS (NoisePage) that enables such automatic system management. I first discuss a forecasting framework that uses unsupervised clustering and ensemble ML models to efficiently predict the query arrival rates under varying database workload patterns. I then describe NoisePage's modeling framework that constructs and maintains ML models to predict the behavior of self-driving DBMS actions: the framework decomposes the DBMS architecture into fine-grained operating units to estimate the system's behavior under unseen configurations. I then introduce our ongoing work for an action planning framework that makes explainable decisions based on the forecasted workload and the modeled behavior. Lastly, I explain how we integrate all the self-driving components into the system."
-      bio: "Lin Ma (https://www.cs.cmu.edu/~malin199/) is a PhD candidate from Carnegie Mellon University Computer Science Department advised by Andy Pavlo. He is interested in database systems and machine learning. His research focus has been on designing the architecture for self-driving databases. Lin was voted the 'most congenial PhD student' in the CMU Database Group in 2017, 2018, and 2020."
-      livestream: https://www.youtube.com/watch?v=sY1c7qqQeuA
     - speaker: Rutuja Surve
       date: 4/15/21
       title: "Building Decentralized Neural Search Systems in Production"
@@ -13,6 +7,7 @@
 
 In this talk, I will describe how Jina solves these challenges by providing an open source neural search ecosystem for businesses and developers, allowing anyone to search any kind of data with high availability and scalability - driving the shift from a traditional search system to a state-of-the-art AI-centric search system."
       bio: "Rutuja is an Artificial Intelligence Engineer at Jina AI, with an interest in open source software and research. Her industry experience includes working with Google and Nutanix as a software engineer. She has been a former core contributor at MariaDB Foundation and has development experience contributing to various open source organisations like Mozilla, Linux Foundation and OWASP."
+      livestream: https://www.youtube.com/watch?v=WniuYVHqL80
     - speaker: Jason Knight
       date: 4/22/21
       title: "Reshaping the ML software bedrock with compilers"
@@ -35,6 +30,12 @@ In this talk, I will describe how Jina solves these challenges by providing an o
 
 - type: Previous Talks
   members:
+    - speaker: Lin Ma
+      date: 4/8/21
+      title: "NoisePage: The Self-Driving Database Management System"
+      abstract: "Database management systems (DBMSs) are an important part of modern data-driven applications. However, they are notoriously difficult to deploy and administer. There are existing methods that recommend physical design or knob configurations for DBMSs. But most of them require humans to make final decisions and decide when to apply changes. The goal of a self-driving DBMS is to remove the DBMS administration impediments by managing itself autonomously. In this talk, I present the design of a new self-driving DBMS (NoisePage) that enables such automatic system management. I first discuss a forecasting framework that uses unsupervised clustering and ensemble ML models to efficiently predict the query arrival rates under varying database workload patterns. I then describe NoisePage's modeling framework that constructs and maintains ML models to predict the behavior of self-driving DBMS actions: the framework decomposes the DBMS architecture into fine-grained operating units to estimate the system's behavior under unseen configurations. I then introduce our ongoing work for an action planning framework that makes explainable decisions based on the forecasted workload and the modeled behavior. Lastly, I explain how we integrate all the self-driving components into the system."
+      bio: "Lin Ma (https://www.cs.cmu.edu/~malin199/) is a PhD candidate from Carnegie Mellon University Computer Science Department advised by Andy Pavlo. He is interested in database systems and machine learning. His research focus has been on designing the architecture for self-driving databases. Lin was voted the 'most congenial PhD student' in the CMU Database Group in 2017, 2018, and 2020."
+      livestream: https://www.youtube.com/watch?v=sY1c7qqQeuA
     - speaker: Ameet Talwalker
       date: 4/1/21
       title: "Automating Architecture Transfer on Diverse Tasks"
