@@ -1,18 +1,11 @@
 - type: Upcoming Talks
   members:
-    - speaker: Rutuja Surve
-      date: 4/15/21
-      title: "Building Decentralized Neural Search Systems in Production"
-      abstract: "With the rapid growth of media and meta data in both the enterprise and consumer markets, there is an evolving need for search systems to go beyond simple symbolic retrieval and towards more cognitive-driven understanding. Today,  with the ever more long documents and  multimedia data, finding the right information is more important and challenging than ever. The rise of deep learning has ushered in a new era of neural search. However, building a neural search system is non-trivial for researchers and engineers. While neural search has long held a significant promise, the advantages of open source combined with recent advances in deep learning now provides us a framework to make the next generation of search technology a reality.
-
-In this talk, I will describe how Jina solves these challenges by providing an open source neural search ecosystem for businesses and developers, allowing anyone to search any kind of data with high availability and scalability - driving the shift from a traditional search system to a state-of-the-art AI-centric search system."
-      bio: "Rutuja is an Artificial Intelligence Engineer at Jina AI, with an interest in open source software and research. Her industry experience includes working with Google and Nutanix as a software engineer. She has been a former core contributor at MariaDB Foundation and has development experience contributing to various open source organisations like Mozilla, Linux Foundation and OWASP."
-      livestream: https://www.youtube.com/watch?v=WniuYVHqL80
     - speaker: Jason Knight
       date: 4/22/21
       title: "Reshaping the ML software bedrock with compilers"
-      abstract: "The rate of change for ML software, hardware, and algorithms improves our lives daily, but how sturdy are the foundations we rely on? From my experience at one of the first ML accelerator startups (Nervana), applying ML to biology and medicine, leading the ML SW product team at Intel, and then co-founding OctoML I'll describe: 1) The pains of developing ML SW stacks for CPUs, GPUs and accelerators, and how these pains radiate outwards to both practitioners and hardware vendors, 2) How that led me to find the Apache TVM project, what it is, and why it matters, 3) Challenges and opportunities ahead ML compilation and TVM specifically, and what it can enable for ML end users everywhere"
+      abstract: "The rate of change for ML software, hardware, and algorithms improves our lives daily, but how sturdy are the foundations we rely on? From my experience at one of the first ML accelerator startups (Nervana), applying ML to biology and medicine, leading the ML SW product team at Intel, and then co-founding OctoML I'll describe: 1) The pains of developing ML SW stacks for CPUs, GPUs and accelerators, and how these pains radiate outwards to both practitioners and hardware vendors, 2) How that led me to find the Apache TVM project, what it is, and why it matters, 3) Challenges and opportunities ahead ML compilation and TVM specifically, and what it can enable for ML end users everywhere."
       bio: "Jason Knight is co-founder and CPO at OctoML building the machine learning acceleration platform for deploying ML anywhere. From the founders of the Apache TVM project, OctoML uses machine learning to generate efficient binaries for ML model deployment on any hardware. Before starting OctoML, Jason previously drove Intel’s AI software strategy, built large scale human sequencing data pipelines in the biotech industry, and earned a PhD in machine learning and computational biology."
+      livestream: "https://www.youtube.com/watch?v=KN4r_oVpfI0"
     - speaker: Erin LeDell
       date: 4/29/21
       title: "Scalable Machine Learning with H2O & Systems Approach to Algorithm Development"
@@ -36,6 +29,14 @@ In this talk, I will describe how Jina solves these challenges by providing an o
 
 - type: Previous Talks
   members:
+    - speaker: Rutuja Surve
+      date: 4/15/21
+      title: "Building Decentralized Neural Search Systems in Production"
+      abstract: "With the rapid growth of media and meta data in both the enterprise and consumer markets, there is an evolving need for search systems to go beyond simple symbolic retrieval and towards more cognitive-driven understanding. Today,  with the ever more long documents and  multimedia data, finding the right information is more important and challenging than ever. The rise of deep learning has ushered in a new era of neural search. However, building a neural search system is non-trivial for researchers and engineers. While neural search has long held a significant promise, the advantages of open source combined with recent advances in deep learning now provides us a framework to make the next generation of search technology a reality.
+
+In this talk, I will describe how Jina solves these challenges by providing an open source neural search ecosystem for businesses and developers, allowing anyone to search any kind of data with high availability and scalability - driving the shift from a traditional search system to a state-of-the-art AI-centric search system."
+      bio: "Rutuja is an Artificial Intelligence Engineer at Jina AI, with an interest in open source software and research. Her industry experience includes working with Google and Nutanix as a software engineer. She has been a former core contributor at MariaDB Foundation and has development experience contributing to various open source organisations like Mozilla, Linux Foundation and OWASP."
+      recording: https://www.youtube.com/watch?v=WniuYVHqL80
     - speaker: Lin Ma
       date: 4/8/21
       title: "NoisePage: The Self-Driving Database Management System"
