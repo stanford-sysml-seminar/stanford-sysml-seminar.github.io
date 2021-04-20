@@ -18,6 +18,15 @@
       bio: "Carole-Jean Wu is a Technical Lead and Manager at Facebook AI Research – SysML. Her work is in the domain of computer system architecture with particular emphasis on energy- and memory-efficient systems. Her research has pivoted into designing systems for machine learning execution at-scale, such as for personalized recommender systems and mobile deployment. In general, she is interested in tackling system challenges to enable efficient, responsible AI execution. Carole-Jean chairs the MLPerf Recommendation Benchmark Advisory Board, co-chaired MLPerf Inference, and serves on the MLCommons Board as a director. Carole-Jean received her M.A. and Ph.D. from Princeton and B.Sc. from Cornell. She is the recipient of the NSF CAREER Award, Facebook AI Infrastructure Mentorship Award, the IEEE Young Engineer of the Year Award, the Science Foundation Arizona Bisgrove Early Career Scholarship, and the Intel PhD Fellowship, among a number of Best Paper awards."
     - speaker: Guanhua Wang
       date: 5/13/21
+      title: "Disruptive Research on Distributed ML Systems"
+      abstract: "Deep Neural Networks (DNNs) enable computers to excel across many different applications such as image classification, speech recognition and robotics control. To accelerate DNN training and serving, parallel computing is widely adopted. System efficiency is a big issue when scaling out. In this talk, I will make three arguments towards better system efficiency in distributed DNN training and serving.
+
+First, Ring All-Reduce for model synchronization is not optimal, but Blink is. By packing spanning trees rather than forming rings, Blink achieves higher flexibility in arbitrary networking environments and provides near-optimal network throughput. Blink is filed as a US patent and is being used by Microsoft. Blink gains lots of attention from industry, such as Facebook (distributed PyTorch team), ByteDance (parent company of TikTok app). Blink was also featured on Nvidia GTC China 2019 and news from Baidu, Tencent.
+
+Second, communication can be eliminated via sensAI's class parallelism. sensAI decouples a multi-task model into disconnected subnets, each is responsible for decision making of a single task. sensAI's attribute of low-latency, real-time model serving attracts several Venture Capitals in the Bay Area.
+
+Third, Wavelet is more efficient than gang-scheduling. By intentionally adding task launching latency, Wavelet interleaves peak memory usage across different waves of training tasks on the accelerators, and thus it improves both computation and on-device memory utilization. Multiple companies, including Facebook and Apple, show interests to Wavelet project."
+      bio: "Guanhua Wang is a final year CS PhD in the RISELab at UC Berkeley, advised by Prof. Ion Stoica. His research lies primarily in the ML+Systems area including fast collective communication schemes for model synchronization, efficient in-parallel model training and real-time model serving."
     - speaker: Tim Kraska
       date: 5/20/21
     - speaker: Even Oldridge
