@@ -1,16 +1,11 @@
 - type: Upcoming Talks
   members:
-    - speaker: Jason Knight
-      date: 4/22/21
-      title: "Reshaping the ML software bedrock with compilers"
-      abstract: "The rate of change for ML software, hardware, and algorithms improves our lives daily, but how sturdy are the foundations we rely on? From my experience at one of the first ML accelerator startups (Nervana), applying ML to biology and medicine, leading the ML SW product team at Intel, and then co-founding OctoML I'll describe: 1) The pains of developing ML SW stacks for CPUs, GPUs and accelerators, and how these pains radiate outwards to both practitioners and hardware vendors, 2) How that led me to find the Apache TVM project, what it is, and why it matters, 3) Challenges and opportunities ahead ML compilation and TVM specifically, and what it can enable for ML end users everywhere."
-      bio: "Jason Knight is co-founder and CPO at OctoML building the machine learning acceleration platform for deploying ML anywhere. From the founders of the Apache TVM project, OctoML uses machine learning to generate efficient binaries for ML model deployment on any hardware. Before starting OctoML, Jason previously drove Intel’s AI software strategy, built large scale human sequencing data pipelines in the biotech industry, and earned a PhD in machine learning and computational biology."
-      livestream: "https://www.youtube.com/watch?v=KN4r_oVpfI0"
     - speaker: Erin LeDell
       date: 4/29/21
       title: "Scalable Machine Learning with H2O & Systems Approach to Algorithm Development"
       abstract: "The focus of this presentation is the scalable and distributed machine learning platform, H2O. The multi-node distributed algorithms (GLM, Random Forest, GBM, DNNs, etc) can train on datasets which are larger than RAM (of a single machine), and H2O integrates with other 'big data' systems, Hadoop and Spark. H2O is engineered for production use cases with a focus on fast training and prediction speeds. The second part of the talk will discuss a systems approach to developing novel machine learning algorithms such as H2O AutoML.  Unlike well-defined ML algorithms (e.g. GBM), an 'AutoML' algorithm is an automated process which aims to train the best model (or ensemble) in a specified amount of time.  I will discuss our methodology for experimentation and validation of new strategies or changes to the algorithm, using a benchmark-driven systems approach."
       bio: "Erin LeDell is the Chief Machine Learning Scientist at H2O.ai.  Her research focuses on automatic machine learning, ensemble machine learning and statistical computing.  Before joining H2O.ai, she was the Principal Data Scientist at Wise.io and Marvin Mobile Security, the founder of DataScientific, Inc.  She received her Ph.D. in Biostatistics with a Designated Emphasis in Computational Science and Engineering from University of California, Berkeley."
+      livestream: https://www.youtube.com/watch?v=UELpqMxDB1E
     - speaker: Carole-Jean Wu
       date: 5/6/21
       title: "Designing AI systems for deep learning recommendation and beyond"
@@ -38,6 +33,12 @@ Third, Wavelet is more efficient than gang-scheduling. By intentionally adding t
 
 - type: Previous Talks
   members:
+    - speaker: Jason Knight
+      date: 4/22/21
+      title: "Reshaping the ML software bedrock with compilers"
+      abstract: "The rate of change for ML software, hardware, and algorithms improves our lives daily, but how sturdy are the foundations we rely on? From my experience at one of the first ML accelerator startups (Nervana), applying ML to biology and medicine, leading the ML SW product team at Intel, and then co-founding OctoML I'll describe: 1) The pains of developing ML SW stacks for CPUs, GPUs and accelerators, and how these pains radiate outwards to both practitioners and hardware vendors, 2) How that led me to find the Apache TVM project, what it is, and why it matters, 3) Challenges and opportunities ahead ML compilation and TVM specifically, and what it can enable for ML end users everywhere."
+      bio: "Jason Knight is co-founder and CPO at OctoML building the machine learning acceleration platform for deploying ML anywhere. From the founders of the Apache TVM project, OctoML uses machine learning to generate efficient binaries for ML model deployment on any hardware. Before starting OctoML, Jason previously drove Intel’s AI software strategy, built large scale human sequencing data pipelines in the biotech industry, and earned a PhD in machine learning and computational biology."
+      recording: "https://www.youtube.com/watch?v=KN4r_oVpfI0"
     - speaker: Rutuja Surve
       date: 4/15/21
       title: "Building Decentralized Neural Search Systems in Production"
