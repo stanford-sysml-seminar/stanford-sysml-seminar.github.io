@@ -1,11 +1,5 @@
 - type: Upcoming Talks
   members:
-    - speaker: Carole-Jean Wu
-      date: 5/6/21
-      title: "Designing AI systems for deep learning recommendation and beyond"
-      abstract: "The past decade has witnessed a 300,000 times increase in the amount of compute for AI. The latest natural language processing model is fueled with over trillion parameters while the memory need of neural recommendation and ranking models has grown from hundreds of gigabyte to the terabyte scale. This talk introduces the underinvested deep learning personalization and recommendation systems in the overall research community. The training of state-of-the-art industry-scale personalization and recommendation models consumes the highest number of compute cycles among all deep learning use cases at Facebook. For AI inference, recommendation use cases consume even higher compute cycles of 80%. What are the key system challenges faced by industry-scale neural personalization and recommendation models? This talk will highlight recent advances on AI system development for deep learning recommendation and the implications on infrastructure optimization opportunities across the machine learning system stack. System research for deep learning recommendation and AI at large is at a nascent stage. This talk will conclude with research directions for building and designing responsible AI systems – that is fair, efficient, and environmentally sustainable."
-      bio: "Carole-Jean Wu is a Technical Lead and Manager at Facebook AI Research – SysML. Her work is in the domain of computer system architecture with particular emphasis on energy- and memory-efficient systems. Her research has pivoted into designing systems for machine learning execution at-scale, such as for personalized recommender systems and mobile deployment. In general, she is interested in tackling system challenges to enable efficient, responsible AI execution. Carole-Jean chairs the MLPerf Recommendation Benchmark Advisory Board, co-chaired MLPerf Inference, and serves on the MLCommons Board as a director. Carole-Jean received her M.A. and Ph.D. from Princeton and B.Sc. from Cornell. She is the recipient of the NSF CAREER Award, Facebook AI Infrastructure Mentorship Award, the IEEE Young Engineer of the Year Award, the Science Foundation Arizona Bisgrove Early Career Scholarship, and the Intel PhD Fellowship, among a number of Best Paper awards."
-      livestream: https://www.youtube.com/watch?v=5xcd0V9m6Xs
     - speaker: Guanhua Wang
       date: 5/13/21
       title: "Disruptive Research on Distributed ML Systems"
@@ -17,17 +11,34 @@ Second, communication can be eliminated via sensAI's class parallelism. sensAI d
 
 Third, Wavelet is more efficient than gang-scheduling. By intentionally adding task launching latency, Wavelet interleaves peak memory usage across different waves of training tasks on the accelerators, and thus it improves both computation and on-device memory utilization. Multiple companies, including Facebook and Apple, show interests to Wavelet project."
       bio: "Guanhua Wang is a final year CS PhD in the RISELab at UC Berkeley, advised by Prof. Ion Stoica. His research lies primarily in the ML+Systems area including fast collective communication schemes for model synchronization, efficient in-parallel model training and real-time model serving."
+      livestream: https://www.youtube.com/watch?v=gDKRrrfPgng
     - speaker: Tim Kraska
       date: 5/20/21
+      title: "Towards Instance-Optimized Data Systems"
+      abstract: "Recently, there has been a lot of excitement around ML-enhanced (or learned) algorithm and data structures. For example, there has been work on applying machine learning to improve query optimization, indexing, storage layouts, scheduling, log-structured merge trees, sorting, compression, sketches, among many other things. Arguably, the motivation behind these techniques are similar: machine learning is used to model the data and/or workload in order to derive a more efficient algorithm or data structure. Ultimately, what these techniques will allow us to build are “instance-optimized” systems; systems that self-adjust to a given workload and data distribution to provide unprecedented performance and avoid the need for tuning by an administrator.
+In this talk, I will provide an overview of the opportunities and limitations of learned index structures, storage layouts, and query optimization techniques we have been developing in my group, and how we are integrating these techniques to build a first instance-optimized database system."
+      bio: "Tim Kraska is an Associate Professor of Electrical Engineering and Computer Science in MIT's Computer Science and Artificial Intelligence Laboratory, co-director of the Data System and AI Lab at MIT (DSAIL@CSAIL), and co-founder of Einblick Analytics. Currently, his research focuses on building systems for machine learning, and using machine learning for systems. Before joining MIT, Tim was an Assistant Professor at Brown, spent time at Google Brain, and was a PostDoc in the AMPLab at UC Berkeley after he got his PhD from ETH Zurich. Tim is a 2017 Alfred P. Sloan Research Fellow in computer science and received several awards including the VLDB Early Career Research Contribution Award,  the VMware Systems Research Award, the university-wide Early Career Research Achievement Award at Brown University, an NSF CAREER Award, as well as several best paper and demo awards at VLDB and ICDE."
     - speaker: Even Oldridge
       date: 5/27/21
     - speaker: Richard Liaw
       date: 6/3/21
     - speaker: Karan Goel
       date: 6/10/21
+    - speaker: Yaron Singer, Kojin Oshiba
+      date: 6/17/21
+    - speaker: Willem Pienaar
+      date: 7/1/21
+    - speaker: Sasha Rush
+      date: 7/8/21
 
 - type: Previous Talks
   members:
+    - speaker: Carole-Jean Wu
+      date: 5/6/21
+      title: "Designing AI systems for deep learning recommendation and beyond"
+      abstract: "The past decade has witnessed a 300,000 times increase in the amount of compute for AI. The latest natural language processing model is fueled with over trillion parameters while the memory need of neural recommendation and ranking models has grown from hundreds of gigabyte to the terabyte scale. This talk introduces the underinvested deep learning personalization and recommendation systems in the overall research community. The training of state-of-the-art industry-scale personalization and recommendation models consumes the highest number of compute cycles among all deep learning use cases at Facebook. For AI inference, recommendation use cases consume even higher compute cycles of 80%. What are the key system challenges faced by industry-scale neural personalization and recommendation models? This talk will highlight recent advances on AI system development for deep learning recommendation and the implications on infrastructure optimization opportunities across the machine learning system stack. System research for deep learning recommendation and AI at large is at a nascent stage. This talk will conclude with research directions for building and designing responsible AI systems – that is fair, efficient, and environmentally sustainable."
+      bio: "Carole-Jean Wu is a Technical Lead and Manager at Facebook AI Research – SysML. Her work is in the domain of computer system architecture with particular emphasis on energy- and memory-efficient systems. Her research has pivoted into designing systems for machine learning execution at-scale, such as for personalized recommender systems and mobile deployment. In general, she is interested in tackling system challenges to enable efficient, responsible AI execution. Carole-Jean chairs the MLPerf Recommendation Benchmark Advisory Board, co-chaired MLPerf Inference, and serves on the MLCommons Board as a director. Carole-Jean received her M.A. and Ph.D. from Princeton and B.Sc. from Cornell. She is the recipient of the NSF CAREER Award, Facebook AI Infrastructure Mentorship Award, the IEEE Young Engineer of the Year Award, the Science Foundation Arizona Bisgrove Early Career Scholarship, and the Intel PhD Fellowship, among a number of Best Paper awards."
+      recording: https://www.youtube.com/watch?v=5xcd0V9m6Xs
     - speaker: Erin LeDell
       date: 4/29/21
       title: "Scalable Machine Learning with H2O & Systems Approach to Algorithm Development"
