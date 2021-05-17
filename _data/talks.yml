@@ -1,23 +1,12 @@
 - type: Upcoming Talks
   members:
-    - speaker: Guanhua Wang
-      date: 5/13/21
-      title: "Disruptive Research on Distributed ML Systems"
-      abstract: "Deep Neural Networks (DNNs) enable computers to excel across many different applications such as image classification, speech recognition and robotics control. To accelerate DNN training and serving, parallel computing is widely adopted. System efficiency is a big issue when scaling out. In this talk, I will make three arguments towards better system efficiency in distributed DNN training and serving.
-
-First, Ring All-Reduce for model synchronization is not optimal, but Blink is. By packing spanning trees rather than forming rings, Blink achieves higher flexibility in arbitrary networking environments and provides near-optimal network throughput. Blink is filed as a US patent and is being used by Microsoft. Blink gains lots of attention from industry, such as Facebook (distributed PyTorch team), ByteDance (parent company of TikTok app). Blink was also featured on Nvidia GTC China 2019 and news from Baidu, Tencent.
-
-Second, communication can be eliminated via sensAI's class parallelism. sensAI decouples a multi-task model into disconnected subnets, each is responsible for decision making of a single task. sensAI's attribute of low-latency, real-time model serving attracts several Venture Capitals in the Bay Area.
-
-Third, Wavelet is more efficient than gang-scheduling. By intentionally adding task launching latency, Wavelet interleaves peak memory usage across different waves of training tasks on the accelerators, and thus it improves both computation and on-device memory utilization. Multiple companies, including Facebook and Apple, show interests to Wavelet project."
-      bio: "Guanhua Wang is a final year CS PhD in the RISELab at UC Berkeley, advised by Prof. Ion Stoica. His research lies primarily in the ML+Systems area including fast collective communication schemes for model synchronization, efficient in-parallel model training and real-time model serving."
-      livestream: https://www.youtube.com/watch?v=gDKRrrfPgng
     - speaker: Tim Kraska
       date: 5/20/21
       title: "Towards Instance-Optimized Data Systems"
       abstract: "Recently, there has been a lot of excitement around ML-enhanced (or learned) algorithm and data structures. For example, there has been work on applying machine learning to improve query optimization, indexing, storage layouts, scheduling, log-structured merge trees, sorting, compression, sketches, among many other things. Arguably, the motivation behind these techniques are similar: machine learning is used to model the data and/or workload in order to derive a more efficient algorithm or data structure. Ultimately, what these techniques will allow us to build are “instance-optimized” systems; systems that self-adjust to a given workload and data distribution to provide unprecedented performance and avoid the need for tuning by an administrator.
 In this talk, I will provide an overview of the opportunities and limitations of learned index structures, storage layouts, and query optimization techniques we have been developing in my group, and how we are integrating these techniques to build a first instance-optimized database system."
       bio: "Tim Kraska is an Associate Professor of Electrical Engineering and Computer Science in MIT's Computer Science and Artificial Intelligence Laboratory, co-director of the Data System and AI Lab at MIT (DSAIL@CSAIL), and co-founder of Einblick Analytics. Currently, his research focuses on building systems for machine learning, and using machine learning for systems. Before joining MIT, Tim was an Assistant Professor at Brown, spent time at Google Brain, and was a PostDoc in the AMPLab at UC Berkeley after he got his PhD from ETH Zurich. Tim is a 2017 Alfred P. Sloan Research Fellow in computer science and received several awards including the VLDB Early Career Research Contribution Award,  the VMware Systems Research Award, the university-wide Early Career Research Achievement Award at Brown University, an NSF CAREER Award, as well as several best paper and demo awards at VLDB and ICDE."
+      livestream: https://www.youtube.com/watch?v=oOXen4elWns
     - speaker: Even Oldridge
       date: 5/27/21
     - speaker: Richard Liaw
@@ -33,6 +22,18 @@ In this talk, I will provide an overview of the opportunities and limitations of
 
 - type: Previous Talks
   members:
+    - speaker: Guanhua Wang
+      date: 5/13/21
+      title: "Disruptive Research on Distributed ML Systems"
+      abstract: "Deep Neural Networks (DNNs) enable computers to excel across many different applications such as image classification, speech recognition and robotics control. To accelerate DNN training and serving, parallel computing is widely adopted. System efficiency is a big issue when scaling out. In this talk, I will make three arguments towards better system efficiency in distributed DNN training and serving.
+
+First, Ring All-Reduce for model synchronization is not optimal, but Blink is. By packing spanning trees rather than forming rings, Blink achieves higher flexibility in arbitrary networking environments and provides near-optimal network throughput. Blink is filed as a US patent and is being used by Microsoft. Blink gains lots of attention from industry, such as Facebook (distributed PyTorch team), ByteDance (parent company of TikTok app). Blink was also featured on Nvidia GTC China 2019 and news from Baidu, Tencent.
+
+Second, communication can be eliminated via sensAI's class parallelism. sensAI decouples a multi-task model into disconnected subnets, each is responsible for decision making of a single task. sensAI's attribute of low-latency, real-time model serving attracts several Venture Capitals in the Bay Area.
+
+Third, Wavelet is more efficient than gang-scheduling. By intentionally adding task launching latency, Wavelet interleaves peak memory usage across different waves of training tasks on the accelerators, and thus it improves both computation and on-device memory utilization. Multiple companies, including Facebook and Apple, show interests to Wavelet project."
+      bio: "Guanhua Wang is a final year CS PhD in the RISELab at UC Berkeley, advised by Prof. Ion Stoica. His research lies primarily in the ML+Systems area including fast collective communication schemes for model synchronization, efficient in-parallel model training and real-time model serving."
+      recording: https://www.youtube.com/watch?v=gDKRrrfPgng
     - speaker: Carole-Jean Wu
       date: 5/6/21
       title: "Designing AI systems for deep learning recommendation and beyond"
