@@ -18,10 +18,17 @@ In this talk, I will provide an overview of the opportunities and limitations of
       date: 6/10/21
     - speaker: Yaron Singer, Kojin Oshiba
       date: 6/17/21
-    - speaker: Even Oldridge
+    - speaker: Pete Warden
       date: 6/24/21
+      title: "Machine Learning Everywhere"
+      abstract: "When I first joined Google in 2014, I was amazed to discover they were using 13 kilobyte neural network models to recognize \"OK Google\" on tiny embedded chips on Android phones. This felt like deep magic, and it made me wonder how many other problems these kinds of miniscule ML models could solve. Over the past few years I've been helping Google ship products using this approach with TensorFlow Lite Micro, and helped external developers create new applications. While it's still early days for \"TinyML\", we're already seeing interesting impacts on how engineers compose systems, including software-defined sensors, cascades of ML models, air-gapped ambient computing, and ubiquitous on-device voice interfaces. In this talk I'll cover the past, present, and future of embedded ML systems."
     - speaker: Willem Pienaar
       date: 7/1/21
+      title: "Feature stores as the bridge between models and data"
+      abstract: "Feature stores have emerged as a pivotal component in the modern machine learning stack. They solve some of the toughest challenges in data for machine learning, namely feature computation, storage, validation, serving, and reuse. Ultimately, feature stores act as the bridge between models in production and an organization’s data.
+
+In this talk I will describe the key problems that feature stores solve, I will describe some key use cases and deployment patterns for feature stores that we see in the wild, and finally I will comment on how feature stores are evolving with the rise of modern data platforms."
+      bio: "Willem is a tech lead at Tecton where he currently leads open source development for Feast, the open source feature store. Willem previously started and led the data science platform team at Gojek, the Southeast Asian ride-hailing decacorn, where he built their machine learning platform. His main focus areas are building data and ML tooling, allowing organizations to scale machine learning and developer productivity. In a previous life, Willem also founded and sold a networking startup."
     - speaker: Sasha Rush
       date: 7/8/21
 
