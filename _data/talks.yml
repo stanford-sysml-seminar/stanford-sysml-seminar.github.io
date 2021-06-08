@@ -1,13 +1,15 @@
 - type: Upcoming Talks
   members:
-    - speaker: Richard Liaw
-      date: 6/3/21
-      title: "Assorted boring problems in distributed machine learning"
-      abstract: "Much of the academic focus on “distributing/scaling up machine learning” is synonymous with “training larger supervised ML models like GPT-3 with more and more compute resources”. However, training is only a small part of the ML lifecycle. In this talk, I’ll focus on a couple other machine learning problems that demand a large amount of compute resources, which may be a bit more “boring” but equally (or arguably more!) important. I’ll cover a couple problems that my collaborators and I have previously worked on at UC Berkeley and now at Anyscale: abstractions for scalable reinforcement learning and building RLlib (ICML 18, ICLR 20), distributed hyperparameter tuning and dynamic resource allocation for hyperparameter tuning (SOCC 19, Eurosys 21), and ray as a substrate for the next generation of ML platforms."
-      bio: "Richard Liaw is an engineer at Anyscale, where he leads a team in building open source machine learning libraries on top of Ray.  He is on leave from the PhD program at UC Berkeley, where he worked at the RISELab advised by Ion Stoica, Joseph Gonzalez, and Ken Goldberg. In his time in the PhD program, he was part of the Ray team, building scalable ML libraries on top of Ray."
-      livestream: https://www.youtube.com/watch?v=R7N3quJcGNQ
     - speaker: Karan Goel
       date: 6/10/21
+      title: "Building Malleable ML Systems through Measurement, Monitoring & Maintenance"
+      abstract: "Machine learning systems are now easier to build than ever, but they still don’t
+ perform as well as we would hope on real applications. I’ll explore a simple idea in this talk: if ML systems were more malleable and could be maintained like software, we might build better systems. I’ll discuss an immediate bottleneck towards building more
+ malleable ML systems: the evaluation pipeline. I’ll describe the need for finer-grained performance measurement and monitoring, the opportunities paying attention to this area could open up in maintaining ML systems, and some of the tools that I’m building
+ (with great collaborators) in the Robustness Gym project to close this gap."
+      bio: "Karan Goel is a 3rd year CS PhD student at Stanford advised by Chris Ré. His
+ main goal is to accelerate the pace at which machine learning can be robustly and safely used in practice across applications, and in industry at large. He leads the Robustness Gym project, where he builds tools to measure, monitor and repair machine learning
+ systems interactively. He is a recipient of the Siebel Foundation Scholarship."
     - speaker: Yaron Singer, Kojin Oshiba
       date: 6/17/21
     - speaker: Pete Warden
@@ -26,6 +28,12 @@ In this talk I will describe the key problems that feature stores solve, I will 
 
 - type: Previous Talks
   members:
+    - speaker: Richard Liaw
+      date: 6/3/21
+      title: "Assorted boring problems in distributed machine learning"
+      abstract: "Much of the academic focus on “distributing/scaling up machine learning” is synonymous with “training larger supervised ML models like GPT-3 with more and more compute resources”. However, training is only a small part of the ML lifecycle. In this talk, I’ll focus on a couple other machine learning problems that demand a large amount of compute resources, which may be a bit more “boring” but equally (or arguably more!) important. I’ll cover a couple problems that my collaborators and I have previously worked on at UC Berkeley and now at Anyscale: abstractions for scalable reinforcement learning and building RLlib (ICML 18, ICLR 20), distributed hyperparameter tuning and dynamic resource allocation for hyperparameter tuning (SOCC 19, Eurosys 21), and ray as a substrate for the next generation of ML platforms."
+      bio: "Richard Liaw is an engineer at Anyscale, where he leads a team in building open source machine learning libraries on top of Ray.  He is on leave from the PhD program at UC Berkeley, where he worked at the RISELab advised by Ion Stoica, Joseph Gonzalez, and Ken Goldberg. In his time in the PhD program, he was part of the Ray team, building scalable ML libraries on top of Ray."
+      recording: https://www.youtube.com/watch?v=R7N3quJcGNQ
     - speaker: Even Oldridge
       date: 5/27/21
       title: "Deep Learning Based Recommender Systems in Production"
