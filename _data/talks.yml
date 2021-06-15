@@ -1,17 +1,11 @@
 - type: Upcoming Talks
   members:
-    - speaker: Karan Goel
-      date: 6/10/21
-      title: "Building Malleable ML Systems through Measurement, Monitoring & Maintenance"
-      abstract: "Machine learning systems are now easier to build than ever, but they still don’t
- perform as well as we would hope on real applications. I’ll explore a simple idea in this talk: if ML systems were more malleable and could be maintained like software, we might build better systems. I’ll discuss an immediate bottleneck towards building more
- malleable ML systems: the evaluation pipeline. I’ll describe the need for finer-grained performance measurement and monitoring, the opportunities paying attention to this area could open up in maintaining ML systems, and some of the tools that I’m building
- (with great collaborators) in the Robustness Gym project to close this gap."
-      bio: "Karan Goel is a 3rd year CS PhD student at Stanford advised by Chris Ré. His
- main goal is to accelerate the pace at which machine learning can be robustly and safely used in practice across applications, and in industry at large. He leads the Robustness Gym project, where he builds tools to measure, monitor and repair machine learning
- systems interactively. He is a recipient of the Siebel Foundation Scholarship."
-    - speaker: Yaron Singer, Kojin Oshiba
+    - speaker: Yaron Singer
       date: 6/17/21
+      title: "Securing AI systems from operational risk"
+      abstract: "As organizations adopt AI technologies they inherit operational risk. This risk often manifests itself in AI models that produce erroneous predictions that go undetected. In this talk we will discuss root causes for AI models going haywire, and present a rigorous framework for eliminating risk from AI. We will show how this methodology can be used as building blocks for continuous monitoring and firewall systems for AI."
+      bio: "Yaron Singer is the CEO and co-founder of Robust Intelligence, and the Gordon McKay Professor of Computer Science and Applied Mathematics at Harvard University.  Before Harvard he was a researcher at Google and obtained his PhD from UC Berkeley. He is the recipient of the NSF CAREER award, the Sloan fellowship, Facebook faculty award, Google faculty award, 2012 Best Student Paper Award at the ACM conference on Web Search and Data Mining, the 2010 Facebook Graduate Fellowship, the 2009 Microsoft Research PhD Fellowship."
+      livestream: https://www.youtube.com/watch?v=Qp6i-BehgGI
     - speaker: Pete Warden
       date: 6/24/21
       title: "Machine Learning Everywhere"
@@ -28,6 +22,17 @@ In this talk I will describe the key problems that feature stores solve, I will 
 
 - type: Previous Talks
   members:
+    - speaker: Karan Goel
+      date: 6/10/21
+      title: "Building Malleable ML Systems through Measurement, Monitoring & Maintenance"
+      abstract: "Machine learning systems are now easier to build than ever, but they still don’t
+ perform as well as we would hope on real applications. I’ll explore a simple idea in this talk: if ML systems were more malleable and could be maintained like software, we might build better systems. I’ll discuss an immediate bottleneck towards building more
+ malleable ML systems: the evaluation pipeline. I’ll describe the need for finer-grained performance measurement and monitoring, the opportunities paying attention to this area could open up in maintaining ML systems, and some of the tools that I’m building
+ (with great collaborators) in the Robustness Gym project to close this gap."
+      bio: "Karan Goel is a 3rd year CS PhD student at Stanford advised by Chris Ré. His
+ main goal is to accelerate the pace at which machine learning can be robustly and safely used in practice across applications, and in industry at large. He leads the Robustness Gym project, where he builds tools to measure, monitor and repair machine learning
+ systems interactively. He is a recipient of the Siebel Foundation Scholarship."
+      recording: https://www.youtube.com/watch?v=mNkqAZ54wGo
     - speaker: Richard Liaw
       date: 6/3/21
       title: "Assorted boring problems in distributed machine learning"
