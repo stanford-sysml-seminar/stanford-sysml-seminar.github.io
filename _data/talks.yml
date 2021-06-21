@@ -1,15 +1,10 @@
 - type: Upcoming Talks
   members:
-    - speaker: Yaron Singer
-      date: 6/17/21
-      title: "Securing AI systems from operational risk"
-      abstract: "As organizations adopt AI technologies they inherit operational risk. This risk often manifests itself in AI models that produce erroneous predictions that go undetected. In this talk we will discuss root causes for AI models going haywire, and present a rigorous framework for eliminating risk from AI. We will show how this methodology can be used as building blocks for continuous monitoring and firewall systems for AI."
-      bio: "Yaron Singer is the CEO and co-founder of Robust Intelligence, and the Gordon McKay Professor of Computer Science and Applied Mathematics at Harvard University.  Before Harvard he was a researcher at Google and obtained his PhD from UC Berkeley. He is the recipient of the NSF CAREER award, the Sloan fellowship, Facebook faculty award, Google faculty award, 2012 Best Student Paper Award at the ACM conference on Web Search and Data Mining, the 2010 Facebook Graduate Fellowship, the 2009 Microsoft Research PhD Fellowship."
-      livestream: https://www.youtube.com/watch?v=Qp6i-BehgGI
     - speaker: Pete Warden
       date: 6/24/21
       title: "Machine Learning Everywhere"
       abstract: "When I first joined Google in 2014, I was amazed to discover they were using 13 kilobyte neural network models to recognize \"OK Google\" on tiny embedded chips on Android phones. This felt like deep magic, and it made me wonder how many other problems these kinds of miniscule ML models could solve. Over the past few years I've been helping Google ship products using this approach with TensorFlow Lite Micro, and helped external developers create new applications. While it's still early days for \"TinyML\", we're already seeing interesting impacts on how engineers compose systems, including software-defined sensors, cascades of ML models, air-gapped ambient computing, and ubiquitous on-device voice interfaces. In this talk I'll cover the past, present, and future of embedded ML systems."
+      livestream: https://www.youtube.com/watch?v=FXbhJG470ng
     - speaker: Willem Pienaar
       date: 7/1/21
       title: "Feature stores as the bridge between models and data"
@@ -22,6 +17,12 @@ In this talk I will describe the key problems that feature stores solve, I will 
 
 - type: Previous Talks
   members:
+    - speaker: Yaron Singer
+      date: 6/17/21
+      title: "Securing AI systems from operational risk"
+      abstract: "As organizations adopt AI technologies they inherit operational risk. This risk often manifests itself in AI models that produce erroneous predictions that go undetected. In this talk we will discuss root causes for AI models going haywire, and present a rigorous framework for eliminating risk from AI. We will show how this methodology can be used as building blocks for continuous monitoring and firewall systems for AI."
+      bio: "Yaron Singer is the CEO and co-founder of Robust Intelligence, and the Gordon McKay Professor of Computer Science and Applied Mathematics at Harvard University.  Before Harvard he was a researcher at Google and obtained his PhD from UC Berkeley. He is the recipient of the NSF CAREER award, the Sloan fellowship, Facebook faculty award, Google faculty award, 2012 Best Student Paper Award at the ACM conference on Web Search and Data Mining, the 2010 Facebook Graduate Fellowship, the 2009 Microsoft Research PhD Fellowship."
+      recording: https://www.youtube.com/watch?v=Qp6i-BehgGI
     - speaker: Karan Goel
       date: 6/10/21
       title: "Building Malleable ML Systems through Measurement, Monitoring & Maintenance"
