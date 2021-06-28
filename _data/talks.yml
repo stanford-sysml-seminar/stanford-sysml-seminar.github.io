@@ -14,6 +14,8 @@ In this talk I will describe the key problems that feature stores solve, I will 
       bio: "Willem is a tech lead at Tecton where he currently leads open source development for Feast, the open source feature store. Willem previously started and led the data science platform team at Gojek, the Southeast Asian ride-hailing decacorn, where he built their machine learning platform. His main focus areas are building data and ML tooling, allowing organizations to scale machine learning and developer productivity. In a previous life, Willem also founded and sold a networking startup."
     - speaker: Sasha Rush
       date: 7/8/21
+    - speaker: Chris Kedzie
+      date: 7/15/21
 
 - type: Previous Talks
   members:
