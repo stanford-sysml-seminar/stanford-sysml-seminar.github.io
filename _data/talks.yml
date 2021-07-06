@@ -1,10 +1,24 @@
 - type: Upcoming Talks
   members:
-    - speaker: Pete Warden
-      date: 6/24/21
-      title: "Machine Learning Everywhere"
-      abstract: "When I first joined Google in 2014, I was amazed to discover they were using 13 kilobyte neural network models to recognize \"OK Google\" on tiny embedded chips on Android phones. This felt like deep magic, and it made me wonder how many other problems these kinds of miniscule ML models could solve. Over the past few years I've been helping Google ship products using this approach with TensorFlow Lite Micro, and helped external developers create new applications. While it's still early days for \"TinyML\", we're already seeing interesting impacts on how engineers compose systems, including software-defined sensors, cascades of ML models, air-gapped ambient computing, and ubiquitous on-device voice interfaces. In this talk I'll cover the past, present, and future of embedded ML systems."
-      livestream: https://www.youtube.com/watch?v=FXbhJG470ng
+    - speaker: Sasha Rush
+      date: 7/8/21
+      title: "Beyond Softmax: Scaling Probabilistic Structure in NLP"
+      abstract: "Progress on large autoregressive models for NLP applications has been transformative, but has left many practical questions about how to utilize these approaches in a controllable and efficient manner. This talk explores this challenge of using probabilistic models to impose explicit modeling structure. I show that discrete structured models can now be implemented efficiently on modern hardware with optimizing compilers. These approaches generalize the standard softmax function we all know and love, and in fact are not much harder to use in practice. To show the benefit of this approach, I will describe a factorization of the Transformer into a structured model that lets us learn a fast and accurate parallel translation decoder. The system shows how to take advantage of efficient inference based on basic distributional properties, while maintaining the modeling benefits of a deep model."
+      bio: "Alexander 'Sasha' Rush is an Associate Professor at Cornell Tech in NYC. His group's research is in the intersection of natural language processing, deep learning, and structured prediction with applications in text generation and efficient inference. He contributes to several open-source projects in NLP and works part time on HuggingFace Transformers. He was recently General Chair of ICLR and developed the MiniConf tool used to run ML/NLP virtual conferences. His work has received paper and demo awards at major NLP, visualization, and hardware conferences, an NSF Career Award, and a Sloan Fellowship."
+      livestream: https://www.youtube.com/watch?v=8nx4KfK3Y3s
+    - speaker: Chris Kedzie
+      date: 7/15/21
+    - speaker: Jacopo Tagliabue
+      date: 7/22/21
+    - speaker: Suman Jana
+      date: 7/29/21
+    - speaker: Chaoyang He
+      date: 8/5/21
+    - speaker: Pooyan Jamshidi
+      date: 8/12/21
+
+- type: Previous Talks
+  members:
     - speaker: Willem Pienaar
       date: 7/1/21
       title: "Feature stores as the bridge between models and data"
@@ -12,15 +26,12 @@
 
 In this talk I will describe the key problems that feature stores solve, I will describe some key use cases and deployment patterns for feature stores that we see in the wild, and finally I will comment on how feature stores are evolving with the rise of modern data platforms."
       bio: "Willem is a tech lead at Tecton where he currently leads open source development for Feast, the open source feature store. Willem previously started and led the data science platform team at Gojek, the Southeast Asian ride-hailing decacorn, where he built their machine learning platform. His main focus areas are building data and ML tooling, allowing organizations to scale machine learning and developer productivity. In a previous life, Willem also founded and sold a networking startup."
-    - speaker: Sasha Rush
-      date: 7/8/21
-    - speaker: Chris Kedzie
-      date: 7/15/21
-    - speaker: Jacopo Tagliabue
-      date: 7/22/21
-
-- type: Previous Talks
-  members:
+      recording: https://www.youtube.com/watch?v=6OCUMbEtSLU
+    - speaker: Pete Warden
+      date: 6/24/21
+      title: "Machine Learning Everywhere"
+      abstract: "When I first joined Google in 2014, I was amazed to discover they were using 13 kilobyte neural network models to recognize \"OK Google\" on tiny embedded chips on Android phones. This felt like deep magic, and it made me wonder how many other problems these kinds of miniscule ML models could solve. Over the past few years I've been helping Google ship products using this approach with TensorFlow Lite Micro, and helped external developers create new applications. While it's still early days for \"TinyML\", we're already seeing interesting impacts on how engineers compose systems, including software-defined sensors, cascades of ML models, air-gapped ambient computing, and ubiquitous on-device voice interfaces. In this talk I'll cover the past, present, and future of embedded ML systems."
+      recording: https://www.youtube.com/watch?v=FXbhJG470ng
     - speaker: Yaron Singer
       date: 6/17/21
       title: "Securing AI systems from operational risk"
