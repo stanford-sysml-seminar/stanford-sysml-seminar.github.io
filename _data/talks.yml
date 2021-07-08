@@ -8,6 +8,9 @@
       livestream: https://www.youtube.com/watch?v=8nx4KfK3Y3s
     - speaker: Chris Kedzie
       date: 7/15/21
+      title: "Building a Machine Learning Framework for Chatbots"
+      abstract: "At Rasa, our goal is to make it easy for anyone to build a conversational assistant -- or chatbot. To that end, we develop Rasa Open Source, an open source machine learning framework for building chatbots, along with Rasa X, a closed source but free tool for monitoring and iteratively improving chatbots once they are in production. In addition to these technical offerings, we also strive to promote good data science through our philosophy of conversation-driven development."
+      bio: "Chris Kedzie is a machine learning researcher at Rasa. He has published research at the intersection of natural language processing, natural language generation, and machine learning. His most recent work has focused on making neural network models of language generation faithful with respect to content plans or semantic representations. He holds a PhD in computer science from Columbia University and has received a best paper award from the International Conference on Natural Language Generation (INLG 2019)."
     - speaker: Jacopo Tagliabue
       date: 7/22/21
     - speaker: Suman Jana
