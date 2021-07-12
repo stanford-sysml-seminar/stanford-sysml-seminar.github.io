@@ -1,11 +1,5 @@
 - type: Upcoming Talks
   members:
-    - speaker: Sasha Rush
-      date: 7/8/21
-      title: "Beyond Softmax: Scaling Probabilistic Structure in NLP"
-      abstract: "Progress on large autoregressive models for NLP applications has been transformative, but has left many practical questions about how to utilize these approaches in a controllable and efficient manner. This talk explores this challenge of using probabilistic models to impose explicit modeling structure. I show that discrete structured models can now be implemented efficiently on modern hardware with optimizing compilers. These approaches generalize the standard softmax function we all know and love, and in fact are not much harder to use in practice. To show the benefit of this approach, I will describe a factorization of the Transformer into a structured model that lets us learn a fast and accurate parallel translation decoder. The system shows how to take advantage of efficient inference based on basic distributional properties, while maintaining the modeling benefits of a deep model."
-      bio: "Alexander 'Sasha' Rush is an Associate Professor at Cornell Tech in NYC. His group's research is in the intersection of natural language processing, deep learning, and structured prediction with applications in text generation and efficient inference. He contributes to several open-source projects in NLP and works part time on HuggingFace Transformers. He was recently General Chair of ICLR and developed the MiniConf tool used to run ML/NLP virtual conferences. His work has received paper and demo awards at major NLP, visualization, and hardware conferences, an NSF Career Award, and a Sloan Fellowship."
-      livestream: https://www.youtube.com/watch?v=8nx4KfK3Y3s
     - speaker: Chris Kedzie
       date: 7/15/21
       title: "Building a Machine Learning Framework for Chatbots"
@@ -18,6 +12,36 @@
       bio: "Educated in several acronyms across the globe (UNISR, SFI, MIT), Jacopo Tagliabue was co-founder and CTO of Tooso, an A.I. company in San Francisco acquired by Coveo in 2019. Jacopo is currently the Lead A.I. Scientist at Coveo, shipping models to hundreds of customers and millions of users. When not busy building products, he is exploring topics at the intersection of language, reasoning and learning: his research and industry work is often featured in the general press and premier A.I. venues. In previous lives, he managed to get a Ph.D., do sciency things for a pro basketball team, and simulate a pre-Columbian civilization."
     - speaker: Suman Jana
       date: 7/29/21
+      title: "Scalable, Accurate, Robust Binary Analysis with Transfer Learning"
+      abstract: "Binary program analysis is a fundamental building block for a broad
+spectrum of security tasks. Essentially, binary analysis encapsulates
+a diverse set of tasks that aim to understand and analyze
+behaviors/semantics of binary programs. Existing approaches often
+tackle each analysis task independently and heavily employ ad-hoc
+task-specific brittle heuristics. While recent ML-based approaches
+have shown some early promise, they too tend to learn spurious
+features and overfit to specific tasks without understanding the
+underlying program semantics.
+
+In this talk, I will describe two of our recent projects that use
+transfer learning to learn binary program semantics and transfer the
+learned knowledge for different binary analysis tasks. Our key
+observation is that by designing a pretraining task that can learn
+binary code semantics, we can drastically boost the performance of
+binary analysis tasks. Our pretraining task is fully self-supervised
+-- it does not need expensive labeling effort and therefore can easily
+generalize across different architectures, operating systems,
+compilers, optimizations, and obfuscations. Extensive experiments show
+that our approach drastically improves the performance of popular
+tasks like binary disassembly and matching semantically similar binary
+functions."
+      bio: "Suman Jana is an associate professor in the department of computer
+science and the data science institute at Columbia University.  His
+primary research interest is at the intersections of computer security
+and machine learning. His research has received six best paper awards,
+a CACM research highlight, a Google faculty fellowship, a JPMorgan
+Chase Faculty Research Award, an NSF CAREER award, and an ARO young
+investigator award."
     - speaker: Chaoyang He
       date: 8/5/21
     - speaker: Pooyan Jamshidi
@@ -25,6 +49,12 @@
 
 - type: Previous Talks
   members:
+    - speaker: Sasha Rush
+      date: 7/8/21
+      title: "Beyond Softmax: Scaling Probabilistic Structure in NLP"
+      abstract: "Progress on large autoregressive models for NLP applications has been transformative, but has left many practical questions about how to utilize these approaches in a controllable and efficient manner. This talk explores this challenge of using probabilistic models to impose explicit modeling structure. I show that discrete structured models can now be implemented efficiently on modern hardware with optimizing compilers. These approaches generalize the standard softmax function we all know and love, and in fact are not much harder to use in practice. To show the benefit of this approach, I will describe a factorization of the Transformer into a structured model that lets us learn a fast and accurate parallel translation decoder. The system shows how to take advantage of efficient inference based on basic distributional properties, while maintaining the modeling benefits of a deep model."
+      bio: "Alexander 'Sasha' Rush is an Associate Professor at Cornell Tech in NYC. His group's research is in the intersection of natural language processing, deep learning, and structured prediction with applications in text generation and efficient inference. He contributes to several open-source projects in NLP and works part time on HuggingFace Transformers. He was recently General Chair of ICLR and developed the MiniConf tool used to run ML/NLP virtual conferences. His work has received paper and demo awards at major NLP, visualization, and hardware conferences, an NSF Career Award, and a Sloan Fellowship."
+      recording: https://www.youtube.com/watch?v=8nx4KfK3Y3s
     - speaker: Willem Pienaar
       date: 7/1/21
       title: "Feature stores as the bridge between models and data"
