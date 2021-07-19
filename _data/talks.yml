@@ -1,15 +1,11 @@
 - type: Upcoming Talks
   members:
-    - speaker: Chris Kedzie
-      date: 7/15/21
-      title: "Building a Machine Learning Framework for Chatbots"
-      abstract: "At Rasa, our goal is to make it easy for anyone to build a conversational assistant -- or chatbot. To that end, we develop Rasa Open Source, an open source machine learning framework for building chatbots, along with Rasa X, a closed source but free tool for monitoring and iteratively improving chatbots once they are in production. In addition to these technical offerings, we also strive to promote good data science through our philosophy of conversation-driven development."
-      bio: "Chris Kedzie is a machine learning researcher at Rasa. He has published research at the intersection of natural language processing, natural language generation, and machine learning. His most recent work has focused on making neural network models of language generation faithful with respect to content plans or semantic representations. He holds a PhD in computer science from Columbia University and has received a best paper award from the International Conference on Natural Language Generation (INLG 2019)."
     - speaker: Jacopo Tagliabue
       date: 7/22/21
       title: "You don't need a bigger boat: MLOps at reasonable scale"
       abstract: "It is indeed a wonderful time to build machine learning systems, as we don’t have much to do anymore! Thanks to a growing ecosystem of tools and shared best practices, even small teams can be incredibly productive at “reasonable scale”. In this talk, we present our philosophy for modern, no-nonsense data pipelines, highlighting the advantages of a PaaS approach, and showing (with open source code) how the entire toolchain works on real-world data with realistic constraints. We conclude discussing our proposal for self-documenting ML DAGs - 'DAG cards' for Metaflow - and sharing unsolicited advice on the future of MLOps for “reasonable” companies."
       bio: "Educated in several acronyms across the globe (UNISR, SFI, MIT), Jacopo Tagliabue was co-founder and CTO of Tooso, an A.I. company in San Francisco acquired by Coveo in 2019. Jacopo is currently the Lead A.I. Scientist at Coveo, shipping models to hundreds of customers and millions of users. When not busy building products, he is exploring topics at the intersection of language, reasoning and learning: his research and industry work is often featured in the general press and premier A.I. venues. In previous lives, he managed to get a Ph.D., do sciency things for a pro basketball team, and simulate a pre-Columbian civilization."
+      livestream: https://www.youtube.com/watch?v=Ndxpo4PeEms
     - speaker: Suman Jana
       date: 7/29/21
       title: "Scalable, Accurate, Robust Binary Analysis with Transfer Learning"
@@ -49,6 +45,12 @@ investigator award."
 
 - type: Previous Talks
   members:
+    - speaker: Chris Kedzie
+      date: 7/15/21
+      title: "Building a Machine Learning Framework for Chatbots"
+      abstract: "At Rasa, our goal is to make it easy for anyone to build a conversational assistant -- or chatbot. To that end, we develop Rasa Open Source, an open source machine learning framework for building chatbots, along with Rasa X, a closed source but free tool for monitoring and iteratively improving chatbots once they are in production. In addition to these technical offerings, we also strive to promote good data science through our philosophy of conversation-driven development."
+      bio: "Chris Kedzie is a machine learning researcher at Rasa. He has published research at the intersection of natural language processing, natural language generation, and machine learning. His most recent work has focused on making neural network models of language generation faithful with respect to content plans or semantic representations. He holds a PhD in computer science from Columbia University and has received a best paper award from the International Conference on Natural Language Generation (INLG 2019)."
+      recording: https://www.youtube.com/watch?v=rrzqa1C1aeU
     - speaker: Sasha Rush
       date: 7/8/21
       title: "Beyond Softmax: Scaling Probabilistic Structure in NLP"
