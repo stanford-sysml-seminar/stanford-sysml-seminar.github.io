@@ -1,11 +1,5 @@
 - type: Upcoming Talks
   members:
-    - speaker: Jacopo Tagliabue
-      date: 7/22/21
-      title: "You don't need a bigger boat: MLOps at reasonable scale"
-      abstract: "It is indeed a wonderful time to build machine learning systems, as we don’t have much to do anymore! Thanks to a growing ecosystem of tools and shared best practices, even small teams can be incredibly productive at “reasonable scale”. In this talk, we present our philosophy for modern, no-nonsense data pipelines, highlighting the advantages of a PaaS approach, and showing (with open source code) how the entire toolchain works on real-world data with realistic constraints. We conclude discussing our proposal for self-documenting ML DAGs - 'DAG cards' for Metaflow - and sharing unsolicited advice on the future of MLOps for “reasonable” companies."
-      bio: "Educated in several acronyms across the globe (UNISR, SFI, MIT), Jacopo Tagliabue was co-founder and CTO of Tooso, an A.I. company in San Francisco acquired by Coveo in 2019. Jacopo is currently the Lead A.I. Scientist at Coveo, shipping models to hundreds of customers and millions of users. When not busy building products, he is exploring topics at the intersection of language, reasoning and learning: his research and industry work is often featured in the general press and premier A.I. venues. In previous lives, he managed to get a Ph.D., do sciency things for a pro basketball team, and simulate a pre-Columbian civilization."
-      livestream: https://www.youtube.com/watch?v=Ndxpo4PeEms
     - speaker: Suman Jana
       date: 7/29/21
       title: "Scalable, Accurate, Robust Binary Analysis with Transfer Learning"
@@ -38,6 +32,7 @@ and machine learning. His research has received six best paper awards,
 a CACM research highlight, a Google faculty fellowship, a JPMorgan
 Chase Faculty Research Award, an NSF CAREER award, and an ARO young
 investigator award."
+      livestream: https://www.youtube.com/watch?v=HbVVOb7xTdU
     - speaker: Chaoyang He
       date: 8/5/21
     - speaker: Pooyan Jamshidi
@@ -45,6 +40,12 @@ investigator award."
 
 - type: Previous Talks
   members:
+    - speaker: Jacopo Tagliabue
+      date: 7/22/21
+      title: "You don't need a bigger boat: MLOps at reasonable scale"
+      abstract: "It is indeed a wonderful time to build machine learning systems, as we don’t have much to do anymore! Thanks to a growing ecosystem of tools and shared best practices, even small teams can be incredibly productive at “reasonable scale”. In this talk, we present our philosophy for modern, no-nonsense data pipelines, highlighting the advantages of a PaaS approach, and showing (with open source code) how the entire toolchain works on real-world data with realistic constraints. We conclude discussing our proposal for self-documenting ML DAGs - 'DAG cards' for Metaflow - and sharing unsolicited advice on the future of MLOps for “reasonable” companies."
+      bio: "Educated in several acronyms across the globe (UNISR, SFI, MIT), Jacopo Tagliabue was co-founder and CTO of Tooso, an A.I. company in San Francisco acquired by Coveo in 2019. Jacopo is currently the Lead A.I. Scientist at Coveo, shipping models to hundreds of customers and millions of users. When not busy building products, he is exploring topics at the intersection of language, reasoning and learning: his research and industry work is often featured in the general press and premier A.I. venues. In previous lives, he managed to get a Ph.D., do sciency things for a pro basketball team, and simulate a pre-Columbian civilization."
+      recording: https://www.youtube.com/watch?v=Ndxpo4PeEms
     - speaker: Chris Kedzie
       date: 7/15/21
       title: "Building a Machine Learning Framework for Chatbots"
