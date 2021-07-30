@@ -1,5 +1,17 @@
 - type: Upcoming Talks
   members:
+    - speaker: Chaoyang He
+      date: 8/5/21
+      title: "Distributed ML System for Large-scale Models: Dynamic Distributed Training and Scalable Federated Learning"
+      abstract: "In modern AI, large-scale deep learning models have emerged as the core technology behind many important Internet businesses, such as Search/ADs/Recommendation System/CV/NLP. BERT, Vision Transformer, GPT-3, and Switch Transformer models scale up the model size to a billion or even trillion number of parameters, showing non-trivial accuracy improvement for nearly all learning tasks. Distributed training using cloud clusters is key to the successful training of such large-scale models in a timely manner. Developing more advanced distributed training systems and algorithms can either reduce the energy cost or enable us to train even larger models. Furthermore, it is also essential to develop disruptive learning paradigms like federated learning, which can not only protect the privacy of users but also distribute the burden of handling unprecedented big data and models.
+
+This talk will mainly focus on distributed ML systems for large-scale models: dynamic distributed training for the cloud cluster (https://DistML.ai) and scale federated learning for the edge devices (https://FedML.ai). In the first part, I will introduce PipeTransformer, an automated elastic pipelining for distributed training of Transformer models (BERT and ViT). In PipeTransformer, we design an adaptive on the fly freeze algorithm that can identify and freeze some layers gradually during training, and an elastic pipelining system that can dynamically reduce GPU resources to train the remaining active layers, and also forks more pipelines on released GPU resources to enlarge the width of data parallelism. In the second part, I will talk about scalable federated learning towards training large-scale models on resource-constrained edge devices and FedML Ecosystem, which aims at ubiquitously distributed training at the edge for diverse AI applications such as CV NLP, GraphNN, and IoT."
+      bio: "Chaoyang He is a Ph.D. Candidate in the CS department at the University of Southern California, Los Angeles, USA. He is advised by Salman Avestimehr (USC), Professor Mahdi Soltanolkotabi (USC), Professor Murali Annavaram (USC), and Professor Tong Zhang (HKUST). He also works closely with researchers/engineers at Google, Facebook, Amazon, and Tencent. Previously, He was an R&D Team Manager and Staff Software Engineer at Tencent (2014-2018), a Team Leader and Senior Software Engineer at Baidu (2012-2014), and a Software Engineer at Huawei (2011-2012). His research focuses on distributed/federated machine learning algorithms, systems, and applications. Chaoyang He has received a number of awards in academia and industry, including Amazon ML Fellowship (2021-2022), Qualcomm Innovation Fellowship (2021-2022), Tencent Outstanding Staff Award (2015-2016), WeChat Special Award for Innovation (2016), Baidu LBS Group Star Awards (2013), and Huawei Golden Network Award (2012). During his Ph.D. study, he has published papers at ICML, NeurIPS, CVPR, ICLR, MLSys, among others. Besides pure research, he also has R&D experience for Internet products and businesses such as Tencent Cloud, Tencent WeChat Automotive / AI in Car, Tencent Games, Tencent Maps, Baidu Maps, and Huawei Smartphone. He obtained three years of experience in R&D team management at Tencent between 2016-2018. With his advisors, he also co-founds FedML.ai, built based on a paper that won Best Paper Award at NeurIPS 2020 FL workshop. More details are available at his homepage: https://ChaoyangHe.com."
+    - speaker: Pooyan Jamshidi
+      date: 8/12/21
+
+- type: Previous Talks
+  members:
     - speaker: Suman Jana
       date: 7/29/21
       title: "Scalable, Accurate, Robust Binary Analysis with Transfer Learning"
@@ -32,14 +44,7 @@ and machine learning. His research has received six best paper awards,
 a CACM research highlight, a Google faculty fellowship, a JPMorgan
 Chase Faculty Research Award, an NSF CAREER award, and an ARO young
 investigator award."
-      livestream: https://www.youtube.com/watch?v=HbVVOb7xTdU
-    - speaker: Chaoyang He
-      date: 8/5/21
-    - speaker: Pooyan Jamshidi
-      date: 8/12/21
-
-- type: Previous Talks
-  members:
+      recording: https://www.youtube.com/watch?v=HbVVOb7xTdU
     - speaker: Jacopo Tagliabue
       date: 7/22/21
       title: "You don't need a bigger boat: MLOps at reasonable scale"
