@@ -1,5 +1,14 @@
 - type: Upcoming Talks
   members:
+    - speaker: Pooyan Jamshidi
+      date: 8/12/21
+      title: "Causal AI for Systems"
+      abstract: "In this talk, I will present the recent progress in employing Causal AI (causal structure learning, causal inference, counterfactual reasoning, causal representation learning, and causal transfer learning) in addressing several significant and outstanding challenges in computer systems. Next, I will present our Causal AI approach for robust performance engineering (performance debugging, performance optimization, and performance predictions) in highly configurable composed systems. In particular, I will present our latest results for identifying and repairing performance faults in on-device ML systems and big data analytics pipelines. Finally, I will conclude by discussing future directions and opportunities of Causal AI in testing autonomous robots and dynamic reconfiguration of serverless systems and microservices."
+      bio: "Pooyan Jamshidi is an assistant professor in the computer science and engineering department at the University of South Carolina and a visiting researcher at Google AdsAI. His primary research interest is at the intersections of machine learning and systems."
+      livestream: https://www.youtube.com/watch?v=csB_cF6MA9A
+
+- type: Previous Talks
+  members:
     - speaker: Chaoyang He
       date: 8/5/21
       title: "Distributed ML System for Large-scale Models: Dynamic Distributed Training and Scalable Federated Learning"
@@ -8,14 +17,6 @@
 This talk will mainly focus on distributed ML systems for large-scale models: dynamic distributed training for the cloud cluster (https://DistML.ai) and scale federated learning for the edge devices (https://FedML.ai). In the first part, I will introduce PipeTransformer, an automated elastic pipelining for distributed training of Transformer models (BERT and ViT). In PipeTransformer, we design an adaptive on the fly freeze algorithm that can identify and freeze some layers gradually during training, and an elastic pipelining system that can dynamically reduce GPU resources to train the remaining active layers, and also forks more pipelines on released GPU resources to enlarge the width of data parallelism. In the second part, I will talk about scalable federated learning towards training large-scale models on resource-constrained edge devices and FedML Ecosystem, which aims at ubiquitously distributed training at the edge for diverse AI applications such as CV NLP, GraphNN, and IoT."
       bio: "Chaoyang He is a Ph.D. Candidate in the CS department at the University of Southern California, Los Angeles, USA. He is advised by Salman Avestimehr (USC), Professor Mahdi Soltanolkotabi (USC), Professor Murali Annavaram (USC), and Professor Tong Zhang (HKUST). He also works closely with researchers/engineers at Google, Facebook, Amazon, and Tencent. Previously, He was an R&D Team Manager and Staff Software Engineer at Tencent (2014-2018), a Team Leader and Senior Software Engineer at Baidu (2012-2014), and a Software Engineer at Huawei (2011-2012). His research focuses on distributed/federated machine learning algorithms, systems, and applications. Chaoyang He has received a number of awards in academia and industry, including Amazon ML Fellowship (2021-2022), Qualcomm Innovation Fellowship (2021-2022), Tencent Outstanding Staff Award (2015-2016), WeChat Special Award for Innovation (2016), Baidu LBS Group Star Awards (2013), and Huawei Golden Network Award (2012). During his Ph.D. study, he has published papers at ICML, NeurIPS, CVPR, ICLR, MLSys, among others. Besides pure research, he also has R&D experience for Internet products and businesses such as Tencent Cloud, Tencent WeChat Automotive / AI in Car, Tencent Games, Tencent Maps, Baidu Maps, and Huawei Smartphone. He obtained three years of experience in R&D team management at Tencent between 2016-2018. With his advisors, he also co-founds FedML.ai, built based on a paper that won Best Paper Award at NeurIPS 2020 FL workshop. More details are available at his homepage: https://ChaoyangHe.com."
       recording: https://www.youtube.com/watch?v=AY7pCYTC8pQ
-    - speaker: Pooyan Jamshidi
-      date: 8/12/21
-      title: "Causal AI for Systems"
-      abstract: "In this talk, I will present the recent progress in employing Causal AI (causal structure learning, causal inference, counterfactual reasoning, causal representation learning, and causal transfer learning) in addressing several significant and outstanding challenges in computer systems. Next, I will present our Causal AI approach for robust performance engineering (performance debugging, performance optimization, and performance predictions) in highly configurable composed systems. In particular, I will present our latest results for identifying and repairing performance faults in on-device ML systems and big data analytics pipelines. Finally, I will conclude by discussing future directions and opportunities of Causal AI in testing autonomous robots and dynamic reconfiguration of serverless systems and microservices."
-      bio: "Pooyan Jamshidi is an assistant professor in the computer science and engineering department at the University of South Carolina and a visiting researcher at Google AdsAI. His primary research interest is at the intersections of machine learning and systems."
-
-- type: Previous Talks
-  members:
     - speaker: Suman Jana
       date: 7/29/21
       title: "Scalable, Accurate, Robust Binary Analysis with Transfer Learning"
