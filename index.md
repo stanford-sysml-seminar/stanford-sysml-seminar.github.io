@@ -79,8 +79,10 @@ Check out our introductory video:
 
 # About The Seminar
 
-Seminar hosts: Dan Fu, Karan Goel, Fiodar Kazhamakia, Piero Molino.
-Executive Producers: Matei Zaharia, Chris Ré.
+**Seminar hosts:** Dan Fu, Karan Goel, Fiodar Kazhamakia, Piero Molino.
+
+**Executive Producers:** Matei Zaharia, Chris Ré.
+
 You can reach us at sysmlstanfordseminar [at] gmail.
 
 Source code for this website can be found [here](https://github.com/stanford-sysml-seminar/stanford-sysml-seminar.github.io).
