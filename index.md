@@ -79,7 +79,7 @@ Check out our introductory video:
 
 # About The Seminar
 
-**Seminar hosts:** Dan Fu, Karan Goel, Fiodar Kazhamakia, Piero Molino.
+**Seminar Hosts:** Dan Fu, Karan Goel, Fiodar Kazhamakia, Piero Molino.
 
 **Executive Producers:** Matei Zaharia, Chris Ré.
 
