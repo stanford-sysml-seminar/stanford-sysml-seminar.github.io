@@ -1,12 +1,13 @@
 ---
 layout: default
-meta-description: "Seminar series on the frontier of machine learning and systems. Livestreamed every Thursday, 1-2 pm PT."
+meta-description: "Seminar series on the frontier of machine learning and systems. Livestreamed every Thursday, 1:30-2:30 pm PT."
 ---
 
 # Stanford MLSys Seminar Series
 
 **News**:
-* Our talks this semester are Thursdays 1 PM PT!
+* Stanford students, check out [CS 528](/cs528), a new course at Stanford running this fall!
+* Our talks this semester are Thursdays 1:30 PM PT!
 * Join our [email list](https://groups.google.com/forum/#!forum/stanford-mlsys-seminars/join) to get notified of the speaker and livestream link every week! 
 
 Machine learning is driving exciting changes and progress in computing.
