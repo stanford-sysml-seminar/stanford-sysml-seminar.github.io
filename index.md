@@ -22,9 +22,9 @@ stack.
 Our goal is to help curate a curriculum of awesome work in ML systems to help
 drive research focus to interesting questions.
 
-Starting in Fall 2020, we'll be livestreaming each talk in this seminar series
-Thursdays 1-2 PT on [YouTube](https://www.youtube.com/channel/UCzz6ructab1U44QPI3HpZEQ),
-and taking questions from the live chat, and videos of the talks will be
+We started livestreaming each talk in this seminar series every week on [YouTube](https://www.youtube.com/channel/UCzz6ructab1U44QPI3HpZEQ)
+in Fall 2020, and we've been going strong ever since!
+Every week we take questions from the live chat, and keep videos of the talks
 available on YouTube afterwards as well.
 Give our channel a follow, and tune in every week for an exciting discussion!
 
@@ -79,8 +79,8 @@ Check out our introductory video:
 
 # About The Seminar
 
-This seminar is being run by Piero Molino, Dan Fu, Karan Goel, Fiodar Kazhamakia,
-Matei Zaharia, and Chris Ré.
+Seminar hosts: Dan Fu, Karan Goel, Fiodar Kazhamakia, Piero Molino.
+Executive Producers: Matei Zaharia, Chris Ré.
 You can reach us at sysmlstanfordseminar [at] gmail.
 
 Source code for this website can be found [here](https://github.com/stanford-sysml-seminar/stanford-sysml-seminar.github.io).
