@@ -1,14 +1,30 @@
 - type: Upcoming Talks
   members:
+    - speaker: Laurel Orr
+      date: 9/23/21
+    - speaker: Dennis Shasha
+      date: 9/30/21
+    - speaker: Mi Zhang
+      date: 10/07/21
+    - speaker: Baishakhi Ray
+      date: 10/14/21
+    - speaker: Zhihao Jia
+      date: 10/21/21
+    - speaker: Gideon Mendels
+      date: 10/28/21
+    - speaker: Baharan Mirzasoleiman
+      date: 11/04/21
+    - speaker: Mosharaf Chowdhury
+      date: 12/02/21
+
+- type: Previous Talks
+  members:
     - speaker: Pooyan Jamshidi
       date: 8/12/21
       title: "Causal AI for Systems"
       abstract: "In this talk, I will present the recent progress in employing Causal AI (causal structure learning, causal inference, counterfactual reasoning, causal representation learning, and causal transfer learning) in addressing several significant and outstanding challenges in computer systems. Next, I will present our Causal AI approach for robust performance engineering (performance debugging, performance optimization, and performance predictions) in highly configurable composed systems. In particular, I will present our latest results for identifying and repairing performance faults in on-device ML systems and big data analytics pipelines. Finally, I will conclude by discussing future directions and opportunities of Causal AI in testing autonomous robots and dynamic reconfiguration of serverless systems and microservices."
       bio: "Pooyan Jamshidi is an assistant professor in the computer science and engineering department at the University of South Carolina and a visiting researcher at Google AdsAI. His primary research interest is at the intersections of machine learning and systems."
-      livestream: https://www.youtube.com/watch?v=csB_cF6MA9A
-
-- type: Previous Talks
-  members:
+      recording: https://www.youtube.com/watch?v=csB_cF6MA9A
     - speaker: Chaoyang He
       date: 8/5/21
       title: "Distributed ML System for Large-scale Models: Dynamic Distributed Training and Scalable Federated Learning"
