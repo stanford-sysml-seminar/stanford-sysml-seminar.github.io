@@ -2,6 +2,11 @@
   members:
     - speaker: Laurel Orr
       date: 9/23/21
+      title: "Towards Transparent Foundations -- Building Accessible Infrastructure for Training Large-Scale Language Models"
+      abstract: "“Foundation models” — large-scale self-supervised models that can be adapted to a wide range of downstream tasks - are changing how machine learning systems are constructed and deployed. Due to their extreme resource demands, training and developing a science behind these models has remained difficult. In this talk, I'll introduce and describe the journey behind Mistral, an infrastructure for accessible, easy-to-use foundation model training. I'll describe some of the hurdles we encountered with stable, reproducible training and how we see Mistral as a crucial step to facilitate open foundation model research."
+      bio: "Laurel Orr is currently a PostDoc at Stanford working with Chris Ré in the Hazy Research Lab. In August of 2019, she graduated with a PhD from Paul G Allen School for Computer Science and Engineering at the University of Washington in Seattle. She was part of the Database Group and advised by Dan Suciu and Magdalena Balazinska.
+
+Her research interests are broadly at the intersection of machine learning and data management. She focuses on how to manage the end-to-end lifecycle of self-supervised embedding pipelines. This includes problems of how to better train, maintain, monitor, and patch the embedding models and their use downstream."
     - speaker: Dennis Shasha
       date: 9/30/21
     - speaker: Mi Zhang
@@ -14,6 +19,11 @@
       date: 10/28/21
     - speaker: Baharan Mirzasoleiman
       date: 11/04/21
+      title: "Data-efficient and Robust Learning from Massive Datasets"
+      abstract: "Large datasets have been crucial to the success of modern machine learning models. However, training on massive data has two major limitations. First, it is contingent on exceptionally large and expensive computational resources, and incurs a substantial cost due to the significant energy consumption. Second, in many real-world applications such as medical diagnosis, self-driving cars, and fraud detection, big data contains highly imbalanced classes and noisy labels. In such cases, training on the entire data does not result in a high-quality model.  
+
+In this talk, I will argue that we can address the above limitations by developing techniques that can identify and extract the representative subsets for learning from massive datasets. Training on representative subsets not only reduces the substantial costs of learning from big data, but also improves their accuracy and robustness against noisy labels. I will discuss how we can develop theoretically rigorous techniques that provide strong guarantees for the quality of the extracted subsets, as well as the learned models’ quality and robustness against noisy labels. I will also show the effectiveness of such methods in practice for data-efficient and robust learning."
+      bio: "Baharan Mirzasoleiman is an Assistant Professor in the Computer Science Department at UCLA. Her research focuses on developing new methods that enable efficient machine learning from massive datasets. Her methods have immediate application to high-impact problems where massive data volumes prohibit efficient learning and inference, such as huge image collections, recommender systems, Web and social services, video and other large data streams. Before joining UCLA, she was a postdoctoral research fellow in Computer Science at Stanford University. She received her Ph.D. in Computer Science from ETH Zurich. She received an ETH medal for Outstanding Doctoral Thesis, and was selected as a Rising Star in EECS by MIT."
     - speaker: Mosharaf Chowdhury
       date: 12/02/21
 
