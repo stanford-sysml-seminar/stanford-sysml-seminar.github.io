@@ -7,8 +7,57 @@
       bio: "Laurel Orr is currently a PostDoc at Stanford working with Chris Ré in the Hazy Research Lab. In August of 2019, she graduated with a PhD from Paul G Allen School for Computer Science and Engineering at the University of Washington in Seattle. She was part of the Database Group and advised by Dan Suciu and Magdalena Balazinska.
 
 Her research interests are broadly at the intersection of machine learning and data management. She focuses on how to manage the end-to-end lifecycle of self-supervised embedding pipelines. This includes problems of how to better train, maintain, monitor, and patch the embedding models and their use downstream."
-    - speaker: Dennis Shasha
+    - speaker: Dennis Shasha and Mustafa Anil Kocak
       date: 9/30/21
+      title: "SafePredict and Friends"
+      abstract: "SafePredict is a meta-algorithm for machine learning applications that
+strategically refuses to accept the predictions of an underlying machine
+learning algorithm or algorithms. The goal is to achieve a
+user-specified correctness rate on the non-refused predictions without
+refusing too much. We show applications to an on-line learning setting
+in which the data-to-class mapping is not independent and identically
+distributed (not iid).
+
+In related work, we look at classification problems where we are willing
+to guess, on average, k classes in the hopes that one is correct. We
+compare such an approach in which we always choose the top k most likely
+classes.
+
+Finally, we consider the problem of selective sampling in settings where
+evaluating each sample is expensive. We build on and improve the
+Horvitz-Thompson and Augmented Inverse Probability Weighted sampling
+methods."
+      bio: "Dennis Shasha is a Julius Silver Professor of computer science at the
+Courant Institute of New York University and an Associate
+Director of NYU Wireless.
+He works on meta-algorithms for machine learning to achieve guaranteed
+correctness rates, with biologists on
+pattern discovery for
+network inference; on automated verification for concurrent algorithms;
+on a tool for policy planners facing epidemics;
+on tree and graph matching;
+on algorithms
+for time series for finance and migratory patterns;
+on database tuning;
+and on
+computational reproducibility.
+Because he likes to type, he has written
+six books of puzzles about a mathematical detective named
+Dr. Ecco, a biography about
+great computer scientists,
+and a book about the future of computing.
+He has also written eight technical books about database tuning,
+biological
+pattern recognition, time series, DNA computing, resampling statistics,
+causal inference in molecular networks, and the automated verification
+of concurrent search structures.
+He has co-authored
+more than 85 journal papers,
+80 conference papers, and 25 patents.
+Because he loves puzzles, he has written the puzzle column for various
+publications including Scientific American, Dr. Dobb's Journal,
+and currently the Communications of the ACM.
+He is a fellow of the ACM and an INRIA International Chair."
     - speaker: Mi Zhang
       date: 10/07/21
     - speaker: Baishakhi Ray
