@@ -7,6 +7,7 @@
       bio: "Laurel Orr is currently a PostDoc at Stanford working with Chris Ré in the Hazy Research Lab. In August of 2019, she graduated with a PhD from Paul G Allen School for Computer Science and Engineering at the University of Washington in Seattle. She was part of the Database Group and advised by Dan Suciu and Magdalena Balazinska.
 
 Her research interests are broadly at the intersection of machine learning and data management. She focuses on how to manage the end-to-end lifecycle of self-supervised embedding pipelines. This includes problems of how to better train, maintain, monitor, and patch the embedding models and their use downstream."
+      livestream: https://www.youtube.com/watch?v=g-OjU4uzWqE
     - speaker: Dennis Shasha and Mustafa Anil Kocak
       date: 9/30/21
       title: "SafePredict and Friends"
