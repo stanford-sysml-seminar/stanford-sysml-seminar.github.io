@@ -1,13 +1,5 @@
 - type: Upcoming Talks
   members:
-    - speaker: Laurel Orr
-      date: 9/23/21
-      title: "Towards Transparent Foundations -- Building Accessible Infrastructure for Training Large-Scale Language Models"
-      abstract: "“Foundation models” — large-scale self-supervised models that can be adapted to a wide range of downstream tasks - are changing how machine learning systems are constructed and deployed. Due to their extreme resource demands, training and developing a science behind these models has remained difficult. In this talk, I'll introduce and describe the journey behind Mistral, an infrastructure for accessible, easy-to-use foundation model training. I'll describe some of the hurdles we encountered with stable, reproducible training and how we see Mistral as a crucial step to facilitate open foundation model research."
-      bio: "Laurel Orr is currently a PostDoc at Stanford working with Chris Ré in the Hazy Research Lab. In August of 2019, she graduated with a PhD from Paul G Allen School for Computer Science and Engineering at the University of Washington in Seattle. She was part of the Database Group and advised by Dan Suciu and Magdalena Balazinska.
-
-Her research interests are broadly at the intersection of machine learning and data management. She focuses on how to manage the end-to-end lifecycle of self-supervised embedding pipelines. This includes problems of how to better train, maintain, monitor, and patch the embedding models and their use downstream."
-      livestream: https://www.youtube.com/watch?v=g-OjU4uzWqE
     - speaker: Dennis Shasha and Mustafa Anil Kocak
       date: 9/30/21
       title: "SafePredict and Friends"
@@ -59,6 +51,7 @@ Because he loves puzzles, he has written the puzzle column for various
 publications including Scientific American, Dr. Dobb's Journal,
 and currently the Communications of the ACM.
 He is a fellow of the ACM and an INRIA International Chair."
+      livestream: https://www.youtube.com/watch?v=W2q-8MiW8no
     - speaker: Mi Zhang
       date: 10/07/21
     - speaker: Baishakhi Ray
@@ -79,6 +72,14 @@ In this talk, I will argue that we can address the above limitations by developi
 
 - type: Previous Talks
   members:
+    - speaker: Laurel Orr
+      date: 9/23/21
+      title: "Towards Transparent Foundations -- Building Accessible Infrastructure for Training Large-Scale Language Models"
+      abstract: "“Foundation models” — large-scale self-supervised models that can be adapted to a wide range of downstream tasks - are changing how machine learning systems are constructed and deployed. Due to their extreme resource demands, training and developing a science behind these models has remained difficult. In this talk, I'll introduce and describe the journey behind Mistral, an infrastructure for accessible, easy-to-use foundation model training. I'll describe some of the hurdles we encountered with stable, reproducible training and how we see Mistral as a crucial step to facilitate open foundation model research."
+      bio: "Laurel Orr is currently a PostDoc at Stanford working with Chris Ré in the Hazy Research Lab. In August of 2019, she graduated with a PhD from Paul G Allen School for Computer Science and Engineering at the University of Washington in Seattle. She was part of the Database Group and advised by Dan Suciu and Magdalena Balazinska.
+
+Her research interests are broadly at the intersection of machine learning and data management. She focuses on how to manage the end-to-end lifecycle of self-supervised embedding pipelines. This includes problems of how to better train, maintain, monitor, and patch the embedding models and their use downstream."
+      recording: https://www.youtube.com/watch?v=g-OjU4uzWqE
     - speaker: Pooyan Jamshidi
       date: 8/12/21
       title: "Causal AI for Systems"
