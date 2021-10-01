@@ -1,5 +1,53 @@
 - type: Upcoming Talks
   members:
+    - speaker: Mi Zhang
+      date: 10/07/21
+      title: "Empowering the Next Billion Devices with Deep Learning"
+      abstract: "The proliferation of edge devices and the gigantic amount of data they
+generate make it no longer feasible to transmit all the data to the cloud for processing.
+Such constraints fuel the need to move the intelligence from the cloud to the edge
+where data reside. In this talk, we will present our works on how we bring the power of
+deep learning to edge devices to realize the vision of Artificial Intelligence of Things.
+
+First, we will present our work on designing adaptive frameworks that empower AI-embedded edge devices to adapt to the inherently dynamic runtime resources to enable
+elastic on-device AI. Second, we shift from the single edge device setting to the
+distributed setting for the task of distributed on-device inference. We will focus on one
+killer application of edge computing, and present a distributed workload-adaptive
+framework for low-latency high-throughput large-scale live video analytics. Third, we
+will present our work on designing a distributed on-device training framework that
+significantly enhances the on-device training efficiency without compromising the
+training quality. The results and insights obtained in those works are also useful in
+designing many other modern machine learning systems."
+      bio: "Mi Zhang is an Associate Professor and the Director of the Machine Learning
+Systems Lab at Michigan State University. He received his Ph.D. from University of
+Southern California and B.S. from Peking University. Before joining MSU, he was a
+postdoctoral scholar at Cornell University. His research lies at the intersection of
+systems and machine learning, spanning areas including On-Device AI, Automated
+Machine Learning (AutoML), Federated Learning, Systems for Machine Learning, and
+Machine Learning for Systems. He is the 4th Place Winner of the 2019 Google MicroNet
+Challenge, the Third Place Winner of the 2017 NSF Hearables Challenge, and the
+champion of the 2016 NIH Pill Image Recognition Challenge. He is the recipient of six
+best paper awards and nominations. He is also the recipient of the Facebook Faculty
+Research Award, Amazon Machine Learning Research Award, and MSU Innovation of
+the Year Award."
+    - speaker: Baishakhi Ray
+      date: 10/14/21
+    - speaker: Zhihao Jia
+      date: 10/21/21
+    - speaker: Gideon Mendels
+      date: 10/28/21
+    - speaker: Baharan Mirzasoleiman
+      date: 11/04/21
+      title: "Data-efficient and Robust Learning from Massive Datasets"
+      abstract: "Large datasets have been crucial to the success of modern machine learning models. However, training on massive data has two major limitations. First, it is contingent on exceptionally large and expensive computational resources, and incurs a substantial cost due to the significant energy consumption. Second, in many real-world applications such as medical diagnosis, self-driving cars, and fraud detection, big data contains highly imbalanced classes and noisy labels. In such cases, training on the entire data does not result in a high-quality model.  
+
+In this talk, I will argue that we can address the above limitations by developing techniques that can identify and extract the representative subsets for learning from massive datasets. Training on representative subsets not only reduces the substantial costs of learning from big data, but also improves their accuracy and robustness against noisy labels. I will discuss how we can develop theoretically rigorous techniques that provide strong guarantees for the quality of the extracted subsets, as well as the learned models’ quality and robustness against noisy labels. I will also show the effectiveness of such methods in practice for data-efficient and robust learning."
+      bio: "Baharan Mirzasoleiman is an Assistant Professor in the Computer Science Department at UCLA. Her research focuses on developing new methods that enable efficient machine learning from massive datasets. Her methods have immediate application to high-impact problems where massive data volumes prohibit efficient learning and inference, such as huge image collections, recommender systems, Web and social services, video and other large data streams. Before joining UCLA, she was a postdoctoral research fellow in Computer Science at Stanford University. She received her Ph.D. in Computer Science from ETH Zurich. She received an ETH medal for Outstanding Doctoral Thesis, and was selected as a Rising Star in EECS by MIT."
+    - speaker: Mosharaf Chowdhury
+      date: 12/02/21
+
+- type: Previous Talks
+  members
     - speaker: Dennis Shasha and Mustafa Anil Kocak
       date: 9/30/21
       title: "SafePredict and Friends"
@@ -51,27 +99,7 @@ Because he loves puzzles, he has written the puzzle column for various
 publications including Scientific American, Dr. Dobb's Journal,
 and currently the Communications of the ACM.
 He is a fellow of the ACM and an INRIA International Chair."
-      livestream: https://www.youtube.com/watch?v=W2q-8MiW8no
-    - speaker: Mi Zhang
-      date: 10/07/21
-    - speaker: Baishakhi Ray
-      date: 10/14/21
-    - speaker: Zhihao Jia
-      date: 10/21/21
-    - speaker: Gideon Mendels
-      date: 10/28/21
-    - speaker: Baharan Mirzasoleiman
-      date: 11/04/21
-      title: "Data-efficient and Robust Learning from Massive Datasets"
-      abstract: "Large datasets have been crucial to the success of modern machine learning models. However, training on massive data has two major limitations. First, it is contingent on exceptionally large and expensive computational resources, and incurs a substantial cost due to the significant energy consumption. Second, in many real-world applications such as medical diagnosis, self-driving cars, and fraud detection, big data contains highly imbalanced classes and noisy labels. In such cases, training on the entire data does not result in a high-quality model.  
-
-In this talk, I will argue that we can address the above limitations by developing techniques that can identify and extract the representative subsets for learning from massive datasets. Training on representative subsets not only reduces the substantial costs of learning from big data, but also improves their accuracy and robustness against noisy labels. I will discuss how we can develop theoretically rigorous techniques that provide strong guarantees for the quality of the extracted subsets, as well as the learned models’ quality and robustness against noisy labels. I will also show the effectiveness of such methods in practice for data-efficient and robust learning."
-      bio: "Baharan Mirzasoleiman is an Assistant Professor in the Computer Science Department at UCLA. Her research focuses on developing new methods that enable efficient machine learning from massive datasets. Her methods have immediate application to high-impact problems where massive data volumes prohibit efficient learning and inference, such as huge image collections, recommender systems, Web and social services, video and other large data streams. Before joining UCLA, she was a postdoctoral research fellow in Computer Science at Stanford University. She received her Ph.D. in Computer Science from ETH Zurich. She received an ETH medal for Outstanding Doctoral Thesis, and was selected as a Rising Star in EECS by MIT."
-    - speaker: Mosharaf Chowdhury
-      date: 12/02/21
-
-- type: Previous Talks
-  members:
+      recording: https://www.youtube.com/watch?v=W2q-8MiW8no
     - speaker: Laurel Orr
       date: 9/23/21
       title: "Towards Transparent Foundations -- Building Accessible Infrastructure for Training Large-Scale Language Models"
