@@ -47,7 +47,7 @@ In this talk, I will argue that we can address the above limitations by developi
       date: 12/02/21
 
 - type: Previous Talks
-  members
+  members:
     - speaker: Dennis Shasha and Mustafa Anil Kocak
       date: 9/30/21
       title: "SafePredict and Friends"
