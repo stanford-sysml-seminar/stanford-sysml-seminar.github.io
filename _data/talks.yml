@@ -5,6 +5,7 @@
       title: "Automatically Discovering Machine Learning Optimizations"
       abstract: "As an increasingly important workload, machine learning (ML) applications require different performance optimization techniques from traditional runtimes and compilers. In particular, to accelerate ML applications, it is generally necessary to perform ML computations on distributed heterogeneous hardware platforms and parallelize computations using multiple data dimensions, neither of which is even expressible in traditional compilers and runtimes. In this talk, I will present our recent work on automated discovery of performance optimizations for ML by leveraging the mathematical and statistical properties of ML computations. Compared to existing ML systems, our approaches enable faster ML training/inference and stronger correctness guarantees while requiring significantly less human effort."
       bio: "Zhihao Jia is an assistant professor of computer science at Carnegie Mellon University. He obtained his Ph.D. from the computer science department at Stanford working with Alex Aiken and Matei Zaharia. His research interests lie in the intersection of computer systems and machine learning, with a focus on building efficient, scalable, and automated systems for ML computations."
+      livestream: https://www.youtube.com/watch?v=XyXzzjbuXCs
     - speaker: Gideon Mendels
       date: 10/28/21
       title: "MLOps System Design for Development and Production"
