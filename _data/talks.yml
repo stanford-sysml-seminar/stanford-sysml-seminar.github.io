@@ -1,10 +1,5 @@
 - type: Upcoming Talks
   members:
-    - speaker: Gideon Mendels
-      date: 10/28/21
-      title: "MLOps System Design for Development and Production"
-      abstract: "While ML model development is a challenging process, the management of these models becomes even more complex once they're in production. Shifting data distributions, upstream pipeline failures, and model predictions impacting the very dataset they’re trained on can create thorny feedback loops between development and production. In this talk, we’ll examine some naive ML workflows that don’t take the development-production feedback loop into account and explore why they break down. Next, we'll showcase some system design principles that will help manage these feedback loops more effectively. Finally, we’ll examine several industry case studies where teams have applied these principles to their production ML systems."
-      livestream: https://www.youtube.com/watch?v=7XCsi64HLQ8
     - speaker: Baharan Mirzasoleiman
       date: 11/04/21
       title: "Data-efficient and Robust Learning from Massive Datasets"
@@ -12,6 +7,7 @@
 
 In this talk, I will argue that we can address the above limitations by developing techniques that can identify and extract the representative subsets for learning from massive datasets. Training on representative subsets not only reduces the substantial costs of learning from big data, but also improves their accuracy and robustness against noisy labels. I will discuss how we can develop theoretically rigorous techniques that provide strong guarantees for the quality of the extracted subsets, as well as the learned models’ quality and robustness against noisy labels. I will also show the effectiveness of such methods in practice for data-efficient and robust learning."
       bio: "Baharan Mirzasoleiman is an Assistant Professor in the Computer Science Department at UCLA. Her research focuses on developing new methods that enable efficient machine learning from massive datasets. Her methods have immediate application to high-impact problems where massive data volumes prohibit efficient learning and inference, such as huge image collections, recommender systems, Web and social services, video and other large data streams. Before joining UCLA, she was a postdoctoral research fellow in Computer Science at Stanford University. She received her Ph.D. in Computer Science from ETH Zurich. She received an ETH medal for Outstanding Doctoral Thesis, and was selected as a Rising Star in EECS by MIT."
+      livstreamL https://www.youtube.com/watch?v=Bmn8SNojTlA
     - speaker: Albert Gu
       date: 11/11/21
     - speaker: Zain Asgar
@@ -21,6 +17,11 @@ In this talk, I will argue that we can address the above limitations by developi
 
 - type: Previous Talks
   members:
+    - speaker: Gideon Mendels
+      date: 10/28/21
+      title: "MLOps System Design for Development and Production"
+      abstract: "While ML model development is a challenging process, the management of these models becomes even more complex once they're in production. Shifting data distributions, upstream pipeline failures, and model predictions impacting the very dataset they’re trained on can create thorny feedback loops between development and production. In this talk, we’ll examine some naive ML workflows that don’t take the development-production feedback loop into account and explore why they break down. Next, we'll showcase some system design principles that will help manage these feedback loops more effectively. Finally, we’ll examine several industry case studies where teams have applied these principles to their production ML systems."
+      recording: https://www.youtube.com/watch?v=7XCsi64HLQ8
     - speaker: Zhihao Jia
       date: 10/21/21
       title: "Automatically Discovering Machine Learning Optimizations"
