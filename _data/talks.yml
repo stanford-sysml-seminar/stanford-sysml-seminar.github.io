@@ -7,7 +7,7 @@
 
 In this talk, I will argue that we can address the above limitations by developing techniques that can identify and extract the representative subsets for learning from massive datasets. Training on representative subsets not only reduces the substantial costs of learning from big data, but also improves their accuracy and robustness against noisy labels. I will discuss how we can develop theoretically rigorous techniques that provide strong guarantees for the quality of the extracted subsets, as well as the learned models’ quality and robustness against noisy labels. I will also show the effectiveness of such methods in practice for data-efficient and robust learning."
       bio: "Baharan Mirzasoleiman is an Assistant Professor in the Computer Science Department at UCLA. Her research focuses on developing new methods that enable efficient machine learning from massive datasets. Her methods have immediate application to high-impact problems where massive data volumes prohibit efficient learning and inference, such as huge image collections, recommender systems, Web and social services, video and other large data streams. Before joining UCLA, she was a postdoctoral research fellow in Computer Science at Stanford University. She received her Ph.D. in Computer Science from ETH Zurich. She received an ETH medal for Outstanding Doctoral Thesis, and was selected as a Rising Star in EECS by MIT."
-      livstreamL https://www.youtube.com/watch?v=Bmn8SNojTlA
+      livstream: https://www.youtube.com/watch?v=Bmn8SNojTlA
     - speaker: Albert Gu
       date: 11/11/21
     - speaker: Zain Asgar
