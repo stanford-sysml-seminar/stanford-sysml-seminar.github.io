@@ -1,15 +1,10 @@
 - type: Upcoming Talks
   members:
-    - speaker: Baharan Mirzasoleiman
-      date: 11/04/21
-      title: "Data-efficient and Robust Learning from Massive Datasets"
-      abstract: "Large datasets have been crucial to the success of modern machine learning models. However, training on massive data has two major limitations. First, it is contingent on exceptionally large and expensive computational resources, and incurs a substantial cost due to the significant energy consumption. Second, in many real-world applications such as medical diagnosis, self-driving cars, and fraud detection, big data contains highly imbalanced classes and noisy labels. In such cases, training on the entire data does not result in a high-quality model.  
-
-In this talk, I will argue that we can address the above limitations by developing techniques that can identify and extract the representative subsets for learning from massive datasets. Training on representative subsets not only reduces the substantial costs of learning from big data, but also improves their accuracy and robustness against noisy labels. I will discuss how we can develop theoretically rigorous techniques that provide strong guarantees for the quality of the extracted subsets, as well as the learned models’ quality and robustness against noisy labels. I will also show the effectiveness of such methods in practice for data-efficient and robust learning."
-      bio: "Baharan Mirzasoleiman is an Assistant Professor in the Computer Science Department at UCLA. Her research focuses on developing new methods that enable efficient machine learning from massive datasets. Her methods have immediate application to high-impact problems where massive data volumes prohibit efficient learning and inference, such as huge image collections, recommender systems, Web and social services, video and other large data streams. Before joining UCLA, she was a postdoctoral research fellow in Computer Science at Stanford University. She received her Ph.D. in Computer Science from ETH Zurich. She received an ETH medal for Outstanding Doctoral Thesis, and was selected as a Rising Star in EECS by MIT."
-      livstream: https://www.youtube.com/watch?v=Bmn8SNojTlA
     - speaker: Albert Gu
       date: 11/11/21
+      title: "Efficiently Modeling Long Sequences with Structured State Spaces"
+      abstract: "A central goal of sequence modeling is designing a single principled model that can address sequence data across a range of modalities and tasks, particularly on long-range dependencies.  Although conventional models including RNNs, CNNs, and Transformers have specialized variants for capturing long dependencies, they still struggle to scale to very long sequences of 10000 or more steps.  We introduce a simple sequence model based on the fundamental state space representation $x'(t) = Ax(t) + Bu(t), y(t) = Cx(t) + Du(t)$ and show that it combines the strengths of several model families.  Furthermore, we show that the HiPPO theory of continuous-time memorization can be incorporated into the state matrix $A$, producing a class of structured models that handles long-range dependencies mathematically and can be computed very efficiently.  The Structured State Space (S3) model achieves strong empirical results across a diverse range of established benchmarks, including (i) 91% accuracy on sequential CIFAR-10 with no data augmentation or auxiliary losses, on par with a larger 2-D ResNet, (ii) substantially closing the gap to Transformers on image and language modeling tasks, while performing generation 60X faster, (iii) SotA on every task from the Long Range Arena benchmark, including solving the challenging Path-X task of length 16k that all prior work fails on, while being as efficient as all competitors."
+      bio: "Albert Gu is a PhD student in the Stanford CS department, advised by Chris Ré. His research interests include algorithms for structured linear algebra and theoretical principles of deep sequence models."
     - speaker: Zain Asgar
       date: 11/18/21
     - speaker: Mosharaf Chowdhury
@@ -17,6 +12,14 @@ In this talk, I will argue that we can address the above limitations by developi
 
 - type: Previous Talks
   members:
+    - speaker: Baharan Mirzasoleiman
+      date: 11/04/21
+      title: "Data-efficient and Robust Learning from Massive Datasets"
+      abstract: "Large datasets have been crucial to the success of modern machine learning models. However, training on massive data has two major limitations. First, it is contingent on exceptionally large and expensive computational resources, and incurs a substantial cost due to the significant energy consumption. Second, in many real-world applications such as medical diagnosis, self-driving cars, and fraud detection, big data contains highly imbalanced classes and noisy labels. In such cases, training on the entire data does not result in a high-quality model.  
+
+In this talk, I will argue that we can address the above limitations by developing techniques that can identify and extract the representative subsets for learning from massive datasets. Training on representative subsets not only reduces the substantial costs of learning from big data, but also improves their accuracy and robustness against noisy labels. I will discuss how we can develop theoretically rigorous techniques that provide strong guarantees for the quality of the extracted subsets, as well as the learned models’ quality and robustness against noisy labels. I will also show the effectiveness of such methods in practice for data-efficient and robust learning."
+      bio: "Baharan Mirzasoleiman is an Assistant Professor in the Computer Science Department at UCLA. Her research focuses on developing new methods that enable efficient machine learning from massive datasets. Her methods have immediate application to high-impact problems where massive data volumes prohibit efficient learning and inference, such as huge image collections, recommender systems, Web and social services, video and other large data streams. Before joining UCLA, she was a postdoctoral research fellow in Computer Science at Stanford University. She received her Ph.D. in Computer Science from ETH Zurich. She received an ETH medal for Outstanding Doctoral Thesis, and was selected as a Rising Star in EECS by MIT."
+      recording: https://www.youtube.com/watch?v=Bmn8SNojTlA
     - speaker: Gideon Mendels
       date: 10/28/21
       title: "MLOps System Design for Development and Production"
