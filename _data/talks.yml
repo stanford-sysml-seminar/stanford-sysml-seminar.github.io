@@ -1,19 +1,39 @@
 - type: Upcoming Talks
   members:
-    - speaker: Zain Asgar
-      date: 11/18/21
-      title: "Data science for infrastructure using Pixie"
-      abstract: "Pixie is a Kubernetes-native observability platform which helps developers explore, monitor, secure and manage their applications. Pixie is a Cloud Native Computing Foundation Sandbox Project. Pixie utilizes eBPF to automatically collect telemetry data which is stored on edge nodes. This data is usable in Pixie via a Pandas like interface allowing construction of complex data workflows, including machine learning. This talk will provide an overview of Pixie, some of the problems that we solved, and future work we are looking into."
-      bio: "Zain Asgar is a GM/GVP – Pixie & Open Source @ New Relic. Prior to this Zain was to co-founder/CEO of Pixie Labs (acquired by New Relic). Zain is also an Adjunct Professor of Computer Science at Stanford University and was an Entrepreneur in Residence at Benchmark before co-founding Pixie. He has a PhD from Stanford and has helped build at-scale data and AI/ML at Google AI, Trifacta and Nvidia."
-      livestream: https://www.youtube.com/watch?v=Wi8gR43x-6Q
-    - speaker: Mosharaf Chowdhury
+  - speaker: Beidi Chen
+    date: 01/06/22
+    title: "Pixelated Butterfly: Simple and Efficient Sparse Training for Neural Network Models"
+    abstract: "Overparameterized neural networks generalize well but are expensive to train. Ideally, one would like to reduce their computational cost while retaining their generalization benefits. Sparse model training is a simple and promising approach to achieve this, but there remain challenges as existing methods struggle with accuracy loss, slow training runtime, or difficulty in sparsifying all model components. The core problem is that searching for a sparsity mask over a discrete set of sparse matrices is difficult and expensive. To address this, our main insight is to optimize over a continuous superset of sparse matrices with a fixed structure known as products of butterfly matrices. As butterfly matrices are not hardware efficient, we propose simple variants of butterfly (block and flat) to take advantage of modern hardware. Our method (Pixelated Butterfly) uses a simple fixed sparsity pattern based on flat block butterfly and low-rank matrices to sparsify most network layers (e.g., attention, MLP). We empirically validate that Pixelated Butterfly is 3x faster than butterfly and speeds up training to achieve favorable accuracy--efficiency tradeoffs. On the ImageNet classification and WikiText-103 language modeling tasks, our sparse models train up to 2.5x faster than the dense MLP-Mixer, Vision Transformer, and GPT-2 medium with no drop in accuracy."
+    bio: "Beidi Chen is a Postdoctoral scholar in the Department of Computer Science at Stanford University, working with Dr. Christopher Ré. Her research focuses on large-scale machine learning and deep learning. Specifically, she designs and optimizes randomized algorithms (algorithm-hardware co-design) to accelerate large machine learning systems for real-world problems. Prior to joining Stanford, she received her Ph.D. in the Department of Computer Science at Rice University, advised by Dr. Anshumali Shrivastava. She received a BS in EECS from UC Berkeley in 2015. She has held internships in Microsoft Research, NVIDIA Research, and Amazon AI. Her work has won Best Paper awards at LISA and IISA. She was selected as a Rising Star in EECS by MIT and UIUC."
+  - speaker: Deepak Narayanan
+    date: 01/13/22
+  - speaker: Fred Sala
+    date: 01/20/22
+  - speaker: Bilge Acun
+    date: 01/27/22
+  - speaker: Cody Coleman
+    date: 02/03/22
+  - speaker: Ellie Pavlich
+    date: 02/10/22
+  - speaker: Doris Lee
+    date: 02/17/22
+  - speaker: Shruti Bhosale
+    date: 03/10/22
+
+- type: Previous Talks
+  members:
+  - speaker: Mosharaf Chowdhury
       date: 12/02/21
       title: "Systems Support for Federated Computation"
       abstract: "Although theoretical federated learning research is growing exponentially, we are far from putting those theories into practice. In this talk, I will share our ventures into building practical systems for two extremities of federated learning. Sol is a cross-silo federated learning and analytics system that tackles network latency and bandwidth challenges faced by distributed computation between far-apart data sites. Oort, in contrast, is a cross-device federated learning system that enables training and testing on representative data distributions despite unpredictable device availability. Both deal with systems and network characteristics in the wild that are hard to account for in analytical models. I'll then share the challenges in systematically evaluating federated learning systems that have led to a disconnect between theoretical conclusions and performance in the wild. I'll conclude this talk by introducing FedScale, which is an extensible framework for evaluation and benchmarking in realistic settings to democratize practical federated learning for researchers and practitioners alike. All these systems are open-source and available at https://github.com/symbioticlab."
       bio: "Mosharaf Chowdhury is a Morris Wellman assistant professor of CSE at the University of Michigan, Ann Arbor, where he leads the SymbioticLab. His recent research is on application-infrastructure co-design for federated learning, resource disaggregation, and systems for AI and Big Data. In the past, Mosharaf invented coflows and was a co-creator of Apache Spark. Artifacts from his research are widely used in cloud datacenters. He has received many individual honors and awards as well as best-of-conference awards thanks to his amazing students and collaborators. He received his Ph.D. from the AMPLab at UC Berkeley in 2015."
-
-- type: Previous Talks
-  members:
+      recording: https://www.youtube.com/watch?v=TcbOMbg4F9g
+  - speaker: Zain Asgar
+      date: 11/18/21
+      title: "Data science for infrastructure using Pixie"
+      abstract: "Pixie is a Kubernetes-native observability platform which helps developers explore, monitor, secure and manage their applications. Pixie is a Cloud Native Computing Foundation Sandbox Project. Pixie utilizes eBPF to automatically collect telemetry data which is stored on edge nodes. This data is usable in Pixie via a Pandas like interface allowing construction of complex data workflows, including machine learning. This talk will provide an overview of Pixie, some of the problems that we solved, and future work we are looking into."
+      bio: "Zain Asgar is a GM/GVP – Pixie & Open Source @ New Relic. Prior to this Zain was to co-founder/CEO of Pixie Labs (acquired by New Relic). Zain is also an Adjunct Professor of Computer Science at Stanford University and was an Entrepreneur in Residence at Benchmark before co-founding Pixie. He has a PhD from Stanford and has helped build at-scale data and AI/ML at Google AI, Trifacta and Nvidia."
+      recording: https://www.youtube.com/watch?v=Wi8gR43x-6Q
     - speaker: Albert Gu
       date: 11/11/21
       title: "Efficiently Modeling Long Sequences with Structured State Spaces"
