@@ -45,9 +45,9 @@ Check out our introductory video:
   {% if talk.title %}
   <div>
     {% if talk.recording %}
-      <span><a class="talk-title-link" href="{{ talk.recording }}">{{ talk.title }}</a></span>
+      <span><a class="talk-title-link" href="{{ talk.recording }}">{{ talk.title }} <i class="bi bi-box-arrow-up-right"></i></a></span>
     {% elsif talk.livestream %}
-      <span><a class="talk-title-link" href="{{ talk.livestream }}">{{ talk.title }}</a></span>
+      <span><a class="talk-title-link" href="{{ talk.livestream }}">{{ talk.title }} <i class="bi bi-box-arrow-up-right"></i></a></span>
     {% else %}
       <span>{{ talk.title }}</span>
     {% endif %}
