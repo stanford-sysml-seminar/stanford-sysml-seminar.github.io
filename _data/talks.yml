@@ -23,13 +23,13 @@
 
 - type: Previous Talks
   members:
-  - speaker: Mosharaf Chowdhury
+    - speaker: Mosharaf Chowdhury
       date: 12/02/21
       title: "Systems Support for Federated Computation"
       abstract: "Although theoretical federated learning research is growing exponentially, we are far from putting those theories into practice. In this talk, I will share our ventures into building practical systems for two extremities of federated learning. Sol is a cross-silo federated learning and analytics system that tackles network latency and bandwidth challenges faced by distributed computation between far-apart data sites. Oort, in contrast, is a cross-device federated learning system that enables training and testing on representative data distributions despite unpredictable device availability. Both deal with systems and network characteristics in the wild that are hard to account for in analytical models. I'll then share the challenges in systematically evaluating federated learning systems that have led to a disconnect between theoretical conclusions and performance in the wild. I'll conclude this talk by introducing FedScale, which is an extensible framework for evaluation and benchmarking in realistic settings to democratize practical federated learning for researchers and practitioners alike. All these systems are open-source and available at https://github.com/symbioticlab."
       bio: "Mosharaf Chowdhury is a Morris Wellman assistant professor of CSE at the University of Michigan, Ann Arbor, where he leads the SymbioticLab. His recent research is on application-infrastructure co-design for federated learning, resource disaggregation, and systems for AI and Big Data. In the past, Mosharaf invented coflows and was a co-creator of Apache Spark. Artifacts from his research are widely used in cloud datacenters. He has received many individual honors and awards as well as best-of-conference awards thanks to his amazing students and collaborators. He received his Ph.D. from the AMPLab at UC Berkeley in 2015."
       recording: https://www.youtube.com/watch?v=TcbOMbg4F9g
-  - speaker: Zain Asgar
+    - speaker: Zain Asgar
       date: 11/18/21
       title: "Data science for infrastructure using Pixie"
       abstract: "Pixie is a Kubernetes-native observability platform which helps developers explore, monitor, secure and manage their applications. Pixie is a Cloud Native Computing Foundation Sandbox Project. Pixie utilizes eBPF to automatically collect telemetry data which is stored on edge nodes. This data is usable in Pixie via a Pandas like interface allowing construction of complex data workflows, including machine learning. This talk will provide an overview of Pixie, some of the problems that we solved, and future work we are looking into."
