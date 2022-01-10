@@ -6,6 +6,7 @@ meta-description: "Seminar series on the frontier of machine learning and system
 # Stanford MLSys Seminar Series
 
 **News**:
+* We are now available in podcast form on [Apple Podcasts](https://podcasts.apple.com/us/podcast/stanford-mlsys-seminar/id1603927994), [Spotify](https://open.spotify.com/show/3NazVHl6ujGuHCjGlN0SCf), and [Google](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy83YmRkMzMxNC9wb2RjYXN0L3Jzcw)!
 * Stanford students, check out [CS 528](/cs528), a new course at Stanford running this fall!
 * Our talks this semester are Thursdays 1:30 PM PT!
 * Join our [email list](https://groups.google.com/forum/#!forum/stanford-mlsys-seminars/join) to get notified of the speaker and livestream link every week! 
@@ -28,7 +29,7 @@ Every week we take questions from the live chat, and keep videos of the talks
 available on YouTube afterwards as well.
 Give our channel a follow, and tune in every week for an exciting discussion!
 
-Read about our [motivation for starting this seminar](https://hazyresearch.stanford.edu/mlsys-seminar).
+Read about our [motivation for starting this seminar](https://hazyresearch.stanford.edu/blog/2020-10-13-mlsys).
 
 Check out our introductory video:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OEiNnfdxBRE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
