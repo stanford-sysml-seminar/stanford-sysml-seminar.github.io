@@ -5,6 +5,7 @@
     title: "Resource-Efficient Execution of Deep Learning Computations"
     abstract: "Deep Learning models have enabled state-of-the-art results across a broad range of applications; however, training these models is extremely time- and resource-intensive, taking weeks on clusters with thousands of expensive accelerators in the extreme case. In this talk, I will describe two ideas that help improve the resource efficiency of model training. In the first half of the talk, I will discuss how pipelining can be used to accelerate distributed training. Pipeline parallelism facilitates model training with lower communication overhead than previous methods while still ensuring high compute resource utilization. Pipeline parallelism also enables the efficient training of large models that do not fit on a single worker; for example, we used pipeline parallelism at Nvidia to efficiently scale training to language models with a trillion parameters on 3000+ GPUs. In the second half of this talk, I will describe how resources in a shared cluster with heterogeneous compute resources (e.g., different types of hardware accelerators) should be partitioned among different users to optimize objectives specified over one or more training jobs. Heterogeneity-aware scheduling can improve various scheduling objectives, such as average completion time, makespan, or cloud computing resource cost, by up to 3.5x."
     bio: "Deepak is a Senior Researcher in the Systems group at Microsoft Research Redmond. His broad research interests are in distributed systems and systems for Machine Learning. He graduated from Stanford with a Ph.D. in Computer Science in September 2021, where he was advised by Prof. Matei Zaharia."
+    livestream: https://www.youtube.com/watch?v=3RKmXhzpZN8
   - speaker: Fred Sala
     date: 01/20/22
     title: "Efficiently Constructing Datasets for Diverse Datatypes"
@@ -18,6 +19,8 @@
     date: 02/10/22
   - speaker: Doris Lee
     date: 02/17/22
+  - speaker: Vijay Reddi
+    date: 03/03/22
   - speaker: Shruti Bhosale
     date: 03/10/22
 
