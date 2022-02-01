@@ -1,16 +1,11 @@
 - type: Upcoming Talks
   members:
-  - speaker: Bilge Acun
-    date: 01/27/22
-    title: "Designing Sustainable Datacenters with and for AI"
-    abstract: 'Machine learning has witnessed exponential growth over the recent years. In this talk, we will first explore the environmental implications of the super-linear growth trend of AI from a holistic perspective, spanning data, algorithms, and system hardware. System efficiency optimizations can significantly help reducing the carbon footprint of AI systems. However, predictions show that the efficiency improvements will not be enough to reduce the overall resource needs of AI as Jevon''s Paradox suggests "efficiency increases consumption". Therefore, we need to design our datacenters with sustainability in mind, using renewable energy every hour of every day. Relying on wind and solar energy 24/7 is challenging due to their intermittent nature. To cope with the fluctuations of renewable energy generation, multiple solutions can be applied such as energy storage and carbon aware scheduling for the workloads. In this talk, I will introduce a framework to analyze the multi-dimensional solution space by taking into account the operational and embodided footprint of the solutions and further how AI can be a part of the solution.'
-    bio: "Bilge Acun is a Research Scientist at Meta AI (/FAIR). Her research lies in the intersection of energy efficient and sustainable system design and machine learning. Her work at Meta included making large scale machine learning systems more efficient through algorithmic and system optimizations. She received her Ph.D. degree in 2017 at the Department of Computer Science at University of Illinois at Urbana-Champaign. Her dissertation was awarded 2018 ACM SigHPC Dissertation Award Honorable Mention. Before joining FAIR, she worked at the IBM Thomas J. Watson Research Center as a Research Staff Member."
-    livestream: https://www.youtube.com/watch?v=LPrFL2gWmTY
   - speaker: Cody Coleman
     date: 02/03/22
     title: "Data selection for Data-Centric AI: Data Quality Over Quantity"
     abstract: 'Data selection methods, such as active learning and core-set selection, improve the data efficiency of machine learning by identifying the most informative data points to label or train on. Across the data selection literature, there are many ways to identify these training examples. However, classical data selection methods are prohibitively expensive to apply in deep learning because of the larger datasets and models. This talk will describe two techniques to make data selection methods more tractable. First, "selection via proxy" (SVP) avoids expensive training and reduces the computation per example by using smaller proxy models to quantify the informativeness of each example. Second, "similarity search for efficient active learning and search" (SEALS) reduces the number of examples processed by restricting the candidate pool for labeling to the nearest neighbors of the currently labeled set instead of scanning over all of the unlabeled data. Both methods lead to order of magnitude performance improvements, making active learning applications on billions of unlabeled images practical for the first time.'
     bio: "Cody Coleman is the Founder and CEO of Coactive AI. He is also a co-creator of DAWNBench and MLPerf and a founding member of MLCommons. His work spans from performance benchmarking of machine learning systems to computationally efficient methods for active learning and core-set selection. He holds a PhD in Computer Science from Stanford University, where Professors Matei Zaharia and Peter Bailis advised him, and an MEng and BS from MIT."
+    livestream: https://www.youtube.com/watch?v=8bNwn8EHqOU
   - speaker: Ellie Pavlick
     date: 02/10/22
   - speaker: Doris Lee
@@ -22,6 +17,12 @@
 
 - type: Previous Talks
   members:
+    - speaker: Bilge Acun
+      date: 01/27/22
+      title: "Designing Sustainable Datacenters with and for AI"
+      abstract: 'Machine learning has witnessed exponential growth over the recent years. In this talk, we will first explore the environmental implications of the super-linear growth trend of AI from a holistic perspective, spanning data, algorithms, and system hardware. System efficiency optimizations can significantly help reducing the carbon footprint of AI systems. However, predictions show that the efficiency improvements will not be enough to reduce the overall resource needs of AI as Jevon''s Paradox suggests "efficiency increases consumption". Therefore, we need to design our datacenters with sustainability in mind, using renewable energy every hour of every day. Relying on wind and solar energy 24/7 is challenging due to their intermittent nature. To cope with the fluctuations of renewable energy generation, multiple solutions can be applied such as energy storage and carbon aware scheduling for the workloads. In this talk, I will introduce a framework to analyze the multi-dimensional solution space by taking into account the operational and embodided footprint of the solutions and further how AI can be a part of the solution.'
+      bio: "Bilge Acun is a Research Scientist at Meta AI (/FAIR). Her research lies in the intersection of energy efficient and sustainable system design and machine learning. Her work at Meta included making large scale machine learning systems more efficient through algorithmic and system optimizations. She received her Ph.D. degree in 2017 at the Department of Computer Science at University of Illinois at Urbana-Champaign. Her dissertation was awarded 2018 ACM SigHPC Dissertation Award Honorable Mention. Before joining FAIR, she worked at the IBM Thomas J. Watson Research Center as a Research Staff Member."
+      recording: https://www.youtube.com/watch?v=LPrFL2gWmTY
     - speaker: Fred Sala
       date: 01/20/22
       title: "Efficiently Constructing Datasets for Diverse Datatypes"
