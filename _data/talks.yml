@@ -10,6 +10,9 @@
     date: 02/10/22
   - speaker: Doris Lee
     date: 02/17/22
+    title: "Always-on Dataframe Visualizations with Lux"
+    abstract: "Visualizations help data scientists discover trends, patterns, identify outliers, and derive insights from their data. However, existing visualization libraries in Python require users to write a substantial amount of code for plotting even a single visualization, often hindering the flow of data exploration. In this talk, you will learn about Lux, a lightweight visualization tool on top of pandas dataframes. Lux recommends visualizations for free to users as they explore their data within a Jupyter notebook without the need to write additional code. Lux is used by data scientists across a variety of industries and sectors and has nearly 66k total downloads and over 3.3k stars on GitHub. For more information, see: https://github.com/lux-org/lux"
+    bio: "Doris Lee is the co-founder and CEO of Ponder. She graduated with her Ph.D. from the RISE Lab and School of Information at UC Berkeley in 2021. During this time, she developed several data science tools aimed at accelerating insight discovery, including Lux, a lightweight visualization tool on top of pandas dataframes. She is the recipient of the Facebook Ph.D. Fellowship in Systems for Machine Learning in 2020. More at: http://dorisjunglinlee.com/"
   - speaker: Vijay Reddi
     date: 03/03/22
   - speaker: Shruti Bhosale
