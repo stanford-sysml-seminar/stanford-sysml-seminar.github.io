@@ -1,25 +1,28 @@
 - type: Upcoming Talks
   members:
-  - speaker: Cody Coleman
-    date: 02/03/22
-    title: "Data selection for Data-Centric AI: Data Quality Over Quantity"
-    abstract: 'Data selection methods, such as active learning and core-set selection, improve the data efficiency of machine learning by identifying the most informative data points to label or train on. Across the data selection literature, there are many ways to identify these training examples. However, classical data selection methods are prohibitively expensive to apply in deep learning because of the larger datasets and models. This talk will describe two techniques to make data selection methods more tractable. First, "selection via proxy" (SVP) avoids expensive training and reduces the computation per example by using smaller proxy models to quantify the informativeness of each example. Second, "similarity search for efficient active learning and search" (SEALS) reduces the number of examples processed by restricting the candidate pool for labeling to the nearest neighbors of the currently labeled set instead of scanning over all of the unlabeled data. Both methods lead to order of magnitude performance improvements, making active learning applications on billions of unlabeled images practical for the first time.'
-    bio: "Cody Coleman is the Founder and CEO of Coactive AI. He is also a co-creator of DAWNBench and MLPerf and a founding member of MLCommons. His work spans from performance benchmarking of machine learning systems to computationally efficient methods for active learning and core-set selection. He holds a PhD in Computer Science from Stanford University, where Professors Matei Zaharia and Peter Bailis advised him, and an MEng and BS from MIT."
-    livestream: https://www.youtube.com/watch?v=8bNwn8EHqOU
-  - speaker: Ellie Pavlick
-    date: 02/10/22
-  - speaker: Doris Lee
-    date: 02/17/22
-    title: "Always-on Dataframe Visualizations with Lux"
-    abstract: "Visualizations help data scientists discover trends, patterns, identify outliers, and derive insights from their data. However, existing visualization libraries in Python require users to write a substantial amount of code for plotting even a single visualization, often hindering the flow of data exploration. In this talk, you will learn about Lux, a lightweight visualization tool on top of pandas dataframes. Lux recommends visualizations for free to users as they explore their data within a Jupyter notebook without the need to write additional code. Lux is used by data scientists across a variety of industries and sectors and has nearly 66k total downloads and over 3.3k stars on GitHub. For more information, see: https://github.com/lux-org/lux"
-    bio: "Doris Lee is the co-founder and CEO of Ponder. She graduated with her Ph.D. from the RISE Lab and School of Information at UC Berkeley in 2021. During this time, she developed several data science tools aimed at accelerating insight discovery, including Lux, a lightweight visualization tool on top of pandas dataframes. She is the recipient of the Facebook Ph.D. Fellowship in Systems for Machine Learning in 2020. More at: http://dorisjunglinlee.com/"
-  - speaker: Vijay Reddi
-    date: 03/03/22
-  - speaker: Shruti Bhosale
-    date: 03/10/22
+    - speaker: Ellie Pavlick
+      date: 02/10/22
+      title: "Implementing Symbols and Rules with Neural Networks"
+      abstract: 'Many aspects of human language and reasoning are well explained in terms of symbols and rules. However, state-of-the-art computational models are based on large neural networks which lack explicit symbolic representations of the type frequently used in cognitive theories. One response has been the development of neuro-symbolic models which introduce explicit representations of symbols into neural network architectures or loss functions. In terms of Marr''s levels of analysis, such approaches achieve symbolic reasoning at the computational level ("what the system does and why") by introducing symbols and rules at the implementation and algorithmic levels. In this talk, I will consider an alternative: can neural networks (without any explicit symbolic components) nonetheless implement symbolic reasoning at the computational level? I will describe several diagnostic tests of "symbolic" and "rule-governed" behavior and use these tests to analyze neural models of visual and language processing. Our results show that on many counts, neural models appear to encode symbol-like concepts (e.g., conceptual representations that are abstract, systematic, and modular), but not perfectly so. Analysis of the failure cases reveals that future work is needed on methodological tools for analyzing neural networks, as well as refinement of models of hybrid neuro-symbolic reasoning in humans, in order to determine whether neural networks'' deviations from the symbolic paradigm are a feature or a bug.'
+      bio: 'Ellie Pavlick is an Assistant Professor of Computer Science at Brown University, where she leads the Language Understanding and Representation (LUNAR) Lab, and a Research Scientist at Google. Her research focuses on building computational models of language that are inspired by and/or informative of language processing in humans. Currently, her lab is investigating the inner-workings of neural networks in order to "reverse engineer" the conceptual structures and reasoning strategies that these models use, as well as exploring the role of grounded (non-linguistic) signals for word and concept learning. Ellie's work is supported by DARPA, IARPA, NSF, and Google.'
+    - speaker: Doris Lee
+      date: 02/17/22
+      title: "Always-on Dataframe Visualizations with Lux"
+      abstract: "Visualizations help data scientists discover trends, patterns, identify outliers, and derive insights from their data. However, existing visualization libraries in Python require users to write a substantial amount of code for plotting even a single visualization, often hindering the flow of data exploration. In this talk, you will learn about Lux, a lightweight visualization tool on top of pandas dataframes. Lux recommends visualizations for free to users as they explore their data within a Jupyter notebook without the need to write additional code. Lux is used by data scientists across a variety of industries and sectors and has nearly 66k total downloads and over 3.3k stars on GitHub. For more information, see: https://github.com/lux-org/lux"
+      bio: "Doris Lee is the co-founder and CEO of Ponder. She graduated with her Ph.D. from the RISE Lab and School of Information at UC Berkeley in 2021. During this time, she developed several data science tools aimed at accelerating insight discovery, including Lux, a lightweight visualization tool on top of pandas dataframes. She is the recipient of the Facebook Ph.D. Fellowship in Systems for Machine Learning in 2020. More at: http://dorisjunglinlee.com/"
+    - speaker: Vijay Reddi
+      date: 03/03/22
+    - speaker: Shruti Bhosale
+      date: 03/10/22
 
 - type: Previous Talks
   members:
+    - speaker: Cody Coleman
+      date: 02/03/22
+      title: "Data selection for Data-Centric AI: Data Quality Over Quantity"
+      abstract: 'Data selection methods, such as active learning and core-set selection, improve the data efficiency of machine learning by identifying the most informative data points to label or train on. Across the data selection literature, there are many ways to identify these training examples. However, classical data selection methods are prohibitively expensive to apply in deep learning because of the larger datasets and models. This talk will describe two techniques to make data selection methods more tractable. First, "selection via proxy" (SVP) avoids expensive training and reduces the computation per example by using smaller proxy models to quantify the informativeness of each example. Second, "similarity search for efficient active learning and search" (SEALS) reduces the number of examples processed by restricting the candidate pool for labeling to the nearest neighbors of the currently labeled set instead of scanning over all of the unlabeled data. Both methods lead to order of magnitude performance improvements, making active learning applications on billions of unlabeled images practical for the first time.'
+      bio: "Cody Coleman is the Founder and CEO of Coactive AI. He is also a co-creator of DAWNBench and MLPerf and a founding member of MLCommons. His work spans from performance benchmarking of machine learning systems to computationally efficient methods for active learning and core-set selection. He holds a PhD in Computer Science from Stanford University, where Professors Matei Zaharia and Peter Bailis advised him, and an MEng and BS from MIT."
+      recording: https://www.youtube.com/watch?v=8bNwn8EHqOU
     - speaker: Bilge Acun
       date: 01/27/22
       title: "Designing Sustainable Datacenters with and for AI"
