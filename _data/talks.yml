@@ -1,20 +1,33 @@
 - type: Upcoming Talks
   members:
+    - speaker: Fait Poms
+      date: 02/24/22
+      title: "A vision for interactive model development: efficient machine learning by bringing domain experts in the loop"
+      abstract: "Building computer vision models today is an exercise in patience--days to weeks for human annotators to label data, hours to days to train and evaluate models, weeks to months of iteration to reach a production model. Without tolerance for this timeline or access to the massive compute and human resources required, building an accurate model can be challenging if not impossible. In this talk, we discuss a vision for interactive model development with iteration cycles of minutes, not weeks. We believe the key to this is integrating the domain expert at key points in the model building cycle and leveraging supervision cues above just example-level annotation. We will discuss our recent progress toward aspects of this goal: judiciously choosing when to use the machine and when to use the domain expert for fast, low label budget model training (CVPR 2021, ICCV 2021), building confidence in model performance with low-shot validation (ICCV 2021 Oral), and some initial tools for rapidly defining correctness criteria."
+      bio: "Fait Poms is a Ph.D. student at Stanford advised by Prof. Kayvon Fatahalian and a Senior Applied Research Scientist at Snorkel.AI. Her research concerns designing algorithms and systems that enable domain experts to rapidly define, train, and validate computer vision models for specialized tasks. She has done research internships at Snorkel AI (with Braden Hancock and Alex Ratner), Facebook Reality Labs (with Yaser Sheikh, Chenglei Wu, and Shoou-I Yu), and NVIDIA Research (with Michael Garland and Michael Bauer), and has transferred her research into production at Snorkel AI and Facebook. Her work has appeared at CVPR, ICCV, and SIGGRAPH. Website: https://faitpoms.com/"
+    - speaker: Vijay Reddi
+      date: 03/03/22
+    - speaker: Shruti Bhosale
+      date: 03/10/22
+    - speaker: Break!
+      date: 3/17/22, 3/24/22
+    - speaker: Zhuohan Li
+      date: 3/31/22
+    - speaker: Igor Markov
+      date: 4/7/22
+    - speaker: Kexin Rong
+      date: 4/14/22
+    - speaker: Ines Chami
+      date: 4/21/22
+
+- type: Previous Talks
+  members:
     - speaker: Doris Lee
       date: 02/17/22
       title: "Always-on Dataframe Visualizations with Lux"
       abstract: "Visualizations help data scientists discover trends, patterns, identify outliers, and derive insights from their data. However, existing visualization libraries in Python require users to write a substantial amount of code for plotting even a single visualization, often hindering the flow of data exploration. In this talk, you will learn about Lux, a lightweight visualization tool on top of pandas dataframes. Lux recommends visualizations for free to users as they explore their data within a Jupyter notebook without the need to write additional code. Lux is used by data scientists across a variety of industries and sectors and has nearly 66k total downloads and over 3.3k stars on GitHub. For more information, see: https://github.com/lux-org/lux"
       bio: "Doris Lee is the co-founder and CEO of Ponder. She graduated with her Ph.D. from the RISE Lab and School of Information at UC Berkeley in 2021. During this time, she developed several data science tools aimed at accelerating insight discovery, including Lux, a lightweight visualization tool on top of pandas dataframes. She is the recipient of the Facebook Ph.D. Fellowship in Systems for Machine Learning in 2020. More at: http://dorisjunglinlee.com/"
-      livestream: https://www.youtube.com/watch?v=yrmSoU8jHnw
-    - speaker: Fait Poms
-      date: 02/24/22
-    - speaker: Vijay Reddi
-      date: 03/03/22
-    - speaker: Shruti Bhosale
-      date: 03/10/22
-
-- type: Previous Talks
-  members:
+      recording: https://www.youtube.com/watch?v=yrmSoU8jHnw
     - speaker: Ellie Pavlick
       date: 02/10/22
       title: "Implementing Symbols and Rules with Neural Networks"
