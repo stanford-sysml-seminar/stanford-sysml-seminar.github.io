@@ -1,6 +1,6 @@
 - type: Upcoming Talks
   members:
-    - speaker: Vijay Reddi
+    - speaker: Vijay Janapa Reddi
       date: 03/03/22
       title: Tiny Machine Learning
       abstract: "Tiny machine learning (TinyML) is a fast-growing field at the intersection of ML algorithms and low-cost embedded systems. TinyML enables on-device analysis of sensor data (vision, audio, IMU, etc.) at ultra-low-power consumption (<1mW). Processing data close to the sensor allows for an expansive new variety of always-on ML use-cases that preserve bandwidth, latency, and energy while improving responsiveness and maintaining privacy. This talk introduces the vision behind TinyML and showcases some of the interesting applications that TinyML is enabling in the field, from wildlife conservation to supporting public health initiatives. Yet, there are still numerous technical hardware and software challenges to address. Tight memory and storage constraints, MCU heterogeneity, software fragmentation and a lack of relevant large-scale datasets pose a substantial barrier to developing TinyML applications. To this end, the talk touches upon some of the research opportunities for unlocking the full potential of TinyML."
