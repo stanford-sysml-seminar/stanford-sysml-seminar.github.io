@@ -1,11 +1,5 @@
 - type: Upcoming Talks
   members:
-    - speaker: Shruti Bhosale
-      date: 03/10/22
-      title: Scaling Multilingual Machine Translation to Thousands of Language Directions
-      abstract: "Existing work in translation has demonstrated the potential of massively multilingual machine translation by training a single model able to translate between any pair of languages. However, much of this work is English-Centric by training only on data which was translated from or to English. While this is supported by large sources of training data, it does not reflect translation needs worldwide. In this talk, I will describe how we create a true Many-to-Many multilingual translation model that can translate directly between any pair of 100 languages. We build and open source a training dataset that covers thousands of language directions with supervised data, created through large-scale mining. Then, we explore how to effectively increase model capacity through a combination of dense scaling and language-specific sparse parameters to create high quality models. Our focus on non-English-Centric models brings gains of more than 10 BLEU when directly translating between non-English directions while performing competitively to the best single systems of WMT."
-      bio: "Shruti Bhosale is a Research Engineer at Facebook AI Research in Menlo Park, focusing on Natural Language Processing. She currently works on projects in massively multilingual machine translation and natural language understanding/generation. Her recent work includes many-to-many machine translation for 100 languages, BASE Layers and efficient large-scale language models with Mixture of Experts. She graduated with a Master's Degree in Computer Science from University of Texas at Austin. Prior to Facebook, Shruti built models for people recommendation systems at LinkedIn."
-      livestream: https://www.youtube.com/watch?v=9nAiqqUn_3c
     - speaker: Break!
       date: 3/17/22, 3/24/22
     - speaker: Zhuohan Li
@@ -16,9 +10,17 @@
       date: 4/14/22
     - speaker: Ines Chami
       date: 4/21/22
+    - speaker: Arjun Akula
+      date: 4/28/22
 
 - type: Previous Talks
   members:
+    - speaker: Shruti Bhosale
+      date: 03/10/22
+      title: Scaling Multilingual Machine Translation to Thousands of Language Directions
+      abstract: "Existing work in translation has demonstrated the potential of massively multilingual machine translation by training a single model able to translate between any pair of languages. However, much of this work is English-Centric by training only on data which was translated from or to English. While this is supported by large sources of training data, it does not reflect translation needs worldwide. In this talk, I will describe how we create a true Many-to-Many multilingual translation model that can translate directly between any pair of 100 languages. We build and open source a training dataset that covers thousands of language directions with supervised data, created through large-scale mining. Then, we explore how to effectively increase model capacity through a combination of dense scaling and language-specific sparse parameters to create high quality models. Our focus on non-English-Centric models brings gains of more than 10 BLEU when directly translating between non-English directions while performing competitively to the best single systems of WMT."
+      bio: "Shruti Bhosale is a Research Engineer at Facebook AI Research in Menlo Park, focusing on Natural Language Processing. She currently works on projects in massively multilingual machine translation and natural language understanding/generation. Her recent work includes many-to-many machine translation for 100 languages, BASE Layers and efficient large-scale language models with Mixture of Experts. She graduated with a Master's Degree in Computer Science from University of Texas at Austin. Prior to Facebook, Shruti built models for people recommendation systems at LinkedIn."
+      recording: https://www.youtube.com/watch?v=9nAiqqUn_3c
     - speaker: Vijay Janapa Reddi
       date: 03/03/22
       title: Tiny Machine Learning
