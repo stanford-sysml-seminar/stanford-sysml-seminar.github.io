@@ -1,7 +1,5 @@
 - type: Upcoming Talks
   members:
-    - speaker: Break!
-      date: 3/17/22, 3/24/22
     - speaker: Zhuohan Li
       date: 3/31/22
       title: "Alpa: Automated Model-Parallel Deep Learning"
