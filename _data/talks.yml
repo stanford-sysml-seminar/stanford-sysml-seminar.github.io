@@ -1,13 +1,12 @@
 - type: Upcoming Talks
   members:
-    - speaker: Zhuohan Li
-      date: 3/31/22
-      title: "Alpa: Automated Model-Parallel Deep Learning"
-      abstract: "Alpa (https://github.com/alpa-projects/alpa) automates model-parallel training of large deep learning models by generating execution plans that unify data, operator, and pipeline parallelism. Alpa distributes the training of large deep learning models by viewing parallelisms as two hierarchical levels: inter-operator and intra-operator parallelisms. Based on it, Alpa constructs a new hierarchical space for massive model-parallel execution plans. Alpa designs a number of compilation passes to automatically derive the optimal parallel execution plan in each independent parallelism level and implements an efficient runtime to orchestrate the two-level parallel execution on distributed compute devices. Alpa generates parallelization plans that match or outperform hand-tuned model-parallel training systems even on models they are designed for. Unlike specialized systems, Alpa also generalizes to models with heterogeneous architectures and models without manually-designed plans."
-      bio: "Zhuohan Li is a PhD student in Computer Science at UC Berkeley, advised by Prof. Ion Stoica. His interest lies in the intersection of machine learning and distributed systems in general. His recent research focuses on distributed model parallel training and inference. He completed his BS at Peking University and has interned at Microsoft Research, Anyscale, and Google Brain."
-      livestream: https://www.youtube.com/watch?v=y1NXHjcl6V0
     - speaker: Igor Markov
       date: 4/7/22
+      title: "Looper: an end-to-end ML platform for product decisions"
+      abstract: "Modern software systems and products increasingly rely on machine learning models to make data-driven decisions based on interactions with users, infrastructure and other systems. For broader adoption, this practice must (i) accommodate product engineers without ML backgrounds, (ii) support fine-grain product-metric evaluation and (iii) optimize for product goals. To address shortcomings of prior platforms, we introduce general principles for and the architecture of an ML platform, Looper, with simple APIs for decision-making and feedback collection.
+      
+      Looper covers the end-to-end ML lifecycle from collecting training data and model training to deployment and inference, and extends support to personalization, causal evaluation with heterogenous treatment effects, and Bayesian tuning for product goals. During the 2021 production deployment Looper simultaneously hosted 440-1,000 ML models that made 4-6 million real-time decisions per second. We sum up experiences of platform adopters and describe their learning curve."
+      bio: "Igor L. Markov is a professor of Electrical Engineering and Computer Science at the University of Michigan. He received his Ph.D. in Computer Science from UCLA, is currently an IEEE Fellow and an ACM Distinguished Scientist. Prof. Markov researches computers that make computers. He has co-authored five books, four US patents, and over 200 refereed publications, some of which were honored by the best-paper awards at the Design Automation and Test in Europe Conference (DATE), the Int'l Symposium on Physical Design (ISPD), the Int'l Conference on Computer-Aided Design (ICCAD) and IEEE Trans. on Computer-Aided Design (TCAD). During the 2011 redesign of the ACM Computing Classification System, Prof. Markov led the effort on the Hardware tree. Prof. Markov is the recipient of a DAC Fellowship, an ACM SIGDA Outstanding New Faculty award, an NSF CAREER award, an IBM Partnership Award, a Microsoft A. Richard Newton Breakthrough Research Award, and the inaugural IEEE CEDA Early Career Award. He has served on the Executive Board of ACM SIGDA and Editorial Boards of several ACM and IEEE Transactions, Communications of the ACM and IEEE Design & Test."
     - speaker: Kexin Rong
       date: 4/14/22
     - speaker: Ines Chami
@@ -23,6 +22,12 @@
 
 - type: Previous Talks
   members:
+    - speaker: Zhuohan Li
+      date: 3/31/22
+      title: "Alpa: Automated Model-Parallel Deep Learning"
+      abstract: "Alpa (https://github.com/alpa-projects/alpa) automates model-parallel training of large deep learning models by generating execution plans that unify data, operator, and pipeline parallelism. Alpa distributes the training of large deep learning models by viewing parallelisms as two hierarchical levels: inter-operator and intra-operator parallelisms. Based on it, Alpa constructs a new hierarchical space for massive model-parallel execution plans. Alpa designs a number of compilation passes to automatically derive the optimal parallel execution plan in each independent parallelism level and implements an efficient runtime to orchestrate the two-level parallel execution on distributed compute devices. Alpa generates parallelization plans that match or outperform hand-tuned model-parallel training systems even on models they are designed for. Unlike specialized systems, Alpa also generalizes to models with heterogeneous architectures and models without manually-designed plans."
+      bio: "Zhuohan Li is a PhD student in Computer Science at UC Berkeley, advised by Prof. Ion Stoica. His interest lies in the intersection of machine learning and distributed systems in general. His recent research focuses on distributed model parallel training and inference. He completed his BS at Peking University and has interned at Microsoft Research, Anyscale, and Google Brain."
+      recording: https://www.youtube.com/watch?v=y1NXHjcl6V0
     - speaker: Shruti Bhosale
       date: 03/10/22
       title: Scaling Multilingual Machine Translation to Thousands of Language Directions
