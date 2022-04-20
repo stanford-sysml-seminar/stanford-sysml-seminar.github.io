@@ -1,17 +1,11 @@
 - type: Upcoming Talks
   members:
-    - speaker: Kexin Rong
-      date: 4/14/22
-      title: "Learned Indexing and Sampling for Improving Query Performance in Big-Data Analytics"
-      abstract: "Traditional data analytics systems improve query efficiency via fine-grained, row-level indexing and sampling techniques. However, to keep up with the data volumes, increasingly many systems store and process datasets in large partitions containing hundreds of thousands of rows. Therefore, these analytics systems must adapt traditional techniques to work with coarse-grained data partitions as a basic unit to process queries efficiently. 
- 
-      In this talk, I will discuss two related ideas that combine learning techniques with partitioning designs to improve the query efficiency in the analytics systems. First, I will describe PS3, the first approximate query processing system that supports non-uniform, partition-level samples. PS3 reduces the number of partitions accessed by 3 to 70x to achieve the same error compared to a uniform sample of the partitions.  Next, I will present OLO, an online learning framework that dynamically adapts data organization according to changes in query workload to minimize overall data access and movement. We show that dynamic reorganization outperforms a single, optimized partitioning scheme by up to 30% in end-to-end runtime.
-
-      I will conclude by discussing additional open problems in this area."
-      bio: "Kexin Rong is a postdoctoral researcher at Vmware Research Group. Her research focuses on improving the efficiency and usability of large-scale data analytics. She received her Ph.D. in computer science from Stanford, advised by Peter Bailis and Philp Levis. She is joining Georgia Tech in the fall as an assistant professor in the School of Computer Science."
-      livestream: https://www.youtube.com/watch?v=sHmpMoaodng
-    # - speaker: Ines Chami
-    #   date: 4/21/22
+    - speaker: Dan Fu
+      date: 4/21/22
+      title: "Improving Transfer and Robustness of Supervised Contrastive Learning"
+      abstract: 'An ideal learned representation should display transferability and robustness. Supervised contrastive learning is a promising method for training accurate models, but produces representations that do not capture these properties due to class collapse -- when all points in a class map to the same representation. In this talk, we discuss how to alleviate these problems to improve the geometry of supervised contrastive learning. We identify two key principles: balancing the right amount of geometric "spread" in the embedding space, and inducing an inductive bias towards subclass clustering. We introduce two mechanisms for achieving these aims in supervised contrastive learning, and show that doing so improves transfer learning and worst-group robustness. Next, we show how we can apply these insights to improve entity retrieval in open-domain NLP tasks (e.g., QA, search). We present a new method, TABi, that trains bi-encoders with a type-aware supervised contrastive loss and improves long-tailed entity retrieval.'
+      bio: "Dan Fu is a PhD student in the Computer Science Department at Stanford University, where he is co-advised by Christopher Ré and Kayvon Fatahalian. His research focuses on understanding the principles behind why machine learning methods work and using that understanding to build the next generation of ML systems. He is supported by a Department of Defense NDSEG fellowship."
+      livestream: https://www.youtube.com/watch?v=G3yLSBSCUUw
     - speaker: Arjun Akula
       date: 4/28/22
     - speaker: Xinyu Hu
@@ -23,6 +17,16 @@
 
 - type: Previous Talks
   members:
+    - speaker: Kexin Rong
+      date: 4/14/22
+      title: "Learned Indexing and Sampling for Improving Query Performance in Big-Data Analytics"
+      abstract: "Traditional data analytics systems improve query efficiency via fine-grained, row-level indexing and sampling techniques. However, to keep up with the data volumes, increasingly many systems store and process datasets in large partitions containing hundreds of thousands of rows. Therefore, these analytics systems must adapt traditional techniques to work with coarse-grained data partitions as a basic unit to process queries efficiently. 
+ 
+      In this talk, I will discuss two related ideas that combine learning techniques with partitioning designs to improve the query efficiency in the analytics systems. First, I will describe PS3, the first approximate query processing system that supports non-uniform, partition-level samples. PS3 reduces the number of partitions accessed by 3 to 70x to achieve the same error compared to a uniform sample of the partitions.  Next, I will present OLO, an online learning framework that dynamically adapts data organization according to changes in query workload to minimize overall data access and movement. We show that dynamic reorganization outperforms a single, optimized partitioning scheme by up to 30% in end-to-end runtime.
+
+      I will conclude by discussing additional open problems in this area."
+      bio: "Kexin Rong is a postdoctoral researcher at Vmware Research Group. Her research focuses on improving the efficiency and usability of large-scale data analytics. She received her Ph.D. in computer science from Stanford, advised by Peter Bailis and Philp Levis. She is joining Georgia Tech in the fall as an assistant professor in the School of Computer Science."
+      recording: https://www.youtube.com/watch?v=sHmpMoaodng
     - speaker: Igor Markov
       date: 4/7/22
       title: "Looper: an end-to-end ML platform for product decisions"
