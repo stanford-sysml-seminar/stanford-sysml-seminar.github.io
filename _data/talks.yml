@@ -1,5 +1,23 @@
 - type: Upcoming Talks
   members:
+    - speaker: Alkis Polyzotis
+      date: 5/12/22
+      title: "What can Data-Centric AI Learn from Data and ML Engineering?"
+      abstract: 'Data-centric AI is a new and exciting research topic in the AI community, but many organizations already build and maintain various "data-centric" applications whose goal is to produce high quality data. These range from traditional business data processing applications (e.g., "how much should we charge each of our customers this month?") to production ML systems such as recommendation engines. The fields of data and ML engineering have arisen in recent years to manage these applications, and both include many interesting novel tools and processes. In this talk we present lessons from data and ML engineering that could be interesting to apply in data-centric AI, based on our experience developing data and ML platforms that serve thousands of applications at a range of organizations. In particular, we will discuss lessons related to data monitoring and the challenges to apply it effectively in production ML systems.'
+      bio: "Neoklis (Alkis) Polyzotis is a software engineer at Databricks, working on the intersection of data management and ML. Prior to that, he was a research scientist at Google and a professor at UC Santa Cruz. He received his PhD from the U of Wisconsin at Madison."
+    - speaker: Roman Kazinnik
+      date: 5/19/22
+      title: "Machine Learning in Production: Review of Empirical Solutions"
+      abstract: "Taking stock of ML Infra problems with potential to benefit from systematic analysis. ML currently requires running large amounts experiments to compensate for the lack of analysis. 
+Modern AI infrastructure (major clouds) is efficient in creating, training, and deploying thousands of model. 
+At the same time, improving production models performance, accurate estimation of models performance in production, web data relevance, risk mitigation - these are ad hoc and experiment-driven processes. 
+Analytical analysis for Production [distributed, large-scale, rapidly changing environment] ML can help to direct and hopefully replace the empirical and manual processes."
+      bio: "Roman Kazinnik is working at Meta on the AI Platform team. He is an experienced computer programmer passionate about empirical and theoretical work. He worked on creating models for deep Earth oil exploration and stock trading throughout his career. He is a recipient of the best paper award of the European Assoc. of Computer Graphics, and he did his Master's at Technion and Ph.D. at Tel Aviv University, Israel. "
+    - speaker: Hima Lakkaraju
+      date: 5/26/22
+
+- type: Previous Talks
+  members:
     - speaker: Xinyu Hu and Olcay Cirit
       date: 5/5/22
       title: "DeepETA: How Uber Predicts Arrival Times Using Deep Learning"
@@ -13,16 +31,7 @@
  machine learning applications in spatial-temporal problems and causal inference. She currently works on projects in personalized incentives targeting, including user promotion targeting, spatial-temporal paid movement targeting, etc.. Prior to Uber, Xinyu
  graduated from Columbia University with a Ph.D. in Biostatistics. Olcay Cirit is a
  Staff Research Scientist at Uber AI focused on ML systems and large-scale deep learning problems. Prior to Uber AI, he worked on ad targeting at Google."
-      livestream: https://www.youtube.com/watch?v=CJTitzj0qBo
-    - speaker: Alkis Polyzotis
-      date: 5/12/22
-    - speaker: Roman Kazinnik
-      date: 5/19/22
-    - speaker: Hima Lakkaraju
-      date: 5/26/22
-
-- type: Previous Talks
-  members:
+      recording: https://www.youtube.com/watch?v=CJTitzj0qBo
     - speaker: Arjun Akula
       date: 4/28/22
       title: "Improving Robustness and Interpretability in Vision and Language Grounding Models"
