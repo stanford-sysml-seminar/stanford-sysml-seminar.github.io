@@ -1,5 +1,10 @@
 - type: Upcoming Talks
   members:
+    - speaker: CANCELED
+      date: 5/26/22
+
+- type: Previous Talks
+  members:
     - speaker: Roman Kazinnik
       date: 5/19/22
       title: "Machine Learning in Production: Review of Empirical Solutions"
@@ -9,11 +14,6 @@ At the same time, improving production models performance, accurate estimation o
 Analytical analysis for Production [distributed, large-scale, rapidly changing environment] ML can help to direct and hopefully replace the empirical and manual processes."
       bio: "Roman Kazinnik is working at Meta on the AI Platform team. He is an experienced computer programmer passionate about empirical and theoretical work. He worked on creating models for deep Earth oil exploration and stock trading throughout his career. He is a recipient of the best paper award of the European Assoc. of Computer Graphics, and he did his Master's at Technion and Ph.D. at Tel Aviv University, Israel. "
       livestream: https://www.youtube.com/watch?v=eNWeFccrouI
-    - speaker: Hima Lakkaraju
-      date: 5/26/22
-
-- type: Previous Talks
-  members:
     - speaker: Alkis Polyzotis
       date: 5/12/22
       title: "What can Data-Centric AI Learn from Data and ML Engineering?"
