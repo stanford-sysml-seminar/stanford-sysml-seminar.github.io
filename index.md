@@ -143,7 +143,7 @@ From Fall 2021-Spring 2022, we ran the MLSys seminar alongside [CS 528](/cs528).
 
 You can reach us at sysmlstanfordseminar [at] gmail.
 
-Source code for this website can be found [here](https://github.com/stanford-sysml-seminar/stanford-sysml-seminar.github.io).
+If you'd like to clone this website for your own talk series, source code can be found [here](https://github.com/stanford-sysml-seminar/stanford-sysml-seminar.github.io).
 
 <!-- Please uncomment this part if you clone our source code! -->
 <!--
