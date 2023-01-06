@@ -7,7 +7,7 @@ meta-description: "Seminar series on the frontier of machine learning and system
 
 **News**:
 * In early 2023, we are partnering with [CS 324](https://stanford-cs324.github.io/winter2023/), Advances in Foundation Models, to offer a special **foundation models limited series**! We'll have talks on certain Mondays and Wednesdays, 3:30-4:20 PM PT (see schedule below).
-* We are now available in podcast form on [Apple Podcasts](https://podcasts.apple.com/us/podcast/stanford-mlsys-seminar/id1603927994), [Spotify](https://open.spotify.com/show/3NazVHl6ujGuHCjGlN0SCf), and [Google](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy83YmRkMzMxNC9wb2RjYXN0L3Jzcw)!
+<!-- * We are now available in podcast form on [Apple Podcasts](https://podcasts.apple.com/us/podcast/stanford-mlsys-seminar/id1603927994), [Spotify](https://open.spotify.com/show/3NazVHl6ujGuHCjGlN0SCf), and [Google](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy83YmRkMzMxNC9wb2RjYXN0L3Jzcw)! -->
 <!-- * Stanford students, check out [CS 528](/cs528), a new course at Stanford running this fall! -->
 <!-- * Our talks this semester are Thursdays 1:30 PM PT! -->
 * Join our [email list](https://groups.google.com/forum/#!forum/stanford-mlsys-seminars/join) to get notified of the speaker and livestream link every week! 
