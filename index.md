@@ -84,7 +84,7 @@ Check out our introductory video:
 
 **Seminar Hosts:** Dan Fu, Karan Goel.
 
-**Guest Hosts (2023 Foundation Models Limited Series)**: Avanika Narayan, Percy Liang, Tatsu Hashimoto.
+**Guest Hosts (2023 Foundation Models Limited Series)**: Avanika Narayan, Michael Zhang, Percy Liang, Tatsu Hashimoto.
 
 **Executive Producer:** Chris Ré.
 
