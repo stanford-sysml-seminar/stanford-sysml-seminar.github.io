@@ -60,7 +60,7 @@ Tune in and be sure not to miss it!
 </div>
 {% endfor %}
 
-## About the Seminar
+## About the MLSys Seminar
 
 Machine learning is driving exciting changes and progress in computing.
 What does the ubiquity of machine learning mean for how people build and deploy
