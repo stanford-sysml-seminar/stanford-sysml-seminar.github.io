@@ -129,23 +129,22 @@ Check out our introductory video:
 </div>
 {% endfor %}
 
-# About The Seminar
-
 **Seminar Hosts:** Dan Fu, Karan Goel.
 
 **Guest Hosts (2023 Foundation Models Limited Series)**: Avanika Narayan, Michael Zhang, Percy Liang, Tatsu Hashimoto.
 
 **Executive Producer:** Chris Ré.
 
-You can reach us at sysmlstanfordseminar [at] gmail.
-
-Source code for this website can be found [here](https://github.com/stanford-sysml-seminar/stanford-sysml-seminar.github.io).
-
 **Alumni:**
 * Fiodar Kazhamakia (co-host, 2020-2022)
 * Piero Molino (co-host, 2020-2022)
 * Matei Zaharia (executive producer, 2020-2022)
 
+From Fall 2021-Spring 2022, we ran the MLSys seminar alongside [CS 528](/cs528).
+
+You can reach us at sysmlstanfordseminar [at] gmail.
+
+Source code for this website can be found [here](https://github.com/stanford-sysml-seminar/stanford-sysml-seminar.github.io).
 
 <!-- Please uncomment this part if you clone our source code! -->
 <!--
