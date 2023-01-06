@@ -14,7 +14,7 @@ meta-description: "Seminar series on the frontier of machine learning and system
 
 ## Foundation Models Limited Series
 
-In early 2023 (winter quarter), we're excited to partner with CS 324 to offer a special foundation model limited series!
+In early 2023 (Stanford winter quarter), we're excited to partner with CS 324 to offer a special foundation model limited series!
 We have an exciting slate of speakers from OpenAI, Google, Anthropic, Meta and more -- the experts who are developing and deploying foundation models in practice.
 Tune in and be sure not to miss it!
 
