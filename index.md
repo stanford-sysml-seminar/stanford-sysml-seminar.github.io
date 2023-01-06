@@ -12,14 +12,14 @@ meta-description: "Seminar series on the frontier of machine learning and system
 <!-- * Our talks this semester are Thursdays 1:30 PM PT! -->
 * Join our [email list](https://groups.google.com/forum/#!forum/stanford-mlsys-seminars/join) to get notified of the speaker and livestream link every week! 
 
-### Foundation Models Limited Series
+## Foundation Models Limited Series
 
 In early 2023 (winter quarter), we're excited to partner with CS 324 to offer a special foundation model limited series!
 We have an exciting slate of speakers from OpenAI, Google, Anthropic, Meta and more -- the experts who are developing and deploying foundation models in practice.
 Tune in and be sure not to miss it!
 
 {% for category in site.data.talks_fm %}
-# {{ category.type }}
+### {{ category.type }}
 <div class="talk-list">
   {% for talk in category.members %}
   <div class="talk list-group-item">
@@ -60,7 +60,7 @@ Tune in and be sure not to miss it!
 </div>
 {% endfor %}
 
-### About the Seminar
+## About the Seminar
 
 Machine learning is driving exciting changes and progress in computing.
 What does the ubiquity of machine learning mean for how people build and deploy
@@ -88,7 +88,7 @@ Check out our introductory video:
 <!-- Read our blog post on our [why we're running this seminar]({{ site.baseurl }}/about). -->
 
 {% for category in site.data.talks %}
-# {{ category.type }}
+## {{ category.type }}
 <div class="talk-list">
   {% for talk in category.members %}
   <div class="talk list-group-item">
