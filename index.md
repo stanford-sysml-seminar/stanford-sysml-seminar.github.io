@@ -6,9 +6,11 @@ meta-description: "Seminar series on the frontier of machine learning and system
 # Stanford MLSys Seminar Series
 
 **News**:
+* In early 2023, we are partnering with [CS 324](https://stanford-cs324.github.io/winter2023/), Advances in Foundation Models, to offer a special **foundation models limited series**!
+* We'll have talks Mondays and Wednesdays, 3:30-4:20 PM PT.
 * We are now available in podcast form on [Apple Podcasts](https://podcasts.apple.com/us/podcast/stanford-mlsys-seminar/id1603927994), [Spotify](https://open.spotify.com/show/3NazVHl6ujGuHCjGlN0SCf), and [Google](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy83YmRkMzMxNC9wb2RjYXN0L3Jzcw)!
-* Stanford students, check out [CS 528](/cs528), a new course at Stanford running this fall!
-* Our talks this semester are Thursdays 1:30 PM PT!
+<!-- * Stanford students, check out [CS 528](/cs528), a new course at Stanford running this fall! -->
+<!-- * Our talks this semester are Thursdays 1:30 PM PT! -->
 * Join our [email list](https://groups.google.com/forum/#!forum/stanford-mlsys-seminars/join) to get notified of the speaker and livestream link every week! 
 
 Machine learning is driving exciting changes and progress in computing.
@@ -80,13 +82,21 @@ Check out our introductory video:
 
 # About The Seminar
 
-**Seminar Hosts:** Dan Fu, Karan Goel, Fiodar Kazhamakia, Piero Molino.
+**Seminar Hosts:** Dan Fu, Karan Goel.
 
-**Executive Producers:** Matei Zaharia, Chris Ré.
+**Guest Hosts (2023 Foundation Models Limited Series)**: Avanika Narayan, Percy Liang, Tatsu Hashimoto.
+
+**Executive Producer:** Chris Ré.
 
 You can reach us at sysmlstanfordseminar [at] gmail.
 
 Source code for this website can be found [here](https://github.com/stanford-sysml-seminar/stanford-sysml-seminar.github.io).
+
+**Alumni:**
+* Fiodar Kazhamakia (co-host, 2020-2022)
+* Piero Molino (co-host, 2020-2022)
+* Matei Zaharia (executive producer, 2020-2022)
+
 
 <!-- Please uncomment this part if you clone our source code! -->
 <!--
