@@ -1,9 +1,9 @@
 ---
 layout: default
-meta-description: "Seminar series on the frontier of machine learning and systems. Livestreamed every Thursday, 1:30-2:30 pm PT."
+meta-description: "Seminar series on the frontier of machine learning and systems."
 ---
 
-# Stanford MLSys Seminar Series
+# Stanford MLSys Seminar (Foundation Models Limited Series)
 
 **News**:
 * In early 2023, we are partnering with [CS 324](https://stanford-cs324.github.io/winter2023/), Advances in Foundation Models, to offer a special **foundation models limited series**!
