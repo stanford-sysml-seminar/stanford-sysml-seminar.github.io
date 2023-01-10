@@ -1,24 +1,27 @@
 - type: Schedule
   members:
-    - speaker: Ce Zhang
+    - speaker: Tri Dao (Stanford, Adept AI)
+      date: W 1/11/23
+      title: "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness"
+      abstract: "Transformers are slow and memory-hungry on long sequences, since the time and memory complexity of self-attention are quadratic in sequence length. Approximate attention methods have attempted to address this problem by trading off model quality to reduce the compute complexity, but often do not achieve wall-clock speedup. We argue that a missing principle is making attention algorithms IO-aware -- accounting for reads and writes between levels of GPU memory. We propose FlashAttention, an IO-aware exact attention algorithm that uses tiling to reduce the number of memory reads/writes between GPU high bandwidth memory (HBM) and GPU on-chip SRAM. We analyze the IO complexity of FlashAttention, showing that it requires fewer HBM accesses than standard attention, and is optimal for a range of SRAM sizes. We also extend FlashAttention to block-sparse attention, yielding an approximate attention algorithm that is faster than any existing approximate attention method. FlashAttention trains Transformers faster than existing baselines: 15% end-to-end wall-clock speedup on BERT-large (seq. length 512) compared to the MLPerf 1.1 training speed record, 3× speedup on GPT-2 (seq. length 1K), and 2.4× speedup on long-range arena (seq. length 1K-4K). FlashAttention and block-sparse FlashAttention enable longer context in Transformers, yielding higher quality models (0.7 better perplexity on GPT-2 and 6.4 points of lift on long-document classification) and entirely new capabilities: the first Transformers to achieve better-than-chance performance on the Path-X challenge (seq. length 16K, 61.4% accuracy) and Path-256 (seq. length 64K, 63.1% accuracy)."
+      bio: "Tri Dao is a PhD student in Computer Science at Stanford, co-advised by Christopher Ré and Stefano Ermon. He works at the interface of machine learning and systems, and his research interests include sequence models with long-range memory and structured matrices for compact deep learning models. His work has received the ICML 2022 Outstanding paper runner-up award."
+    - speaker: Ce Zhang (ETH, Together Compute)
       date: W 1/18/23
-    - speaker: Aakanksha Chowdhery
+    - speaker: Aakanksha Chowdhery (Google Brain)
       date: W 1/25/23
-    - speaker: Stella Biderman
+    - speaker: Stella Biderman (EleutherAI, Booz Allen Hamilton)
       date: M 1/30/23
-    - speaker: Rishi Bommasani
-      date: W 2/2/23
-    - speaker: Colin Raffel
+    - speaker: Colin Raffel (UNC, HuggingFace)
       date: W 2/8/23
-    - speaker: Rob Reich
+    - speaker: Rob Reich (Stanford)
       date: W 2/15/23
-    - speaker: Nicholas Carlini
+    - speaker: Nicholas Carlini (Google Brain)
       date: W 2/22/23
-    - speaker: Jack Rae
+    - speaker: Jack Rae (OpenAI)
       date: M 2/27/23
-    - speaker: Susan Zhang
+    - speaker: Susan Zhang (Meta)
       date: W 3/1/23
-    - speaker: Yejin Choi
+    - speaker: Yejin Choi (UW, Allen Institute)
       date: M 3/6/23
-    - speaker: Jared Kaplan
+    - speaker: Jared Kaplan (Anthropic)
       date: W 3/8/23
