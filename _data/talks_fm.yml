@@ -38,8 +38,14 @@
       livestream: https://www.youtube.com/watch?v=0oGxT_i7nk8
     - speaker: Raphael Townshend (Atomic AI)
       date: M 2/13/23
+      title: "Unlocking the RNA Universe"
+      abstract: "In this talk we will discuss how Atomic AI is developing foundation models integrated in a virtuous cycle with purpose-designed, in-house wet-lab assays, to discover and design RNA drugs. By tightly coupling both algorithmic development and large-scale data generation, we will explore how we can build on AI-augmented structural biology tools such as AlphaFold to transform the design of RNA-targeted and RNA-based medicines.  Such applications reveal the ability of large language models to unlock novel therapeutics to treat undruggable diseases in cancer, neurodegeneration, infectious disease, and other areas."
+      bio: "Raphael Townshend is the Founder and Chief Executive Officer at Atomic AI, a biotechnology company using artificial intelligence to enable the next generation of RNA drug discovery. Prior to founding Atomic AI, Raphael studied his PhD at Stanford University, where he wrote his thesis on Geometric Learning of Biomolecular Structure and taught in Stanford’s machine learning and computational biology programs. He has been recognized in Forbes 30 Under 30, and his work has been featured on the cover of Science, recognized by a Best Paper award at NeurIPS, and published in other top venues such as Nature, Cell, and ICLR. During his PhD program, Raphael also held positions at DeepMind and Google on their artificial intelligence and software engineering teams, and founded the inaugural workshop on machine learning and structural biology."
+      livestream: https://www.youtube.com/watch?v=Z3e9fJ0fGs4
     - speaker: Rob Reich (Stanford)
       date: W 2/15/23
+      title: "Talk TBD"
+      livestream: https://www.youtube.com/watch?v=6iyeV23d3Ig
     - speaker: Nicholas Carlini (Google Brain)
       date: W 2/22/23
     - speaker: Jack Rae (OpenAI)
