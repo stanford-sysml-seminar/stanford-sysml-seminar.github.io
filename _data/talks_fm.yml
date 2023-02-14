@@ -44,7 +44,9 @@
       livestream: https://www.youtube.com/watch?v=Z3e9fJ0fGs4
     - speaker: Rob Reich (Stanford)
       date: W 2/15/23
-      title: "Talk TBD"
+      title: "Accelerating the Development of Professional Norms in Generative AI"
+      abstract: 'The frontier of technology routinely races ahead of the capacity of politicians and regulators to craft wise policy and governance. When advances on the technological frontier carry broader social consequences, shaping technology toward social benefit and away from social harm falls primarily to technologists and commercial actors. In this respect, professional norms of responsible conduct are especially significant. We live now in such a moment with generative AI. With the recent shift from a “research lab” to “product lab” orientation, the commercial pressures to develop, deploy, and monetize will grow, potentially at the expense of safety and social considerations. In this talk, I examine how to accelerate the development of professional norms in generative AI, ranging from benchmarking, ethical review, open access versus closed access models, and independent organizations for auditing.'
+      bio: "Professor of Political Science, director of the Center for Ethics in Society, co-director of the Center on Philanthropy and Civil Society, and associate director of the Institute for Human-Centered AI. He is the author of System Error: Where Big Tech Went Wrong and How We Can Reboot (with Mehran Sahami and Jeremy M. Weinstein) and Just Giving: Why Philanthropy is Failing Democracy and How It Can Do Better (2018); Digital Technology and Democratic Theory (edited with Lucy Bernholz and Hélène Landemore, 2021). His teaching and writing these days focuses on ethics, policy, and technology."
       livestream: https://www.youtube.com/watch?v=6iyeV23d3Ig
     - speaker: Nicholas Carlini (Google Brain)
       date: W 2/22/23
