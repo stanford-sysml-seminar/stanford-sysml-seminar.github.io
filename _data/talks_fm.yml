@@ -52,6 +52,8 @@
       date: W 2/22/23
     - speaker: Jack Rae (OpenAI)
       date: M 2/27/23
+      title: "Compression for AGI"
+      abstract: "In this talk we discuss how foundation models are beginning to validate a hypothesis formed over 70 years ago: statistical models which better compress their source data resultantly learn more fundamental and general capabilities from it. We start by covering some fundamentals of compression, and then describe how larger language models, spanning into the hundreds of billions of parameters, are actually state-of-the-art lossless compressors. We discuss some of the emergent capabilities and persistent limitations we may expect along the path to optimal compression."
     - speaker: Susan Zhang (Meta)
       date: W 3/1/23
     - speaker: Yejin Choi (UW, Allen Institute)
