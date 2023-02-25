@@ -50,6 +50,10 @@
       livestream: https://www.youtube.com/watch?v=6iyeV23d3Ig
     - speaker: Nicholas Carlini (Google Brain)
       date: W 2/22/23
+      title: "Poisoning Web-Scale Training Datasets is Practical"
+      abstract: "In this talk I introduce the first practical poisoning attack on large machine learning datasets. With our attack I could have poisoned (but didn't!) the training dataset for anyone who has used LAION-400M in the last six months. While we take steps to mitigate these attacks, they come at a (sometimes significant) cost to utility.  Addressing these challenges will require new categories of defenses to simultaneously allow models to train on large datasets while also being robust to adversarial training data."
+      bio: "Nicholas Carlini is a research scientist at Google Brain. He studies the security and privacy of machine learning, for which he has received best paper awards at ICML, USENIX Security and IEEE S&P. He obtained his PhD from the University of California, Berkeley in 2018."
+      livestream: https://www.youtube.com/watch?v=h9jf1ikcGyk
     - speaker: Jack Rae (OpenAI)
       date: M 2/27/23
       title: "Compression for AGI"
