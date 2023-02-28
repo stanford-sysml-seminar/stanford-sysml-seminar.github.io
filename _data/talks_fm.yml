@@ -58,8 +58,14 @@
       date: M 2/27/23
       title: "Compression for AGI"
       abstract: "In this talk we discuss how foundation models are beginning to validate a hypothesis formed over 70 years ago: statistical models which better compress their source data resultantly learn more fundamental and general capabilities from it. We start by covering some fundamentals of compression, and then describe how larger language models, spanning into the hundreds of billions of parameters, are actually state-of-the-art lossless compressors. We discuss some of the emergent capabilities and persistent limitations we may expect along the path to optimal compression."
+      bio: "Jack Rae is a team lead at OpenAI with a research focus on large language models and long-range memory. Previously, he worked at DeepMind for 8 years and led the large language model (LLM) research group. This group developed a 280B parameter LLM ‘Gopher’, which halved the gap towards human-level performance on a suite of exams, alongside ‘RETRO’ — a retrieval-augmented LLM, and ‘Chinchilla Scaling Laws’ — a discovery that contemporary LLMs were considerably under-trained, which won best paper at NeurIPS 2022. Jack has a PhD in Computer Science from UCL, and has published in AI venues such as ACL, ICLR, ICML, NeurIPS, and Nature."
+      livestream: https://www.youtube.com/watch?v=dO4TPJkeaaU
     - speaker: Susan Zhang (Meta)
       date: W 3/1/23
+      title: "Trials of developing OPT-175B"
+      abstract: "LLM development at scale is an extraordinarily resource-intensive process, requiring compute resources that many do not have access to.  The experimentation process will also appear rather haphazard in comparison, given limited compute-time to fully ablate all architectural / hyperparameter choices.  In this talk, we will walk through the development lifecycle of OPT-175B, covering infrastructure and training convergence challenges faced at scale, along with methods of addressing these issues going forward."
+      bio: "Susan Zhang is a research engineer at Meta focused on the development of large-scale language models.  Previously, she worked on designing photonic chips at Luminous Computing, scaling reinforcement learning systems at OpenAI, and building large-scale data infrastructure systems at Unity Technologies."
+      livestream: https://www.youtube.com/watch?v=p9IxoSkvZ-M
     - speaker: Yejin Choi (UW, Allen Institute)
       date: M 3/6/23
     - speaker: Jared Kaplan (Anthropic)
