@@ -68,5 +68,13 @@
       livestream: https://www.youtube.com/watch?v=p9IxoSkvZ-M
     - speaker: Yejin Choi (UW, Allen Institute)
       date: M 3/6/23
+      livestream: https://www.youtube.com/watch?v=n4HakBqoCVg
+      title: "Common Sense: the Dark Matter of Language and Intelligence"
+      abstract: "Scale appears to be the winning recipe in today's leaderboards. And yet, extreme-scale neural models are (un)surprisingly brittle and make errors that are often nonsensical and even counterintuitive. In this talk, I will argue for the importance of knowledge, especially commonsense knowledge, as well as inference-time reasoning algorithms, and demonstrate how smaller models developed in academia can still have an edge over larger industry-scale models, if powered with knowledge and/or reasoning algorithms."
+      bio: "Yejin Choi is Brett Helsel professor at the Paul G. Allen School of Computer Science & Engineering at the University of Washington and also a senior research director at AI2 overseeing the project Mosaic. Her research investigates a wide variety of problems across NLP and AI including commonsense knowledge and reasoning, neural language (de-)generation, language grounding with vision and experience, and AI for social good. She is a MacArthur Fellow and a co-recipient of the NAACL Best Paper Award in 2022, the ICML Outstanding Paper Award in 2022, the ACL Test of Time award in 2021, the CVPR Longuet-Higgins Prize (test of time award) in 2021, the NeurIPS Outstanding Paper Award in 2021, the AAAI Outstanding Paper Award in 2020, the Borg Early Career Award (BECA) in 2018, the inaugural Alexa Prize Challenge in 2017, IEEE AI's 10 to Watch in 2016, and the ICCV Marr Prize (best paper award) in 2013. She received her Ph.D. in Computer Science at Cornell University and BS in Computer Science and Engineering at Seoul National University in Korea."
     - speaker: Jared Kaplan (Anthropic)
       date: W 3/8/23
+      livestream: https://www.youtube.com/watch?v=fqC3D-zNJUM
+      title: "AI Safety, RLHF, and Self-Supervision"
+      bio: "Jared Kaplan is a co-founder of Anthropic and a professor at Johns Hopkins University.  He spent the first 15 years of his career as a theoretical physicist before moving to work on AI, where his contributions include research on scaling laws in machine learning, GPT-3, Codex, and more recently AI safety work such as RLHF for helpful and harmless language assistants and Constitutional AI."
+      abstract: "First I will discuss AI progress and safety, and then I will talk about two techniques used to train large language models to be safer -- reinforcement learning from human feedback, and constitutional AI."
