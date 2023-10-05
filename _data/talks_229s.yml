@@ -1,0 +1,21 @@
+- type: Schedule
+  members:
+    - speaker: Mangpo Phothilimthana (Google)
+      date: M 10/09/23
+      title: "ML for ML Compilers"
+      livestream: https://www.youtube.com/watch?v=VASg2XNgj-4 
+    - speaker: Martin Maas (Google)
+      date: M 10/16/23
+    - speaker: Tim Dettmers (UW)
+      date: M 10/23/23
+    - speaker: Deepak Narayanan (Nvidia)
+      date: M 10/30/23
+    - speaker: Ce Zhang (Together, U Chicago)
+      date: M 11/06/23
+    - speaker: William Fedus (OpenAI)
+      date: M 11/13/23
+    - speaker: Thanksgiving
+    - speaker: Tianqi Chen (CMU)
+      date: M 11/27/23
+    - speaker: Dan Fu (Stanford, Together)
+      date: M 12/04/23
