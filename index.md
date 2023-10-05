@@ -6,7 +6,7 @@ meta-description: "Seminar series on the frontier of machine learning and system
 # Stanford MLSys Seminar
 
 **News**:
-* In late 2023, we're partnering with [CS 229s](https://cs229s.stanford.edu/fall2023/), Systems for Machine Learning, to offer a special **systems for machine learning limited series**! We'll have talks on Mondays, 10:30-11:30 am PT.
+* In late 2023, we're partnering with [CS 229s](https://cs229s.stanford.edu/fall2023/), Systems for Machine Learning, and CS 528 to offer a special **systems for machine learning limited series**! We'll have talks on Mondays, 10:30-11:30 am PT. Stanford students can sign up for either class!
 * In early 2023, we partnered with [CS 324](https://stanford-cs324.github.io/winter2023/), Advances in Foundation Models, to offer a special **foundation models limited series**! We had talks on certain Mondays and Wednesdays, 3:30-4:20 PM PT (see schedule below).
 * Join our [email list](https://groups.google.com/forum/#!forum/stanford-mlsys-seminars/join) to get notified of the speaker and livestream link every week!.
 
