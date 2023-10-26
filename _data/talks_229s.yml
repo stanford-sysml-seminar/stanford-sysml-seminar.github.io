@@ -14,8 +14,16 @@
       livestream: https://www.youtube.com/watch?v=4_UdAR_5jqk
     - speaker: Tim Dettmers (UW)
       date: M 10/23/23
+      title: "Democratizing Foundation Models via k-bit Quantization"
+      abstract: "Foundation models are effective tools for many tasks but are challenging to finetune and inference due to their GPU memory requirements. Compressing foundation models with k-bit quantization makes them more accessible with minimal resources, but k-bit quantization can lead to degradation in model quality. In this lecture, I will talk about fundamental insights into how to compress foundation models with quantization while maintaining their predictive performance. We will learn about emergent outliers in large language models (LLMs) and how they affect performance during 8-bit quantization. We will learn how to do effective k-bit compression of pretrained large language models such that we maximize their density of predictive performance per bit. We will also talk about how to do efficient fine-tuning of quantized 4-bit LLMs (QLoRA) and how this helps to build state-of-the-art chatbots."
+      bio: "Tim Dettmers is a graduating PhD student advised by Luke Zettlemoyer at the University of Washington in Seattle. He holds degrees in applied math and computer science and has a background in industrial automation. His primary research goal is to democratize foundation models by making them more efficient and accessible through quantization, sparsification, and building machine learning systems that use consumer-grade hardware. He is the creator of the bitsandbytes library. Tim runs a blog about deep learning, GPUs, and PhD life at timdettmers.com."
+      livestream: https://www.youtube.com/watch?v=EsMcVkTXZrk
     - speaker: Deepak Narayanan (Nvidia)
       date: M 10/30/23
+      title: "Training Large Language Models at Scale"
+      abstract: "Training LLMs efficiently is challenging for a few reasons: training can require yottaFLOPs of compute,  and accelerators have limited memory capacity making it impossible to fit large models on even a multi-GPU server. Consequently, new methods of model parallelism such as tensor and pipeline parallelism have been proposed. Unfortunately, naïve usage of these methods leads to scaling issues at thousands of GPUs. In this talk, I describe various systems innovations incorporated into Megatron-LM (https://github.com/nvidia/megatron-lm) that allow us to run training iterations for models with up to a trillion parameters on thousands of GPUs."
+      bio: "Deepak is a Senior Applied Deep Learning Research Scientist in the ADLR group at NVIDIA, where he builds software systems to more efficiently train and serve LLMs. He graduated from Stanford with a Ph.D. in Computer Science in September 2021, where he was advised by Prof. Matei Zaharia."
+      livestream: https://www.youtube.com/watch?v=JA1l96tjrs4
     - speaker: Ce Zhang (Together, U Chicago)
       date: M 11/06/23
     - speaker: William Fedus (OpenAI)
