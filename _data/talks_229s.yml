@@ -33,5 +33,8 @@
     - speaker: Thanksgiving
     - speaker: Tianqi Chen (CMU)
       date: M 11/27/23
+      title: Bringing Foundational Models to Consumer Devices via ML Compilation
+      abstract: "Deploying deep learning models on various devices has become an important topic. Machine learning compilation is an emerging field that leverages compiler and automatic search techniques to accelerate AI models. ML compilation brings a unique set of challenges: emerging machine learning models; increasing hardware specialization brings a diverse set of acceleration primitives; growing tension between flexibility and performance.  In this talk. I then discuss our experience in bringing foundational models to a variety of devices and hardware environments through machine learning compilation."
+      bio: "Tianqi Chen is currently an Assistant Professor at the Machine Learning Department and Computer Science Department of Carnegie Mellon University. He is also the Chief Technologist of OctoML. He received his PhD. from the Paul G. Allen School of Computer Science & Engineering at the University of Washington. He has created many major learning systems that are widely adopted: XGBoost, TVM, and MLC-LLM."
     - speaker: Dan Fu (Stanford, Together)
       date: M 12/04/23
