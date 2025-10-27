@@ -6,10 +6,60 @@ meta-description: "Seminar series on the frontier of machine learning and system
 # Stanford MLSys Seminar
 
 **News**:
-* WE'RE BACK! With Francois at the helm, we are bringing this podcast back! First post planned for 9/10/2025.
+* WE'RE BACK! With <a href="https://www.linkedin.com/in/francois-chaubard-0a169448/"> Francois Chaubard </a> taking over, we are bringing this podcast back! 
 * In late 2023, we're partnering with [CS 229s](https://cs229s.stanford.edu/fall2023/), Systems for Machine Learning, and CS 528 to offer a special **systems for machine learning limited series**! We'll have talks on Mondays, 10:30-11:30 am PT. Stanford students can sign up for either class!
 * In early 2023, we partnered with [CS 324](https://stanford-cs324.github.io/winter2023/), Advances in Foundation Models, to offer a special **foundation models limited series**! We had talks on certain Mondays and Wednesdays, 3:30-4:20 PM PT (see schedule below).
 * Join our [email list](https://groups.google.com/forum/#!forum/stanford-mlsys-seminars/join) to get notified of the speaker and livestream link every week!.
+
+
+
+
+
+
+## 2025 "Hidden Layer" Series 
+{% for category in site.data.talks_2025 %}
+### {{ category.type }}
+<div class="talk-list">
+  {% for talk in category.members %}
+  <div class="talk list-group-item">
+  <div class="talk-date">{{ talk.date }}</div>
+  <div class="talk-presenter">{{ talk.speaker }}</div>
+  {% if talk.title %}
+  <div>
+    {% if talk.recording %}
+      <span><a class="talk-title-link" href="{{ talk.recording }}">{{ talk.title }} <i class="bi bi-box-arrow-up-right"></i></a></span>
+    {% elsif talk.livestream %}
+      <span><a class="talk-title-link" href="{{ talk.livestream }}">{{ talk.title }} <i class="bi bi-box-arrow-up-right"></i></a></span>
+    {% else %}
+      <span>{{ talk.title }}</span>
+    {% endif %}
+  </div>
+  {% endif %}
+  {% if talk.abstract %}
+    <details>
+    <summary>Abstract</summary>
+    {{ talk.abstract }}
+    
+    {% if talk.bio %}
+    <br><br>
+    <strong>Bio: </strong> {{ talk.bio }}
+    {% endif %}
+
+    {% if talk.recording %}
+      <br><br>
+      <strong><a href="{{ talk.recording }}">Video Link</a></strong>
+    {% elsif talk.livestream %}
+      <br><br>
+      <strong><a href="{{ talk.livestream }}">Livestream Link</a></strong>
+    {% endif %}
+    </details>
+  {% endif %}
+  </div>
+  {% endfor %}
+</div>
+{% endfor %}
+
+
 
 ## Systems for Machine Learning Limited Series
 {% for category in site.data.talks_229s %}
