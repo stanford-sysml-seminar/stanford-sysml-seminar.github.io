@@ -1,0 +1,14 @@
+- type: Schedule
+  members:
+    - speaker: Tim Shi (OpenAI)
+      date: M 10/20/25
+      title: "Early Days at OpenAI and founding Cresta.ai"
+      livestream: https://youtu.be/N62FTn0sAO0
+      abstract: "We discuss the early days of OpenAI, the quest for superintelligence, and the founding of unicorn Cresta.ai."
+      bio: "Tim Shi is the Co-Founder & Board Member of Cresta. He started his PhD at Stanford AI Lab researching natural language processing and reinforcement learning. He was an early member of the OpenAI team in 2016 and made contribution to building safe AGI in digital environments. His work on (world of bits) laid foundation for web-based reinforcement learning agents. He co-founded Cresta in 2017 and Cresta was one of first companies to deploy generative AI in enterprise, including GPT based suggestions product in 2019. Cresta is backed by top investors including Sequoia, a16z, Greylock and helps drive hundreds of millions in ROI across Fortune 500 customers like United Airlines, US Bank and Verizon."
+    - speaker: Beyang Liu (Sourcegraph)
+      date: M 10/13/25
+      title: "Coding Agents"
+      livestream: https://youtu.be/hR6zyA-EUPo
+      abstract: "Coding Agents as a category is only 5-6 months old yet has completely transformed the way that we code. Sourcegraph has been the market leader for code search which is a key ingredient in coding for large enterprise codebases. We deep dive into how Sourcegraph started and how they think about coding agents in the future specifically in mission critical codebases in large enterprises."
+      bio: "Beyang Liu (CTO Sourcegraph) - As co-founder of Sourcegraph, Beyang built one of the first modern code search engines and the first RAG coding assistant, both of which are now relied upon by engineering organizations like OpenAI, xAI, Tesla, Groq, Uber, Coinbase, Reddit, and CERN. Prior to Sourcegraph, Beyang conducted AI research under Dr. Daphne Koller at Stanford and was one of the early Palantir engineers who introduced the use of Apache Spark. Beyang is currently building Amp, a new multi-model coding agent in research preview that's built for programmers who care about speed, efficiency, and quality."
